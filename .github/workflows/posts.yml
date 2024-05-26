@@ -20,7 +20,7 @@ jobs:
         run: |
           git fetch origin hugo
           git checkout hugo
-          git merge origin/main # Merge changes from main into hugo
+          git merge origin/main --allow-unrelated-histories # Merge changes from main into hugo
 
       - name: setup python
         uses: actions/setup-python@v4
