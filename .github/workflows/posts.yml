@@ -22,7 +22,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git fetch origin hugo
           git checkout hugo
-          git merge origin/main --allow-unrelated-histories # Merge changes from main into hugo
+          git merge -X theirs origin/main --allow-unrelated-histories # Merge changes from main into hugo
 
       - name: setup python
         uses: actions/setup-python@v4
