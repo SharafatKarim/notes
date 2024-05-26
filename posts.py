@@ -7,7 +7,7 @@
 # title = "Hello Friend"
 # date = 2021-02-01
 # +++
-# and paste them to the posts directory.
+# and paste them to the content directory.
 
 import os
 
@@ -17,9 +17,9 @@ def generate_posts():
             if file.endswith(".md"):
                 with open(os.path.join(root, file), "r") as src:
                     src_md = src.read()
-                    if not os.path.exists("posts"):
-                        os.makedirs("posts")
-                    with open(f"posts/{file}", "w") as post:
+                    if not os.path.exists("content"):
+                        os.makedirs("content")
+                    with open(f"content/{file}", "w") as post:
                         post.write("+++\n")
                         post.write(f"title = \"{file[:-3]}\"\n")
                         post.write("+++\n")
