@@ -13,9 +13,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
+
+      - name: Checkout hugo branch
+        run: |
+          git fetch origin hugo
+          git checkout hugo
+          git merge origin/main # Merge changes from main into hugo
 
       - name: setup python
         uses: actions/setup-python@v4
