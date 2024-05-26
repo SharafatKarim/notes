@@ -18,6 +18,8 @@ jobs:
 
       - name: Checkout hugo branch
         run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git fetch origin hugo
           git checkout hugo
           git merge origin/main --allow-unrelated-histories # Merge changes from main into hugo
@@ -39,8 +41,6 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           git push origin hugo
