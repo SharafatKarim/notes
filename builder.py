@@ -22,7 +22,7 @@ def generate_readme():
         for root, dirs, files in os.walk("src"):
             for file in natsorted(files):
                 if file.endswith(".md"):
-                    readme.write(f"- [{file[:-3]}]({os.path.join(root, file)})\n")
+                    readme.write(f"- [{file[:-3]}]({os.path.join(root, file)}) - [WEBPAGE](sharafat.is-a.dev/notes/{file[:-3]})\n")
         readme.write("\n")
     
     # read from readme/foot.md
