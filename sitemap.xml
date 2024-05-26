@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://sharafat.is-a.dev/notes/categories/</loc>
   </url><url>
-    <loc>/latex/</loc>
+    <loc>https://sharafat.is-a.dev/notes/latex/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://sharafat.is-a.dev/notes/posts/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://sharafat.is-a.dev/notes/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://sharafat.is-a.dev/notes/tags/</loc>
   </url>
 </urlset>
