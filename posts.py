@@ -5,11 +5,19 @@
 # prepand a header like,
 # +++
 # title = "Hello Friend"
-# date = 2021-02-01
+# description = "This is a test post"
 # +++
-# and paste them to the content directory.
+# and paste them to the content/posts directory.
 
 import os
+
+def read_first_line(file):
+    with open(file, "r") as f:
+        while True:
+            str = f.readline()
+            if not(str.startswith("#") or str == "\n"):
+                break
+        return str.strip()
 
 def generate_posts():
     for root, dirs, files in os.walk("src"):
@@ -17,11 +25,12 @@ def generate_posts():
             if file.endswith(".md"):
                 with open(os.path.join(root, file), "r") as src:
                     src_md = src.read()
-                    if not os.path.exists("content"):
-                        os.makedirs("content")
-                    with open(f"content/{file}", "w") as post:
+                    if not os.path.exists("content/posts"):
+                        os.makedirs("content/posts")
+                    with open(f"content/posts/{file}", "w") as post:
                         post.write("+++\n")
                         post.write(f"title = \"{file[:-3]}\"\n")
+                        post.write("description = \""+ read_first_line(f"src/{file}") + "\"\n")
                         post.write("+++\n")
                         post.write("\n")
                         post.write(src_md)
