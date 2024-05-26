@@ -10,7 +10,7 @@ My notes on various topics. It will work automatically, combining all the notes 
 
 ## Table of Contents
 
-- [latex](src/latex.md)
+- [latex](src/latex.md) - [WEBPAGE](sharafat.is-a.dev/notes/latex)
 
 ## Contribution
 
