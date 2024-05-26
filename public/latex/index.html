@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=45761&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>latex :: Sharafat Karim | Notes</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="LaTeX LaTeX Installation For ArchLinux, I just follow Arch Wiki. In vscode, it should work out of the box with, LaTeX Workshop extension. But formatting may not work properly. Try to trigger latexindent manually to resolve it.
-VSCODE Here&amp;rsquo;s my vscode config for now for latex,
-{ &amp;#34;latex-workshop.latex.recipe.default&amp;#34;: &amp;#34;latexmk (xelatex)&amp;#34;, &amp;#34;latex-workshop.latex.tools&amp;#34;: [ { &amp;#34;name&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-pdf&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;lualatexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-lualatex&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;xelatexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-shell-escape&amp;#34;, &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-xelatex&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;latexmk_rconly&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pdflatex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pdflatex&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;bibtex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;bibtex&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;%DOCFILE%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;rnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;Rscript&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;knitr::opts_knit$set(concordance = TRUE); knitr::knit(&amp;#39;%DOCFILE_EXT%&amp;#39;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;jnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;julia&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;using Weave; weave(\&amp;#34;%DOC_EXT%\&amp;#34;, doctype=\&amp;#34;tex\&amp;#34;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;jnw2texminted&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;julia&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;using Weave; weave(\&amp;#34;%DOC_EXT%\&amp;#34;, doctype=\&amp;#34;texminted\&amp;#34;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pweave&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-f&amp;#34;, &amp;#34;tex&amp;#34;, &amp;#34;%DOC_EXT%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pnw2texminted&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pweave&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-f&amp;#34;, &amp;#34;texminted&amp;#34;, &amp;#34;%DOC_EXT%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;tectonic&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;tectonic&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;--synctex&amp;#34;, &amp;#34;--keep-logs&amp;#34;, &amp;#34;%DOC%." />
+<meta name="description" content="For ArchLinux, I just follow [Arch Wiki](https://wiki.archlinux.org/title/TeX_Live)." />
 <meta name="keywords" content="notes" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="//localhost:45761/latex/" />
+<link rel="canonical" href="//localhost:1313/latex/" />
 
 
   
@@ -28,7 +26,7 @@ VSCODE Here&amp;rsquo;s my vscode config for now for latex,
   
   
   
-  <link rel="stylesheet" href="//localhost:45761/styles.css">
+  <link rel="stylesheet" href="//localhost:1313/styles.css">
 
 
 
@@ -36,8 +34,8 @@ VSCODE Here&amp;rsquo;s my vscode config for now for latex,
 
 
 
-  <link rel="shortcut icon" href="//localhost:45761/img/theme-colors/green.png">
-  <link rel="apple-touch-icon" href="//localhost:45761/img/theme-colors/green.png">
+  <link rel="shortcut icon" href="//localhost:1313/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="//localhost:1313/img/theme-colors/green.png">
 
 
 
@@ -53,14 +51,12 @@ VSCODE Here&amp;rsquo;s my vscode config for now for latex,
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="latex">
-<meta property="og:description" content="LaTeX LaTeX Installation For ArchLinux, I just follow Arch Wiki. In vscode, it should work out of the box with, LaTeX Workshop extension. But formatting may not work properly. Try to trigger latexindent manually to resolve it.
-VSCODE Here&amp;rsquo;s my vscode config for now for latex,
-{ &amp;#34;latex-workshop.latex.recipe.default&amp;#34;: &amp;#34;latexmk (xelatex)&amp;#34;, &amp;#34;latex-workshop.latex.tools&amp;#34;: [ { &amp;#34;name&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-pdf&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;lualatexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-lualatex&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;xelatexmk&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-shell-escape&amp;#34;, &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;-xelatex&amp;#34;, &amp;#34;-outdir=%OUTDIR%&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;latexmk_rconly&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;latexmk&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pdflatex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pdflatex&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-synctex=1&amp;#34;, &amp;#34;-interaction=nonstopmode&amp;#34;, &amp;#34;-file-line-error&amp;#34;, &amp;#34;%DOC%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;bibtex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;bibtex&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;%DOCFILE%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;rnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;Rscript&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;knitr::opts_knit$set(concordance = TRUE); knitr::knit(&amp;#39;%DOCFILE_EXT%&amp;#39;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;jnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;julia&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;using Weave; weave(\&amp;#34;%DOC_EXT%\&amp;#34;, doctype=\&amp;#34;tex\&amp;#34;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;jnw2texminted&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;julia&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-e&amp;#34;, &amp;#34;using Weave; weave(\&amp;#34;%DOC_EXT%\&amp;#34;, doctype=\&amp;#34;texminted\&amp;#34;)&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pnw2tex&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pweave&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-f&amp;#34;, &amp;#34;tex&amp;#34;, &amp;#34;%DOC_EXT%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;pnw2texminted&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;pweave&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;-f&amp;#34;, &amp;#34;texminted&amp;#34;, &amp;#34;%DOC_EXT%&amp;#34; ], &amp;#34;env&amp;#34;: {} }, { &amp;#34;name&amp;#34;: &amp;#34;tectonic&amp;#34;, &amp;#34;command&amp;#34;: &amp;#34;tectonic&amp;#34;, &amp;#34;args&amp;#34;: [ &amp;#34;--synctex&amp;#34;, &amp;#34;--keep-logs&amp;#34;, &amp;#34;%DOC%." />
-<meta property="og:url" content="//localhost:45761/latex/" />
+<meta property="og:description" content="For ArchLinux, I just follow [Arch Wiki](https://wiki.archlinux.org/title/TeX_Live)." />
+<meta property="og:url" content="//localhost:1313/latex/" />
 <meta property="og:site_name" content="Sharafat Karim | Notes" />
 
   
-    <meta property="og:image" content="//localhost:45761/img/favicon/green.png">
+    <meta property="og:image" content="//localhost:1313/img/favicon/green.png">
   
 
 <meta property="og:image:width" content="1200">
@@ -161,7 +157,7 @@ VSCODE Here&amp;rsquo;s my vscode config for now for latex,
     
 <article class="post">
   <h1 class="post-title">
-    <a href="//localhost:45761/latex/">latex</a>
+    <a href="//localhost:1313/latex/">latex</a>
   </h1>
   <div class="post-meta"><span class="post-reading-time">3 Min read (529 words)</span></div>
 
