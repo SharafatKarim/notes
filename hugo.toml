@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://sharafat.is-a.dev/notes/"
 
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
