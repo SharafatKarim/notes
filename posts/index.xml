@@ -348,5 +348,63 @@ In vscode, it should work out of the box with, LaTeX Workshop extension. But for
 </content>
     </item>
     
+    <item>
+      <title>linux</title>
+      <link>https://sharafat.is-a.dev/notes/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/linux/</guid>
+      <description>Linux Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
+To remove autostart for a program, delete the .desktop file in the appropriate directory. To hide system autostart programs, copy the .desktop file to the user directory and add Hidden=true to the file. An example, to hide octopi-notifier.desktop:
+[Desktop Entry] Name=Octopi Notifier Icon=octopi Exec=/usr/bin/octopi-notifier Terminal=false Type=Application Categories=GNOME;GTK;System; #NotShowIn=GNOME;XFCE;LXDE;KDE; StartupNotify=true X-LXQt-Need-Tray=true Version=1.5 SingleMainWindow=true Hidden=true Desktop Entry Desktop entry directory (user) = ~/.</description>
+      <content>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;h2 id=&#34;autostart&#34;&gt;Autostart&lt;/h2&gt;
+&lt;p&gt;directory (user) = &lt;code&gt;~/.config/autostart/&lt;/code&gt;
+directory (system) = &lt;code&gt;/etc/xdg/autostart/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To remove autostart for a program, delete the &lt;code&gt;.desktop&lt;/code&gt; file in the appropriate directory.
+To hide system autostart programs, copy the &lt;code&gt;.desktop&lt;/code&gt; file to the user directory and add &lt;code&gt;Hidden=true&lt;/code&gt; to the file.
+An example, to hide &lt;code&gt;octopi-notifier.desktop&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Octopi Notifier
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Icon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;octopi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Exec&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/usr/bin/octopi-notifier
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Terminal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;GNOME;GTK;System;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#NotShowIn=GNOME;XFCE;LXDE;KDE;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;StartupNotify&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X-LXQt-Need-Tray&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Version&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;1.5
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SingleMainWindow&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hidden&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;desktop-entry&#34;&gt;Desktop Entry&lt;/h2&gt;
+&lt;p&gt;Desktop entry directory (user) = &lt;code&gt;~/.local/share/applications/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To add a program to the pro, create a &lt;code&gt;.desktop&lt;/code&gt; file in the appropriate directory.
+An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Game;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Comment&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;en_US&lt;span style=&#34;color:#f92672&#34;&gt;]=&lt;/span&gt;A Minecraft launcher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Comment&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;A Minecraft launcher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Exec&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;java -jar /home/sharafat/Games/TLauncher.v10/TLauncher.jar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GenericName&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;en_US&lt;span style=&#34;color:#f92672&#34;&gt;]=&lt;/span&gt;A Minecraft Launcher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GenericName&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;A Minecraft Launcher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Keywords&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;minecraft;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MimeType&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;en_US&lt;span style=&#34;color:#f92672&#34;&gt;]=&lt;/span&gt;TLauncher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;TLauncher
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Path&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Icon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;minecraft
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;StartupNotify&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Terminal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TerminalOptions&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X-KDE-SubstituteUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X-KDE-Username&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;You may need to set executable permission to the &lt;code&gt;.desktop&lt;/code&gt; file.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
