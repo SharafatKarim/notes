@@ -406,5 +406,85 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
 </content>
     </item>
     
+    <item>
+      <title>telegram</title>
+      <link>https://sharafat.is-a.dev/notes/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/telegram/</guid>
+      <description>Telegram New on Telegram? To get started with Telegram, after setting up an account, contact with this dude, (actually a bot),
+Explore Telegram Bots Some interesting telegram bots, you might want to check out: Full collection here,
+Bot Archieve Channel Bot Archieve Website Bots Collection BTW, these are just usernames, you can search them in the search bar of telegram.
+Utility Bots GmailBot - Official Gmail bot. yastabot - yasta reminder or, daily scheduler Rekognition_Bot - Image recognition or OCR type qq_2d_ai_bot - image to anime art Fun Bots aki_akinator_bot - akinator game gamee - Gamee bot | Official gamebot I guess Group Bots MentionRobot - Mention everyone in a group GHelpBot - Group help bot Media Bots screenshotit_bot - Screenshot bot Downloader Bots iPapkornFbot - A bot that can download movies and TV shows.</description>
+      <content>&lt;h1 id=&#34;telegram&#34;&gt;Telegram&lt;/h1&gt;
+&lt;h2 id=&#34;new-on-telegram&#34;&gt;New on Telegram?&lt;/h2&gt;
+&lt;p&gt;To get started with Telegram, after setting up an account, contact with this dude, (actually a bot),&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/ExploreTelegramBot&#34;&gt;Explore Telegram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bots&#34;&gt;Bots&lt;/h2&gt;
+&lt;p&gt;Some interesting telegram bots, you might want to check out:
+Full collection here,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/BotsArchive&#34;&gt;Bot Archieve Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://botsarchive.com/&#34;&gt;Bot Archieve Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bots-collection&#34;&gt;Bots Collection&lt;/h3&gt;
+&lt;p&gt;BTW, these are just usernames, you can search them in the search bar of telegram.&lt;/p&gt;
+&lt;h4 id=&#34;utility-bots&#34;&gt;Utility Bots&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GmailBot&lt;/code&gt; - Official Gmail bot.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yastabot&lt;/code&gt; - yasta reminder or, daily scheduler&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Rekognition_Bot&lt;/code&gt; - Image recognition or OCR type&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;qq_2d_ai_bot&lt;/code&gt; - image to anime art&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fun-bots&#34;&gt;Fun Bots&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;aki_akinator_bot&lt;/code&gt; - akinator game&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gamee&lt;/code&gt; - Gamee bot | Official gamebot I guess&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;group-bots&#34;&gt;Group Bots&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MentionRobot&lt;/code&gt; - Mention everyone in a group&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GHelpBot&lt;/code&gt; - Group help bot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;media-bots&#34;&gt;Media Bots&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;screenshotit_bot&lt;/code&gt; - Screenshot bot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloader-bots&#34;&gt;Downloader Bots&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iPapkornFbot&lt;/code&gt; - A bot that can download movies and TV shows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;inline-bots&#34;&gt;Inline Bots&lt;/h4&gt;
+&lt;p&gt;Inline Bots&lt;/p&gt;
+&lt;p&gt;In all inline bots, you need to enter @botname, type words and wait for response (~1 second)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@gif&lt;/code&gt; – Official Animated GIFs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@vid&lt;/code&gt; – Official YouTube videos.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@imdb&lt;/code&gt; – Official Movies from IMDB.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@wiki&lt;/code&gt; – Official Articles from Wikipedia.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@bing&lt;/code&gt; – Official Pictures from Bing.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@music&lt;/code&gt; – Official Classic music search.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@pic&lt;/code&gt; – Official Pictures from Yandex.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@bold&lt;/code&gt; – Official Highlight your message with bold, italic or fixed width.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@vote&lt;/code&gt; – Official Pool generator on your conversation.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@like&lt;/code&gt; – Official Like button after your message in conversation.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@foursquare&lt;/code&gt; – Official Share the venue with others from Foursquare.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@githubbot&lt;/code&gt; – Official notifications about events in your public GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@memingbot&lt;/code&gt; – Simple meme generator.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@guggybot&lt;/code&gt; – Translate your words on GIFs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@HideItBot&lt;/code&gt; – Send hidden messages in your conversations.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@MacMagazineBot&lt;/code&gt; – Find news from MacMagazine webpage and share in your conversation.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@automemebot&lt;/code&gt; – Powerfull meme generator.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@myinstantsbot&lt;/code&gt; – Search sounds in Myinstants.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@dotaresponsesbot&lt;/code&gt; – Send Dota 2 responses as voice messages.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@relevantxkcdbot&lt;/code&gt; – Search XKCD comics.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@asciifacesbot&lt;/code&gt; – Bot that allows you to append ascii faces to your messages ¯_(ツ)_/¯&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@hidethisbot&lt;/code&gt; – Bot for hiding messages for/from certain people and sending spoilers.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
