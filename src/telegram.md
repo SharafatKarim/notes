@@ -71,3 +71,70 @@ In all inline bots, you need to enter @botname, type words and wait for response
 - `@relevantxkcdbot` – Search XKCD comics.
 - `@asciifacesbot` – Bot that allows you to append ascii faces to your messages ¯_(ツ)_/¯
 - `@hidethisbot` – Bot for hiding messages for/from certain people and sending spoilers.
+
+
+#### Official ones
+
+> Essentials
+
+🤖 • @BotFather
+😄 • @Stickers
+⚡ • @WebpageBot
+👮 • @SpamBot
+🛡️ • @MTProxybot
+↩️ • @replies
+⭐️ • @PremiumBot
+👮 • @tgsantispambot
+
+> Games
+
+💚 • @gamee
+🕹️ • @gamebot
+
+> Utilities
+
+⬇️ • @bold
+😄 • @sticker
+📊 • @vote
+👍 • @like
+💡 • @QuizBot
+💭 • @discussbot
+⭐️ • @PremiumJoinBot
+
+> Support
+
+🇪🇺 • @EURegulation & @GDPRBot
+🇧🇷 • @lgpdbot
+✅ • @VerifyBot
+📬 • @username_bot
+⚡ • @previews
+
+> Integrations
+
+📨 • @GmailBot
+🐈‍⬛ • @GitHubBot
+🎞️ • @gif
+🎬 • @imdb
+📖 • @wiki
+🎼 • @music
+📸 • @bing & @pic
+📹 • @youtube & @vid
+📍 • @foursquare
+📝 • @telegraph
+🤘 • @coub
+
+> Semi-Official
+
+🔀 • @ifttt
+🐷 • @donate
+💳 • @stripe
+👛 • @wallet
+📶 • @Mobile
+💎 • @fragment
+
+> Work
+
+🚧 • @jobs_bot
+📰 • @PressBot
+
+> Intersted in some more official themes? Check [TgThings](https://t.me/TgThings).
