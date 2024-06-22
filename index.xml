@@ -8,6 +8,46 @@
     <language>en</language>
     <copyright>Creative common CC-0</copyright><atom:link href="https://sharafat.is-a.dev/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>kvm</title>
+      <link>https://sharafat.is-a.dev/notes/kvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/kvm/</guid>
+      <description>KVM - Virtual Machine KVM, Kernel-based Virtual Machine, is a hypervisor built into the Linux kernel. It is similar to Xen in purpose but much simpler to get running.
+Read more here&amp;hellip; Setup For ArchLinux,
+https://wiki.archlinux.org/title/KVM#How_to_use_KVM https://wiki.archlinux.org/title/QEMU And, yet an another good guide,
+https://computingforgeeks.com/install-kvm-qemu-virt-manager-arch-manjar/ Can&amp;rsquo;t start KVM guest: &amp;ldquo;network &amp;lsquo;default&amp;rsquo; is not active&amp;rdquo;? First, confirm that the default network is indeed inactive:
+sudo virsh net-list --all If so, start the default network:</description>
+      <content>&lt;h1 id=&#34;kvm---virtual-machine&#34;&gt;KVM - Virtual Machine&lt;/h1&gt;
+&lt;p&gt;KVM, Kernel-based Virtual Machine, is a hypervisor built into the Linux kernel. It is similar to Xen in purpose but much simpler to get running.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/KVM&#34;&gt;Read more here&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;For ArchLinux,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/KVM#How_to_use_KVM&#34;&gt;https://wiki.archlinux.org/title/KVM#How_to_use_KVM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/QEMU&#34;&gt;https://wiki.archlinux.org/title/QEMU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And, yet an another good guide,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://computingforgeeks.com/install-kvm-qemu-virt-manager-arch-manjar/&#34;&gt;https://computingforgeeks.com/install-kvm-qemu-virt-manager-arch-manjar/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cant-start-kvm-guest-network-default-is-not-active&#34;&gt;Can&amp;rsquo;t start KVM guest: &amp;ldquo;network &amp;lsquo;default&amp;rsquo; is not active&amp;rdquo;?&lt;/h2&gt;
+&lt;p&gt;First, confirm that the default network is indeed inactive:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo virsh net-list --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If so, start the default network:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo virsh net-start default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run the first command line again to see if it worked.&lt;/p&gt;
+&lt;p&gt;And, for autostart, I believe it is,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo virsh net-autostart default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/1036297/cant-start-kvm-guest-network-default-is-not-active&#34;&gt;Credit - askubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
       <title>latex</title>
       <link>https://sharafat.is-a.dev/notes/latex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
