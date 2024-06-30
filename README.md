@@ -10,9 +10,10 @@ My notes on various topics. It will work automatically, combining all the notes 
 
 ## Table of Contents
 
-- [🎸 latex](src/latex.md) | [VIEW PAGE 🎸](https://sharafat.is-a.dev/notes/latex)
-- [😊 linux](src/linux.md) | [VIEW PAGE 🌈](https://sharafat.is-a.dev/notes/linux)
-- [🔥 telegram](src/telegram.md) | [VIEW PAGE 🎸](https://sharafat.is-a.dev/notes/telegram)
+- [🎉 kvm](src/kvm.md) | [VIEW PAGE 🎉](https://sharafat.is-a.dev/notes/kvm)
+- [🤖 latex](src/latex.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/latex)
+- [🎉 linux](src/linux.md) | [VIEW PAGE 👾](https://sharafat.is-a.dev/notes/linux)
+- [🤖 telegram](src/telegram.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/telegram)
 
 ## Contribution
 
