@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>cp :: Sharafat Karim | Notes</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Some of the resources that I have found useful for competitive programming." />
+<meta name="keywords" content="notes" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://sharafat.is-a.dev/notes/cp/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://sharafat.is-a.dev/notes/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="sharafat2004" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="cp">
+<meta property="og:description" content="Some of the resources that I have found useful for competitive programming." />
+<meta property="og:url" content="https://sharafat.is-a.dev/notes/cp/" />
+<meta property="og:site_name" content="Sharafat Karim | Notes" />
+
+  
+    <meta property="og:image" content="https://sharafat.is-a.dev/notes/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/notes">
+  <div class="logo">
+    Sharafat Karim | Notes
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="https://github.com/SharafatKarim/">GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/">My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes">Notes Repository</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="https://github.com/SharafatKarim/" >GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/" >My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes" >Notes Repository</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://sharafat.is-a.dev/notes/cp/">cp</a>
+  </h1>
+  <div class="post-meta"><span class="post-reading-time">1 Min read (87 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="competitive-programming">Competitive Programming<a href="#competitive-programming" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Some of the resources that I have found useful for competitive programming.</p>
+<p>First of all, here&rsquo;s my snippet,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Simple template by sharafat 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> ll;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> pii;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> pair<span style="color:#f92672">&lt;</span>ll, ll<span style="color:#f92672">&gt;</span> pll;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> pair<span style="color:#f92672">&lt;</span>string, string<span style="color:#f92672">&gt;</span> pss;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> vi;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> vector<span style="color:#f92672">&lt;</span>vi<span style="color:#f92672">&gt;</span> vvi;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> vector<span style="color:#f92672">&lt;</span>pii<span style="color:#f92672">&gt;</span> vii;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> vector<span style="color:#f92672">&lt;</span>ll<span style="color:#f92672">&gt;</span> vl;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> vector<span style="color:#f92672">&lt;</span>vl<span style="color:#f92672">&gt;</span> vvl;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#define endl &#39;\n&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    ios_base<span style="color:#f92672">::</span>sync_with_stdio(false);
+</span></span><span style="display:flex;"><span>    cin.tie(NULL);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Code starts here
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    Your Code Here
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Code ends here
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Maybe I&rsquo;ll update later.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Creative common CC-0</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/notes/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
