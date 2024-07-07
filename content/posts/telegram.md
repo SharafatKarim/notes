@@ -47,6 +47,7 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 #### Downloader Bots
 
 - `iPapkornFbot` - A bot that can download movies and TV shows.
+- `ProSearch6Bot` - One of the [Pro search bot](https://t.me/+8pxMRAzhfCE2MWQ1).
 
 #### Inline Bots
 
