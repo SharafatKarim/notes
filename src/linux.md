@@ -1,5 +1,12 @@
 # Linux
 
+## Personal reports
+
+### Silvermoon
+
+- [HW Probe](https://linux-hardware.org/?probe=c2bd74626f)
+- [Blender benchmark](https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/)
+
 ## Autostart
 
 directory (user) = `~/.config/autostart/`
