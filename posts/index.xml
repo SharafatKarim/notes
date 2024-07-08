@@ -570,5 +570,25 @@ Full collection here,&lt;/p&gt;
 </content>
     </item>
     
+    <item>
+      <title>windows</title>
+      <link>https://sharafat.is-a.dev/notes/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/windows/</guid>
+      <description>Windows Some windowsy stuffs!
+Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.
+powercfg /availablesleepstates </description>
+      <content>&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
+&lt;p&gt;Some windowsy stuffs!&lt;/p&gt;
+&lt;h1 id=&#34;battery&#34;&gt;Battery&lt;/h1&gt;
+&lt;h2 id=&#34;battery-report&#34;&gt;Battery Report&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;powercfg /batteryreport
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;modern-standby&#34;&gt;Modern Standby&lt;/h2&gt;
+&lt;p&gt;Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;powercfg /availablesleepstates
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
   </channel>
 </rss>
