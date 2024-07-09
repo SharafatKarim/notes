@@ -437,10 +437,16 @@ In vscode, it should work out of the box with, LaTeX Workshop extension. But for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/linux/</guid>
-      <description>Linux Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
+      <description>Linux Personal reports Silvermoon HW Probe Blender benchmark Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
 To remove autostart for a program, delete the .desktop file in the appropriate directory. To hide system autostart programs, copy the .desktop file to the user directory and add Hidden=true to the file. An example, to hide octopi-notifier.desktop:
 [Desktop Entry] Name=Octopi Notifier Icon=octopi Exec=/usr/bin/octopi-notifier Terminal=false Type=Application Categories=GNOME;GTK;System; #NotShowIn=GNOME;XFCE;LXDE;KDE; StartupNotify=true X-LXQt-Need-Tray=true Version=1.5 SingleMainWindow=true Hidden=true Desktop Entry Desktop entry directory (user) = ~/.</description>
       <content>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;h2 id=&#34;personal-reports&#34;&gt;Personal reports&lt;/h2&gt;
+&lt;h3 id=&#34;silvermoon&#34;&gt;Silvermoon&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=c2bd74626f&#34;&gt;HW Probe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/&#34;&gt;Blender benchmark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;autostart&#34;&gt;Autostart&lt;/h2&gt;
 &lt;p&gt;directory (user) = &lt;code&gt;~/.config/autostart/&lt;/code&gt;
 directory (system) = &lt;code&gt;/etc/xdg/autostart/&lt;/code&gt;&lt;/p&gt;
