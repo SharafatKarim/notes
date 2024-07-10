@@ -29,6 +29,7 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 - `yastabot` - yasta reminder or, daily scheduler
 - `Rekognition_Bot` - Image recognition or OCR type
 - `qq_2d_ai_bot` - image to anime art
+- (doghouse_bot)[https://t.me/dogshouse_bot/join?startapp=dcF42BNqTHCIxq-8D_j-Qw] - Check when you joined telegram
 
 #### Fun Bots
 
