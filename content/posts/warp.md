@@ -12,12 +12,18 @@ When the Internet was built, computers weren’t mobile. They sat in offices nex
 - [Website](https://one.one.one.one/)
 - [Play Store](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)
 
-## Keys
+## Android
+
+### Keys
 
 Maybe replit? There are several keys tricks. Or, some telegram bots, like,
 
 - [Warp Plus Channel](https://t.me/warpplus)
 - [Warp Plus Bot](https://t.me/generatewarpplusbot)
+
+### Zero Trust
+
+It's a simple trick that may not work in future. Copy the device/ client id from `Settings > Advanced > Diagonstics > Client configuration` to `Settings > Advanced > Connection Options > DNS settings > Gateway DoH Subdomain`.
 
 ## Warp CLI
 
