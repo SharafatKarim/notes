@@ -583,8 +583,48 @@ Full collection here,&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/warp/</guid>
-      <description></description>
-      <content></content>
+      <description>Warp When the Internet was built, computers weren’t mobile. They sat in offices next to data centers. The Internet has changed but the assumptions made 30 years ago are making your experience slower and less secure.
+1.1.1.1 with WARP replaces the connection between your device and the Internet with a modern, optimized, protocol.
+Website Play Store Keys Maybe replit? There are several keys tricks. Or, some telegram bots, like,
+Warp Plus Channel Warp Plus Bot Warp CLI Available on linux also!</description>
+      <content>&lt;h1 id=&#34;warp&#34;&gt;Warp&lt;/h1&gt;
+&lt;p&gt;When the Internet was built, computers weren’t mobile. They sat in offices next to data centers. The Internet has changed but the assumptions made 30 years ago are making your experience slower and less secure.&lt;/p&gt;
+&lt;p&gt;1.1.1.1 with WARP replaces the connection between your device and the Internet with a modern, optimized, protocol.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://one.one.one.one/&#34;&gt;Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;keys&#34;&gt;Keys&lt;/h2&gt;
+&lt;p&gt;Maybe replit? There are several keys tricks. Or, some telegram bots, like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/warpplus&#34;&gt;Warp Plus Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/generatewarpplusbot&#34;&gt;Warp Plus Bot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;warp-cli&#34;&gt;Warp CLI&lt;/h2&gt;
+&lt;p&gt;Available on linux also!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.cloudflare.com/warp-client/get-started/linux/&#34;&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Start the service first,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl enable --now warp-svc.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Initial Connection&lt;/p&gt;
+&lt;h3 id=&#34;to-connect-for-the-very-first-time&#34;&gt;To connect for the very first time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Register the client &lt;code&gt;warp-cli registration new&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Or, if you have previous registration, check it&amp;rsquo;s help menu,
+&lt;code&gt;warp-cli registration --help&lt;/code&gt;.
+But before using license don&amp;rsquo;t forget the above new command.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect &lt;code&gt;warp-cli connect&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;curl https://www.cloudflare.com/cdn-cgi/trace/&lt;/code&gt; and verify that warp=on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Also there&amp;rsquo;s &lt;code&gt;wrap mode&lt;/code&gt; command. Feel free to explore.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
     </item>
     
     <item>
