@@ -585,8 +585,7 @@ Full collection here,&lt;/p&gt;
       <guid>https://sharafat.is-a.dev/notes/warp/</guid>
       <description>Warp When the Internet was built, computers weren’t mobile. They sat in offices next to data centers. The Internet has changed but the assumptions made 30 years ago are making your experience slower and less secure.
 1.1.1.1 with WARP replaces the connection between your device and the Internet with a modern, optimized, protocol.
-Website Play Store Keys Maybe replit? There are several keys tricks. Or, some telegram bots, like,
-Warp Plus Channel Warp Plus Bot Warp CLI Available on linux also!</description>
+Website Play Store Android Keys Maybe replit? There are several keys tricks. Or, some telegram bots, like,</description>
       <content>&lt;h1 id=&#34;warp&#34;&gt;Warp&lt;/h1&gt;
 &lt;p&gt;When the Internet was built, computers weren’t mobile. They sat in offices next to data centers. The Internet has changed but the assumptions made 30 years ago are making your experience slower and less secure.&lt;/p&gt;
 &lt;p&gt;1.1.1.1 with WARP replaces the connection between your device and the Internet with a modern, optimized, protocol.&lt;/p&gt;
@@ -594,12 +593,15 @@ Warp Plus Channel Warp Plus Bot Warp CLI Available on linux also!</description>
 &lt;li&gt;&lt;a href=&#34;https://one.one.one.one/&#34;&gt;Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;keys&#34;&gt;Keys&lt;/h2&gt;
+&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
+&lt;h3 id=&#34;keys&#34;&gt;Keys&lt;/h3&gt;
 &lt;p&gt;Maybe replit? There are several keys tricks. Or, some telegram bots, like,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://t.me/warpplus&#34;&gt;Warp Plus Channel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://t.me/generatewarpplusbot&#34;&gt;Warp Plus Bot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;zero-trust&#34;&gt;Zero Trust&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s a simple trick that may not work in future. Copy the device/ client id from &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Diagonstics &amp;gt; Client configuration&lt;/code&gt; to &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Connection Options &amp;gt; DNS settings &amp;gt; Gateway DoH Subdomain&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;warp-cli&#34;&gt;Warp CLI&lt;/h2&gt;
 &lt;p&gt;Available on linux also!&lt;/p&gt;
 &lt;ul&gt;
