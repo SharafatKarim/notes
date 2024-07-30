@@ -7,19 +7,36 @@ description = "Some windowsy stuffs!"
 
 Some windowsy stuffs!
 
-# Battery
+## ISO
 
-## Battery Report
+- <https://gravesoft.dev/>
 
+## Activation
+
+- <https://massgrave.dev/>
+- <https://github.com/massgravel/Microsoft-Activation-Scripts>
+
+### tldr
+
+Open powershell as administrator and execute,
+
+```shell
+irm https://get.activated.win | iex
 ```
+
+## Battery
+
+### Battery Report
+
+```shell
 powercfg /batteryreport
 ```
 
-## Modern Standby
+### Modern Standby
 
 Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It's like a smartphone, always connected, always ready to receive notifications.
 
-```
+```shell
 powercfg /availablesleepstates
 ```
 
