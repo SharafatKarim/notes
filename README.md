@@ -11,17 +11,17 @@ My notes on various topics. It will work automatically, combining all the notes 
 
 ## Table of Contents
 
-- [🎸 bdix](src/bdix.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/bdix)
-- [🤖 cp](src/cp.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/cp)
-- [👾 idm](src/idm.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/idm)
-- [👾 kvm](src/kvm.md) | [VIEW PAGE 🌟](https://sharafat.is-a.dev/notes/kvm)
-- [🎸 latex](src/latex.md) | [VIEW PAGE 🍕](https://sharafat.is-a.dev/notes/latex)
-- [🌈 linux](src/linux.md) | [VIEW PAGE 🎸](https://sharafat.is-a.dev/notes/linux)
-- [👾 security](src/security.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/security)
-- [🎉 telegram](src/telegram.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/telegram)
-- [👾 vscode](src/vscode.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/vscode)
-- [🔥 warp](src/warp.md) | [VIEW PAGE 🎉](https://sharafat.is-a.dev/notes/warp)
-- [🎸 windows](src/windows.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/windows)
+- [🍕 bdix](src/bdix.md) | <a href='https://sharafat.is-a.dev/notes/bdix' target='_blank'>VIEW PAGE 🌟</a>
+- [🎉 cp](src/cp.md) | <a href='https://sharafat.is-a.dev/notes/cp' target='_blank'>VIEW PAGE 😊</a>
+- [🍕 idm](src/idm.md) | <a href='https://sharafat.is-a.dev/notes/idm' target='_blank'>VIEW PAGE 👾</a>
+- [🎸 kvm](src/kvm.md) | <a href='https://sharafat.is-a.dev/notes/kvm' target='_blank'>VIEW PAGE 🍕</a>
+- [🔥 latex](src/latex.md) | <a href='https://sharafat.is-a.dev/notes/latex' target='_blank'>VIEW PAGE 👾</a>
+- [🌈 linux](src/linux.md) | <a href='https://sharafat.is-a.dev/notes/linux' target='_blank'>VIEW PAGE 🎉</a>
+- [🔥 security](src/security.md) | <a href='https://sharafat.is-a.dev/notes/security' target='_blank'>VIEW PAGE 🚀</a>
+- [😊 telegram](src/telegram.md) | <a href='https://sharafat.is-a.dev/notes/telegram' target='_blank'>VIEW PAGE 🎉</a>
+- [😊 vscode](src/vscode.md) | <a href='https://sharafat.is-a.dev/notes/vscode' target='_blank'>VIEW PAGE 🌈</a>
+- [🎉 warp](src/warp.md) | <a href='https://sharafat.is-a.dev/notes/warp' target='_blank'>VIEW PAGE 🎉</a>
+- [🌟 windows](src/windows.md) | <a href='https://sharafat.is-a.dev/notes/windows' target='_blank'>VIEW PAGE 😊</a>
 
 ## Contribution
 
