@@ -17,18 +17,9 @@ Full BDIX FTP servers list
 
 Some user driven servers are (collected),
 
-- <http://103.112.62.79:5230/explore>
-- <http://103.112.62.79:8065/techcrackr/>
-- <http://146.196.48.9/>
-- <https://103.200.93.146/>
-- <http://103.43.151.2:8099/>
-- <https://103.200.93.146/games/>
-- <http://146.196.48.10/>
-- <http://59.153.100.190/>
-- <http://103.76.47.6:8096/>
-- <http://103.76.47.6:8080/>
-- <http://103.92.154.118:8096/>
-- <http://103.78.255.174/>
+- <http://103.112.62.79:8065/techcrackr/> (chat site)
+- <http://103.112.62.79:5555/> (ftp)
+- <https://103.92.84.208/> (Jitsi Meet)
 
 ### Checkers
 
