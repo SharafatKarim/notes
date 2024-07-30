@@ -93,6 +93,39 @@ First of all, here&amp;rsquo;s my snippet,
     </item>
     
     <item>
+      <title>idm</title>
+      <link>https://sharafat.is-a.dev/notes/idm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/idm/</guid>
+      <description>IDM Internet download manager (IDM) is a popular download manager software. It is a paid software but you can use it for free by using a crack. But it is not recommended to use cracked software. It is better to use free and open-source software like uGet or Xtreme Download Manager. (-AI)
+Trial freezing IDM is a paid software. But you can use it for free for 30 days. After 30 days, you can&amp;rsquo;t use it anymore.</description>
+      <content>&lt;h1 id=&#34;idm&#34;&gt;IDM&lt;/h1&gt;
+&lt;p&gt;Internet download manager (IDM) is a popular download manager software. It is a paid software but you can use it for free by using a crack. But it is not recommended to use cracked software. It is better to use free and open-source software like uGet or Xtreme Download Manager. (-AI)&lt;/p&gt;
+&lt;h2 id=&#34;trial-freezing&#34;&gt;Trial freezing&lt;/h2&gt;
+&lt;p&gt;IDM is a paid software. But you can use it for free for 30 days. After 30 days, you can&amp;rsquo;t use it anymore. And you can actually trick this part. (Like reseting again and again).&lt;/p&gt;
+&lt;p&gt;Check this repository. Project is dead but still should work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lstprjct/IDM-Activation-Script&#34;&gt;https://github.com/lstprjct/IDM-Activation-Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Open powershell as administrator&lt;/li&gt;
+&lt;li&gt;Run the following command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;irm https://massgrave.dev/ias | iex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Reset Activation / Trial&lt;/li&gt;
+&lt;li&gt;Freeze Trial&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://private-user-images.githubusercontent.com/88411318/305593524-fafdb481-c497-464f-b1e6-9a4254eaf880.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIzMDUyNjgsIm5iZiI6MTcyMjMwNDk2OCwicGF0aCI6Ii84ODQxMTMxOC8zMDU1OTM1MjQtZmFmZGI0ODEtYzQ5Ny00NjRmLWIxZTYtOWE0MjU0ZWFmODgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMwVDAyMDI0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBlNjBmNmY1MDI5NmM1ZGRhZTA0MjdiYzcwNTU3OGIyYmZiMDk1ZTNlYzU4NjExNGM2NjZkN2MxM2RiYjJiOTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7XNeF5Set2WjBPHWdRorzq8uTleIuhvKgGPQqmRb32o&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t use first option which may not work. And yeah! Please read the above GitHub repo&amp;rsquo;s README file for more information. And I am absolutely not responsible for anything.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
       <title>kvm</title>
       <link>https://sharafat.is-a.dev/notes/kvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -538,6 +571,70 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
     </item>
     
     <item>
+      <title>security</title>
+      <link>https://sharafat.is-a.dev/notes/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/security/</guid>
+      <description>Security বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া security tips এর সংগ্রহ।
+এনক্রিপশন PGP লিনাক্স বাংলা ফোরামের একটা পোস্ট থেকে নেয়া (SaltedPotato anonymous user)
+pgp এর একটা সহজবোধ্য ধারণা দেই। যখন আপনি একজোড়া key তৈরী করবেন, তখন আপনার ইমেইল আইডি দেওয়া লাগবে। anonymous থাকতে চাইলে tuta mail ইউজ করুন। যাই হোক, দুইটা ডিজিটাল চাবি হবে আপনার, একটা প্রাইভেট, আরেকটা পাবলিক। প্রাইভেট চাবি হচ্ছে ফোনের সিম কার্ড এর মতো, আপনি ছাড়া কেউ এগার এক্সেস পাবে না, এবং যেন না পায়, সেটা নিশ্চিত করবেন। আর পাবলিক চাবি হচ্ছে ফোন নাম্বার এর মতো, সবাই জানবে এটা। বিলবোর্ডে বিজ্ঞাপন দিলেও সমস্যা নেই। তো আমি যদি আপনাকে গোপন মেসেজ দিতে চাই, তাহলে আপনার চাবি দিয়ে এনক্রিপ্ট করে পাঠাবো যেটা আপনি ছাড়া কেউ দেখতে পাবে না। তেমনি আমার কাছে গোপন মেসেজ দিতে চাইলে আপনি আমার পাবলিক চাবি দিয়ে মেসেজ এনক্রিপ্ট করবেন যা আমি ছাড়া কেউ আনলক করতে পারবে না। ঠিক যেমন আপনাকে ফোন দিলে আমি আপনার নাম্বার ডায়াল করবো আর শুধু আপনি সেটা ফোনে রিসিভ করতে পারবেন। এটার বিস্তারিত মেকানিজম কিছুটা জটিল, তাই এখানে উল্লেখ করলাম না।</description>
+      <content>&lt;h1 id=&#34;security&#34;&gt;Security&lt;/h1&gt;
+&lt;p&gt;বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া security tips এর সংগ্রহ।&lt;/p&gt;
+&lt;h2 id=&#34;এনকরপশন&#34;&gt;এনক্রিপশন&lt;/h2&gt;
+&lt;h3 id=&#34;pgp&#34;&gt;PGP&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;লিনাক্স বাংলা ফোরামের একটা পোস্ট থেকে নেয়া (&lt;em&gt;SaltedPotato&lt;/em&gt; anonymous user)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;pgp এর একটা সহজবোধ্য ধারণা দেই।
+যখন আপনি একজোড়া key তৈরী করবেন, তখন আপনার ইমেইল আইডি দেওয়া লাগবে। anonymous থাকতে চাইলে tuta mail ইউজ করুন। যাই হোক, দুইটা ডিজিটাল চাবি হবে আপনার, একটা প্রাইভেট, আরেকটা পাবলিক। প্রাইভেট চাবি হচ্ছে ফোনের সিম কার্ড এর মতো, আপনি ছাড়া কেউ এগার এক্সেস পাবে না, এবং যেন না পায়, সেটা নিশ্চিত করবেন। আর পাবলিক চাবি হচ্ছে ফোন নাম্বার এর মতো, সবাই জানবে এটা। বিলবোর্ডে বিজ্ঞাপন দিলেও সমস্যা নেই। তো আমি যদি আপনাকে গোপন মেসেজ দিতে চাই, তাহলে আপনার চাবি দিয়ে এনক্রিপ্ট করে পাঠাবো যেটা আপনি ছাড়া কেউ দেখতে পাবে না। তেমনি আমার কাছে গোপন মেসেজ দিতে চাইলে আপনি আমার পাবলিক চাবি দিয়ে মেসেজ এনক্রিপ্ট করবেন যা আমি ছাড়া কেউ আনলক করতে পারবে না। ঠিক যেমন আপনাকে ফোন দিলে আমি আপনার নাম্বার ডায়াল করবো আর শুধু আপনি সেটা ফোনে রিসিভ করতে পারবেন। এটার বিস্তারিত মেকানিজম কিছুটা জটিল, তাই এখানে উল্লেখ করলাম না।&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android: &lt;a href=&#34;https://www.f-droid.org/packages/org.sufficientlysecure.keychain/&#34;&gt;https://www.f-droid.org/packages/org.sufficientlysecure.keychain/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux: KGPG, Kleopatra&lt;/li&gt;
+&lt;li&gt;for details: &lt;a href=&#34;https://www.openpgp.org/&#34;&gt;https://www.openpgp.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;চযট&#34;&gt;চ্যাটিং&lt;/h2&gt;
+&lt;h3 id=&#34;অফলইন-চযট&#34;&gt;অফলাইন চ্যাটিং&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Briar &amp;amp; Bridgefy&lt;/strong&gt;
+এই দুটি অ্যাপ দিয়ে ইন্টারনেট ছাড়াই নেটওয়ার্ক গড়ে তুলে চ্যাট করা যায়।
+যদি ইন্টারনেট বন্ধ হয়ে যায় তখন ৬০ মিটার দূরে দূরে একজন করে থাকলে এই অ্যাপ দিয়ে যতদূর খুশি যোগাযোগ করা যায়।
+Wi-fi এবং ব্লুটুথ দুটোকে প্রয়োজনমাফিক ব্যবহার করে নেটওয়ার্ক গড়ে তোলে আর ইন্টারনেট ছাড়াই তখন। সোশাল মিডিয়া তৈরি হয়ে যায়।&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bridgefy এর অসুবিধা হলো প্রথম লগইনে ইন্টারনেট লাগবে। Briarএ সেটাও লাগে না।&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;briar&#34;&gt;Briar&lt;/h3&gt;
+&lt;p&gt;ইন্টারনেট, ওয়াই-ফাই, ব্লুটুথ - এই ৩টি মোড কে একটা না হলে আরেকটা, এভাবে ফলব্যাক আকারে ব্যবহার করে যোগাযোগ করা যায়।
+যদি শুধু ব্লুটুথ ব্যবহার করা সম্ভব হয় তাহলে প্রতি ৬০ মিটার অন্তর অন্তর একজন করে থাকলেই যতদূর পর্যন্ত খুশি নেটওয়ার্ক গড়ে তোলা যাবে। যদি এর মধ্যে কোনো মোবাইল কোনো রাউটারে কানেক্টেড থাকে আর যদি রাউটারে ইন্টারনেট না-ও থাকে তবুও সেই রাউটারের রেঞ্জের মধ্যে (এবং রাউটারে কানেক্টেড) সকল Briar ব্যবহারকারী নেটওয়ার্কে অন্তর্ভুক্ত হয়ে যাবে।
+এই অ্যাপের চমৎকার ব্যবহার করা যায় ইন্টারনেট ছাড়া এলাকায়। নিজেদের মধ্যেই ইন্টারনেট এর মতো তৈরি করে ফেলা যায়।
+Briar অ্যাপে আছে Private Messege, Forum (Public group), Private Group, এবং Blogpost (টুইটারের মতো টুইট)
+ইন্টারনেট থাকুক আর না থাকুক প্রত্যেক ফোনে ও কম্পিউটারে Briar থাকা উচিৎ।
+কারণ শুধু দূর্যোগকালীন সময়েই নয়, পিকনিক, ক্লাসরুম, প্লেনে, বাসে ইত্যাদি সর্বত্রই এটা কাজে লাগতে পারে।&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Secure messaging, anywhere
+Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn&amp;rsquo;t rely on a central server - messages are synchronized directly between the users&amp;rsquo; devices. If the internet&amp;rsquo;s down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet&amp;rsquo;s up, Briar can sync via the Tor network, protecting users and their relationships from surveillance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Play Store: &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&#34;&gt;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&lt;/a&gt;
+Desktop App (Flathub) : &lt;a href=&#34;https://flathub.org/apps/org.briarproject.Briar&#34;&gt;https://flathub.org/apps/org.briarproject.Briar&lt;/a&gt;
+Desktop App: &lt;a href=&#34;https://briarproject.org/download-briar-desktop/&#34;&gt;https://briarproject.org/download-briar-desktop/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;উদধতসমহ&#34;&gt;উদ্ধৃতিসমূহ&lt;/h2&gt;
+&lt;h3 id=&#34;রতল-ভই&#34;&gt;রাতুল ভাই&lt;/h3&gt;
+&lt;p&gt;দেশের এই অন্ধকার সময়ে নিজের গোপনীয়তা এবং নিরাপত্তা রক্ষার বিষয়ে কিছু টিপস:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;সামাজিক মাধ্যম: ফেসবুক এই সময়ে সবচেয়ে নিরাপদ প্ল্যাটফর্ম নয় । বিকল্প উপায় হিসেবে X (Twitter) (&lt;a href=&#34;https://x.com/&#34;&gt;https://x.com/&lt;/a&gt;), বা Mastodon (&lt;a href=&#34;https://mastodon.social/&#34;&gt;https://mastodon.social/&lt;/a&gt;) বা অন্য প্ল্যাটফর্ম ব্যবহার করুন যা বাক স্বাধীনতাকে প্রাধান্য দেয়।&lt;/li&gt;
+&lt;li&gt;নিরাপদ ইমেল ব্যবহার করুন: ProtonMail (&lt;a href=&#34;https://proton.me/mail&#34;&gt;https://proton.me/mail&lt;/a&gt;) এর এনক্রিপশন আর প্রাইভেসি বেশ ভালো। Tuta mail (&lt;a href=&#34;https://app.tuta.com/&#34;&gt;https://app.tuta.com/&lt;/a&gt;) আপনি ফ্রিতেও চালাতে পারবেন এবং আপনাকে কোনো ব্যক্তিগত তথ্যই দিতে হবে না।&lt;/li&gt;
+&lt;li&gt;ইনস্ট্যান্ট মেসেজিং (IM): Signal (&lt;a href=&#34;https://signal.org/&#34;&gt;https://signal.org/&lt;/a&gt;) এবং Telegram (&lt;a href=&#34;https://telegram.org/&#34;&gt;https://telegram.org/&lt;/a&gt;) এন্ড-টু-এন্ড এনক্রিপ্টেড। PGP বা OMEMO ভিত্তিক এন্ড-টু-এন্ড এনক্রিপশনের জন্য Conversations (&lt;a href=&#34;https://f-droid.org/en/packages/eu.siacs.conversations/&#34;&gt;https://f-droid.org/en/packages/eu.siacs.conversations/&lt;/a&gt;) ব্যবহার করে দেখতে পারেন। এটি XMPP (&lt;a href=&#34;https://xmpp.org/&#34;&gt;https://xmpp.org/&lt;/a&gt;) প্রোটোকল এর মাধ্যমে চলে। যদি ব্ল্যাকআউট আবার শুরু হয়, সেজন্য প্রস্তুতি হিসেবে Briar (&lt;a href=&#34;https://briarproject.org/&#34;&gt;https://briarproject.org/&lt;/a&gt;) ইন্সটল করে রাখুন।&lt;/li&gt;
+&lt;li&gt;এনক্রিপশন এবং ফাইল সংরক্ষণ: বিভিন্ন ফাইল, ছবি, ভিডিও, ডকুমেন্ট ইত্যাদি এনক্রিপ্ট করার জন্য OpenPGP (&lt;a href=&#34;https://www.openpgp.org/&#34;&gt;https://www.openpgp.org/&lt;/a&gt;) ব্যবহার করতে পারেন। প্রায় সকল প্ল্যাটফর্মের জন্যেই এটি পাওয়া যায়। অ্যান্ড্রয়েড ব্যবহারকারীরা OpenKeyChain (&lt;a href=&#34;https://www.openkeychain.org/&#34;&gt;https://www.openkeychain.org/&lt;/a&gt;) ইন্সটল করে রাখুন। পাসওয়ার্ড বা এনক্রিপশন key যেকোন উপায়েই এটি কাজ করে। যদি কেউ আপনার ফোন চেক করার চেষ্টা করে, আপনি আগে থেকে সেগুলিকে এনক্রিপ্ট করে রাখলে তা আর দেখা যাবে না। প্রমাণ হিসেবে সত্য ও অথেন্টিক ডিজিটাল মিডিয়াগুলো সংরক্ষণ করুন। ক্লাউডে রাখলেও এনক্রিপশন গুরুত্বপূর্ণ।&lt;/li&gt;
+&lt;li&gt;বিশ্বস্ত VPN: ProtonVPN (&lt;a href=&#34;https://protonvpn.com/&#34;&gt;https://protonvpn.com/&lt;/a&gt;) দিয়ে তিনটি দেশের কানেকশন বিনামূল্যে পাবেন। Mullvad (&lt;a href=&#34;https://mullvad.net/&#34;&gt;https://mullvad.net/&lt;/a&gt;) সবচেয়ে নিরাপদ যদিও এটি ফ্রি নয়। এপ স্টোর থেকে হুট করে যেনতেন কোন একটি অ্যাডওয়্যার VPN ডাউনলোড করা যাবেনা। অথবা আরও ভাল হয় যদি টর নেটওয়ার্ক (&lt;a href=&#34;https://www.torproject.org/&#34;&gt;https://www.torproject.org/&lt;/a&gt;) ব্যবহার করতে পারেন। এই পরিষেবাগুলি মূলত মানবাধিকার কর্মী, এক্টিভিস্ট, এবং সাংবাদিকদের উপর নজরদারি ও সেন্সরশিপ এড়াতে ডিজাইন করা হয়েছে।&lt;/li&gt;
+&lt;li&gt;ফোন কলের জন্য ওপেন লাইন ব্যবহার করবেন না: আপনি যদি মনে করেন যে আপনার ফোন লাইন ট্যাপ করা হচ্ছে, তাহলে এমন এপ খুঁজুন যার মাধ্যমে এনক্রিপটেড ভয়েস কল করা যায়। Signal এই পরিস্থিতিতে কাজে আসতে পারে।&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ইন্টারনেট এলো, কিন্তু এখানেই তো সব শেষ নয়। তথ্যের নিরাপত্তা নিশ্চিত করুন। নিজেকে নিরাপদ রাখুন। যেকোন অনাকাঙ্খিত পরিস্থিতির জন্য প্রস্তুত থাকুন।&lt;/p&gt;
+&lt;p&gt;NEVER FORGET.&lt;br&gt;
+NEVER FORGIVE.
+🇧🇩&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>telegram</title>
       <link>https://sharafat.is-a.dev/notes/telegram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -681,17 +778,30 @@ But before using license don&amp;rsquo;t forget the above new command.&lt;/p&gt;
       
       <guid>https://sharafat.is-a.dev/notes/windows/</guid>
       <description>Windows Some windowsy stuffs!
-Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.
+ISO https://gravesoft.dev/ Activation https://massgrave.dev/ https://github.com/massgravel/Microsoft-Activation-Scripts tldr Open powershell as administrator and execute,
+irm https://get.activated.win | iex Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.
 powercfg /availablesleepstates </description>
       <content>&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
 &lt;p&gt;Some windowsy stuffs!&lt;/p&gt;
-&lt;h1 id=&#34;battery&#34;&gt;Battery&lt;/h1&gt;
-&lt;h2 id=&#34;battery-report&#34;&gt;Battery Report&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;powercfg /batteryreport
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;modern-standby&#34;&gt;Modern Standby&lt;/h2&gt;
+&lt;h2 id=&#34;iso&#34;&gt;ISO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gravesoft.dev/&#34;&gt;https://gravesoft.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;activation&#34;&gt;Activation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://massgrave.dev/&#34;&gt;https://massgrave.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/massgravel/Microsoft-Activation-Scripts&#34;&gt;https://github.com/massgravel/Microsoft-Activation-Scripts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tldr&#34;&gt;tldr&lt;/h3&gt;
+&lt;p&gt;Open powershell as administrator and execute,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;irm https://get.activated.win | iex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
+&lt;h3 id=&#34;battery-report&#34;&gt;Battery Report&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;powercfg /batteryreport
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;modern-standby&#34;&gt;Modern Standby&lt;/h3&gt;
 &lt;p&gt;Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;powercfg /availablesleepstates
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;powercfg /availablesleepstates
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
   </channel>
