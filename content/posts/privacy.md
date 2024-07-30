@@ -6,6 +6,22 @@ description = "বিভিন্ন অভিজ্ঞ মানুষজনে
 # Privacy
 
 বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া privacy tips এর কিছূ সংগ্রহ।
+বিশদ বিস্তারিতভাবে জানতে এই লিংক ব্যবহার করুন,
+
+- <https://www.privacyguides.org/en/basics/why-privacy-matters/>
+
+## ব্রাউজার
+
+Some recommendations,
+
+- Desktop   : Libre wolf, Brave, *Tor Browser*.
+- Android   : Brave, Firefox focus, Cromite, Mull, *Tor*.
+- IOS phone : Brave.
+
+যদি আপনার একাধিক প্লাটফর্মে তথ্য সিঙ্ক করতে হয় তাহলে Brave/ Firefox ব্যবহার করে দেখতে পারেন।
+
+> আরো দেখুন, বিস্তারিত কিছূ পরীক্ষার ফলাফল <https://privacytests.org/>
+> যদি আপনি টাকা প্রদান করতে আগ্রহী হোন ব্রাউজারের পিছনে তাহলে [Mullvad](https://mullvad.net/) চেষ্টা করে দেখতে পারেন.
 
 ## এনক্রিপশন
 
@@ -42,9 +58,9 @@ Briar অ্যাপে আছে Private Messege, Forum (Public group), Privat
 > Secure messaging, anywhere
 > Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance.
 
-Play Store: <https://play.google.com/store/apps/details?id=org.briarproject.briar.android>
-Desktop App (Flathub) : <https://flathub.org/apps/org.briarproject.Briar>
-Desktop App: <https://briarproject.org/download-briar-desktop/>
+- Play Store: <https://play.google.com/store/apps/details?id=org.briarproject.briar.android>
+- Desktop App (Flathub) : <https://flathub.org/apps/org.briarproject.Briar>
+- Desktop App: <https://briarproject.org/download-briar-desktop/>
 
 ## উদ্ধৃতিসমূহ
 
