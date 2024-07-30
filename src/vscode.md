@@ -52,7 +52,7 @@ A text editor.
 ### Utilites
 
 - Competitive Programming Helper (cph)
-- *WakaTime*
+- **WakaTime**
 - Live Share
 - Live Server
 - Preetier
