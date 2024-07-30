@@ -8,6 +8,48 @@
     <language>en</language>
     <copyright>Creative common CC-0</copyright><atom:link href="https://sharafat.is-a.dev/notes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>bdix</title>
+      <link>https://sharafat.is-a.dev/notes/bdix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/bdix/</guid>
+      <description>BDIX BDIX is the first Internet Exchange Point (IXP) of Bangladesh. It was established to provide physical interconnection for its members to exchange and route local Internet traffic locally through it. Since 2014, BDIX has maintained leadership of the fast-developing Internet industry of Bangladesh by providing high quality services that provided fast, cost-effective and efficient Internet connections for its members and their customers. BDIX is a not-for-profit venture of the Sustainable Development Networking Foundation (SDNF) Bangladesh.</description>
+      <content>&lt;h1 id=&#34;bdix&#34;&gt;BDIX&lt;/h1&gt;
+&lt;p&gt;BDIX is the first Internet Exchange Point (IXP) of Bangladesh. It was established to provide physical interconnection for its members to exchange and route local Internet traffic locally through it. Since 2014, BDIX has maintained leadership of the fast-developing Internet industry of Bangladesh by providing high quality services that provided fast, cost-effective and efficient Internet connections for its members and their customers. BDIX is a not-for-profit venture of the Sustainable Development Networking Foundation (SDNF) Bangladesh. So far more than 110 Organisations of different types (ISPs, Mobile Operators, Content Providers) are peering through BDIX.&lt;/p&gt;
+&lt;h2 id=&#34;proxy&#34;&gt;Proxy&lt;/h2&gt;
+&lt;p&gt;Several telegram channels provide BDIX proxy links. Some of them are,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/BDiX_BypassX&#34;&gt;https://t.me/BDiX_BypassX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;servers&#34;&gt;Servers&lt;/h2&gt;
+&lt;p&gt;Full BDIX FTP servers list
+(doesn&amp;rsquo;t depend on internet - broadband only)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/bdixftpserverlist&#34;&gt;https://sites.google.com/view/bdixftpserverlist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some user driven servers are (collected),&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.112.62.79:5230/explore&#34;&gt;http://103.112.62.79:5230/explore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.112.62.79:8065/techcrackr/&#34;&gt;http://103.112.62.79:8065/techcrackr/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://146.196.48.9/&#34;&gt;http://146.196.48.9/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://103.200.93.146/&#34;&gt;https://103.200.93.146/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.43.151.2:8099/&#34;&gt;http://103.43.151.2:8099/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://103.200.93.146/games/&#34;&gt;https://103.200.93.146/games/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://146.196.48.10/&#34;&gt;http://146.196.48.10/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://59.153.100.190/&#34;&gt;http://59.153.100.190/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.76.47.6:8096/&#34;&gt;http://103.76.47.6:8096/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.76.47.6:8080/&#34;&gt;http://103.76.47.6:8080/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.92.154.118:8096/&#34;&gt;http://103.92.154.118:8096/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://103.78.255.174/&#34;&gt;http://103.78.255.174/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;checkers&#34;&gt;Checkers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tyroruyk/bdix&#34;&gt;Python script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>cp</title>
       <link>https://sharafat.is-a.dev/notes/cp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -602,6 +644,9 @@ Website Play Store Android Keys Maybe replit? There are several keys tricks. Or,
 &lt;/ul&gt;
 &lt;h3 id=&#34;zero-trust&#34;&gt;Zero Trust&lt;/h3&gt;
 &lt;p&gt;It&amp;rsquo;s a simple trick that may not work in future. Copy the device/ client id from &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Diagonstics &amp;gt; Client configuration&lt;/code&gt; to &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Connection Options &amp;gt; DNS settings &amp;gt; Gateway DoH Subdomain&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zero trup isn&amp;rsquo;t recommended from me, if you already have warp+, I guess.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;warp-cli&#34;&gt;Warp CLI&lt;/h2&gt;
 &lt;p&gt;Available on linux also!&lt;/p&gt;
 &lt;ul&gt;
