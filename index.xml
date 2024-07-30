@@ -683,11 +683,28 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/privacy/</guid>
-      <description>Privacy বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া privacy tips এর কিছূ সংগ্রহ।
-এনক্রিপশন PGP লিনাক্স বাংলা ফোরামের একটা পোস্ট থেকে নেয়া (SaltedPotato anonymous user)
-pgp এর একটা সহজবোধ্য ধারণা দেই। যখন আপনি একজোড়া key তৈরী করবেন, তখন আপনার ইমেইল আইডি দেওয়া লাগবে। anonymous থাকতে চাইলে tuta mail ইউজ করুন। যাই হোক, দুইটা ডিজিটাল চাবি হবে আপনার, একটা প্রাইভেট, আরেকটা পাবলিক। প্রাইভেট চাবি হচ্ছে ফোনের সিম কার্ড এর মতো, আপনি ছাড়া কেউ এগার এক্সেস পাবে না, এবং যেন না পায়, সেটা নিশ্চিত করবেন। আর পাবলিক চাবি হচ্ছে ফোন নাম্বার এর মতো, সবাই জানবে এটা। বিলবোর্ডে বিজ্ঞাপন দিলেও সমস্যা নেই। তো আমি যদি আপনাকে গোপন মেসেজ দিতে চাই, তাহলে আপনার চাবি দিয়ে এনক্রিপ্ট করে পাঠাবো যেটা আপনি ছাড়া কেউ দেখতে পাবে না। তেমনি আমার কাছে গোপন মেসেজ দিতে চাইলে আপনি আমার পাবলিক চাবি দিয়ে মেসেজ এনক্রিপ্ট করবেন যা আমি ছাড়া কেউ আনলক করতে পারবে না। ঠিক যেমন আপনাকে ফোন দিলে আমি আপনার নাম্বার ডায়াল করবো আর শুধু আপনি সেটা ফোনে রিসিভ করতে পারবেন। এটার বিস্তারিত মেকানিজম কিছুটা জটিল, তাই এখানে উল্লেখ করলাম না।</description>
+      <description>Privacy বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া privacy tips এর কিছূ সংগ্রহ। বিশদ বিস্তারিতভাবে জানতে এই লিংক ব্যবহার করুন,
+https://www.privacyguides.org/en/basics/why-privacy-matters/ ব্রাউজার Some recommendations,
+Desktop : Libre wolf, Brave, Tor Browser. Android : Brave, Firefox focus, Cromite, Mull, Tor. IOS phone : Brave. যদি আপনার একাধিক প্লাটফর্মে তথ্য সিঙ্ক করতে হয় তাহলে Brave/ Firefox ব্যবহার করে দেখতে পারেন।
+আরো দেখুন, বিস্তারিত কিছূ পরীক্ষার ফলাফল https://privacytests.org/ যদি আপনি টাকা প্রদান করতে আগ্রহী হোন ব্রাউজারের পিছনে তাহলে Mullvad চেষ্টা করে দেখতে পারেন.</description>
       <content>&lt;h1 id=&#34;privacy&#34;&gt;Privacy&lt;/h1&gt;
-&lt;p&gt;বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া privacy tips এর কিছূ সংগ্রহ।&lt;/p&gt;
+&lt;p&gt;বিভিন্ন অভিজ্ঞ মানুষজনের থেকে নেয়া privacy tips এর কিছূ সংগ্রহ।
+বিশদ বিস্তারিতভাবে জানতে এই লিংক ব্যবহার করুন,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.privacyguides.org/en/basics/why-privacy-matters/&#34;&gt;https://www.privacyguides.org/en/basics/why-privacy-matters/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;বরউজর&#34;&gt;ব্রাউজার&lt;/h2&gt;
+&lt;p&gt;Some recommendations,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Desktop   : Libre wolf, Brave, &lt;em&gt;Tor Browser&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Android   : Brave, Firefox focus, Cromite, Mull, &lt;em&gt;Tor&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;IOS phone : Brave.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;যদি আপনার একাধিক প্লাটফর্মে তথ্য সিঙ্ক করতে হয় তাহলে Brave/ Firefox ব্যবহার করে দেখতে পারেন।&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;আরো দেখুন, বিস্তারিত কিছূ পরীক্ষার ফলাফল &lt;a href=&#34;https://privacytests.org/&#34;&gt;https://privacytests.org/&lt;/a&gt;
+যদি আপনি টাকা প্রদান করতে আগ্রহী হোন ব্রাউজারের পিছনে তাহলে &lt;a href=&#34;https://mullvad.net/&#34;&gt;Mullvad&lt;/a&gt; চেষ্টা করে দেখতে পারেন.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;এনকরপশন&#34;&gt;এনক্রিপশন&lt;/h2&gt;
 &lt;h3 id=&#34;pgp&#34;&gt;PGP&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -720,9 +737,11 @@ Briar অ্যাপে আছে Private Messege, Forum (Public group), Privat
 &lt;p&gt;Secure messaging, anywhere
 Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn&amp;rsquo;t rely on a central server - messages are synchronized directly between the users&amp;rsquo; devices. If the internet&amp;rsquo;s down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet&amp;rsquo;s up, Briar can sync via the Tor network, protecting users and their relationships from surveillance.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Play Store: &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&#34;&gt;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&lt;/a&gt;
-Desktop App (Flathub) : &lt;a href=&#34;https://flathub.org/apps/org.briarproject.Briar&#34;&gt;https://flathub.org/apps/org.briarproject.Briar&lt;/a&gt;
-Desktop App: &lt;a href=&#34;https://briarproject.org/download-briar-desktop/&#34;&gt;https://briarproject.org/download-briar-desktop/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Play Store: &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&#34;&gt;https://play.google.com/store/apps/details?id=org.briarproject.briar.android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desktop App (Flathub) : &lt;a href=&#34;https://flathub.org/apps/org.briarproject.Briar&#34;&gt;https://flathub.org/apps/org.briarproject.Briar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desktop App: &lt;a href=&#34;https://briarproject.org/download-briar-desktop/&#34;&gt;https://briarproject.org/download-briar-desktop/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;উদধতসমহ&#34;&gt;উদ্ধৃতিসমূহ&lt;/h2&gt;
 &lt;h3 id=&#34;রতল-ভই&#34;&gt;রাতুল ভাই&lt;/h3&gt;
 &lt;p&gt;দেশের এই অন্ধকার সময়ে নিজের গোপনীয়তা এবং নিরাপত্তা রক্ষার বিষয়ে কিছু টিপস:&lt;/p&gt;
