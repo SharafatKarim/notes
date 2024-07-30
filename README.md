@@ -11,16 +11,16 @@ My notes on various topics. It will work automatically, combining all the notes 
 
 ## Table of Contents
 
-- [👾 bdix](src/bdix.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/bdix)
-- [🎉 cp](src/cp.md) | [VIEW PAGE 🌈](https://sharafat.is-a.dev/notes/cp)
-- [🤖 idm](src/idm.md) | [VIEW PAGE 👾](https://sharafat.is-a.dev/notes/idm)
-- [🌟 kvm](src/kvm.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/kvm)
-- [🚀 latex](src/latex.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/latex)
-- [👾 linux](src/linux.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/linux)
-- [🎉 security](src/security.md) | [VIEW PAGE 🌟](https://sharafat.is-a.dev/notes/security)
-- [👾 telegram](src/telegram.md) | [VIEW PAGE 🌈](https://sharafat.is-a.dev/notes/telegram)
-- [😊 warp](src/warp.md) | [VIEW PAGE 🎉](https://sharafat.is-a.dev/notes/warp)
-- [🚀 windows](src/windows.md) | [VIEW PAGE 🍕](https://sharafat.is-a.dev/notes/windows)
+- [🍕 bdix](src/bdix.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/bdix)
+- [👾 cp](src/cp.md) | [VIEW PAGE 🌈](https://sharafat.is-a.dev/notes/cp)
+- [🎉 idm](src/idm.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/idm)
+- [🌈 kvm](src/kvm.md) | [VIEW PAGE 👾](https://sharafat.is-a.dev/notes/kvm)
+- [😊 latex](src/latex.md) | [VIEW PAGE 🤖](https://sharafat.is-a.dev/notes/latex)
+- [🍕 linux](src/linux.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/linux)
+- [🌟 security](src/security.md) | [VIEW PAGE 🚀](https://sharafat.is-a.dev/notes/security)
+- [🔥 telegram](src/telegram.md) | [VIEW PAGE 🎉](https://sharafat.is-a.dev/notes/telegram)
+- [🎸 warp](src/warp.md) | [VIEW PAGE 😊](https://sharafat.is-a.dev/notes/warp)
+- [🌟 windows](src/windows.md) | [VIEW PAGE 🎉](https://sharafat.is-a.dev/notes/windows)
 
 ## Contribution
 
