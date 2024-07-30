@@ -25,6 +25,8 @@ Maybe replit? There are several keys tricks. Or, some telegram bots, like,
 
 It's a simple trick that may not work in future. Copy the device/ client id from `Settings > Advanced > Diagonstics > Client configuration` to `Settings > Advanced > Connection Options > DNS settings > Gateway DoH Subdomain`.
 
+> Zero trup isn't recommended from me, if you already have warp+, I guess.
+
 ## Warp CLI
 
 Available on linux also!
