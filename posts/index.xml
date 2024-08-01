@@ -678,6 +678,25 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
     </item>
     
     <item>
+      <title>networking</title>
+      <link>https://sharafat.is-a.dev/notes/networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/networking/</guid>
+      <description>networking Networking refers to the practice of connecting computers and other devices together to share resources. This can be done in a variety of ways, including through physical cables, wireless connections, and virtual networks.
+For now the collection of some terms, I may need in future.
+Global networks https://www.zerotier.com/ </description>
+      <content>&lt;h1 id=&#34;networking&#34;&gt;networking&lt;/h1&gt;
+&lt;p&gt;Networking refers to the practice of connecting computers and other devices together to share resources. This can be done in a variety of ways, including through physical cables, wireless connections, and virtual networks.&lt;/p&gt;
+&lt;p&gt;For now the collection of some terms, I may need in future.&lt;/p&gt;
+&lt;h2 id=&#34;global-networks&#34;&gt;Global networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zerotier.com/&#34;&gt;https://www.zerotier.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>offline</title>
       <link>https://sharafat.is-a.dev/notes/offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
