@@ -15,6 +15,7 @@ Maybe replit? There are several keys tricks. Or, some telegram bots, like,
 
 - [Warp Plus Channel](https://t.me/warpplus)
 - [Warp Plus Bot](https://t.me/generatewarpplusbot)
+- [Key generator site](https://warpwarpbish.netlify.app/)
 
 ### Zero Trust
 
