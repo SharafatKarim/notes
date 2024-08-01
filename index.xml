@@ -1222,6 +1222,7 @@ Website Play Store Android Keys Maybe replit? There are several keys tricks. Or,
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://t.me/warpplus&#34;&gt;Warp Plus Channel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://t.me/generatewarpplusbot&#34;&gt;Warp Plus Bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://warpwarpbish.netlify.app/&#34;&gt;Key generator site&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;zero-trust&#34;&gt;Zero Trust&lt;/h3&gt;
 &lt;p&gt;It&amp;rsquo;s a simple trick that may not work in future. Copy the device/ client id from &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Diagonstics &amp;gt; Client configuration&lt;/code&gt; to &lt;code&gt;Settings &amp;gt; Advanced &amp;gt; Connection Options &amp;gt; DNS settings &amp;gt; Gateway DoH Subdomain&lt;/code&gt;.&lt;/p&gt;
