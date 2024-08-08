@@ -928,7 +928,7 @@ Full collection here,&lt;/p&gt;
       <guid>https://sharafat.is-a.dev/notes/thunderbird/</guid>
       <description>Thunderbird An email client, right? Well it&amp;rsquo;s more than that.
 Extensions Some interesting extensions,
-ublock origin provider for google calendar google keep tab AI grammar checker &amp;amp; Rephraser </description>
+ublock origin provider for google calendar google keep tab AI grammar checker &amp;amp; Rephraser tbkeys Keyboard shortcuts https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird </description>
       <content>&lt;h1 id=&#34;thunderbird&#34;&gt;Thunderbird&lt;/h1&gt;
 &lt;p&gt;An email client, right? Well it&amp;rsquo;s more than that.&lt;/p&gt;
 &lt;h2 id=&#34;extensions&#34;&gt;Extensions&lt;/h2&gt;
@@ -938,6 +938,11 @@ ublock origin provider for google calendar google keep tab AI grammar checker &a
 &lt;li&gt;provider for google calendar&lt;/li&gt;
 &lt;li&gt;google keep tab&lt;/li&gt;
 &lt;li&gt;AI grammar checker &amp;amp; Rephraser&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wshanks/tbkeys&#34;&gt;tbkeys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;keyboard-shortcuts&#34;&gt;Keyboard shortcuts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird&#34;&gt;https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
