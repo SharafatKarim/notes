@@ -824,6 +824,55 @@ NEVER FORGIVE.
     </item>
     
     <item>
+      <title>rss</title>
+      <link>https://sharafat.is-a.dev/notes/rss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/rss/</guid>
+      <description>RSS Rss stands for Really Simple Syndication. It is a way to get updates from a website or blog. You can subscribe to an RSS feed and get updates in your feed reader.
+A more in-depth overview is available here,
+https://github.com/AboutRSS/ALL-about-RSS?tab=readme-ov-file#-free-servers Apps Thunderbird (desktop) Feedbro (browser) Feeder (android) Collections Some generic collections,
+https://www.youneedfeeds.com/starter-packs https://github.com/plenaryapp/awesome-rss-feeds Linux Some Linux specific websites that can be converted into RSS,
+https://distrowatch.com/index.php?language=EN http://www.omgubuntu.co.uk/ https://linuxiac.com/ https://9to5linux.com/ https://distrowatch.com/dwres.php?resource=headlines https://linuxinsider.</description>
+      <content>&lt;h1 id=&#34;rss&#34;&gt;RSS&lt;/h1&gt;
+&lt;p&gt;Rss stands for Really Simple Syndication. It is a way to get updates from a website or blog. You can subscribe to an RSS feed and get updates in your feed reader.&lt;/p&gt;
+&lt;p&gt;A more in-depth overview is available here,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AboutRSS/ALL-about-RSS?tab=readme-ov-file#-free-servers&#34;&gt;https://github.com/AboutRSS/ALL-about-RSS?tab=readme-ov-file#-free-servers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;apps&#34;&gt;Apps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Thunderbird (desktop)&lt;/li&gt;
+&lt;li&gt;Feedbro (browser)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/packages/com.nononsenseapps.feeder/&#34;&gt;Feeder&lt;/a&gt; (android)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collections&#34;&gt;Collections&lt;/h2&gt;
+&lt;p&gt;Some generic collections,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youneedfeeds.com/starter-packs&#34;&gt;https://www.youneedfeeds.com/starter-packs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/plenaryapp/awesome-rss-feeds&#34;&gt;https://github.com/plenaryapp/awesome-rss-feeds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;p&gt;Some Linux specific websites that can be converted into RSS,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://distrowatch.com/index.php?language=EN&#34;&gt;https://distrowatch.com/index.php?language=EN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.omgubuntu.co.uk/&#34;&gt;http://www.omgubuntu.co.uk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxiac.com/&#34;&gt;https://linuxiac.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://9to5linux.com/&#34;&gt;https://9to5linux.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://distrowatch.com/dwres.php?resource=headlines&#34;&gt;https://distrowatch.com/dwres.php?resource=headlines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxinsider.com/&#34;&gt;https://linuxinsider.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinuxLinks&lt;/li&gt;
+&lt;li&gt;Phoronix&lt;/li&gt;
+&lt;li&gt;Planet Arch Linux&lt;/li&gt;
+&lt;li&gt;SparkyLinux&lt;/li&gt;
+&lt;li&gt;Tecmint: Linux Howtos, Tutorials &amp;amp; Guides&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s FOSS&lt;/li&gt;
+&lt;li&gt;DebugPoint.com&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>security</title>
       <link>https://sharafat.is-a.dev/notes/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
