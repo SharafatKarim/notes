@@ -8,6 +8,34 @@
     <language>en</language>
     <copyright>Creative common CC-0</copyright><atom:link href="https://sharafat.is-a.dev/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>bash</title>
+      <link>https://sharafat.is-a.dev/notes/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/bash/</guid>
+      <description>Bash Linux bash corner.
+Bashrc _ .bashrc PS1 generator
+Generate your .bashrc/PS1 bash prompt easily
+https://bashrcgenerator.com/ https://bash-prompt-generator.org/ https://github.com/Scriptim/bash-prompt-generator Credit https://t.me/fazlerabbi37log</description>
+      <content>&lt;h1 id=&#34;bash&#34;&gt;Bash&lt;/h1&gt;
+&lt;p&gt;Linux bash corner.&lt;/p&gt;
+&lt;h2 id=&#34;bashrc&#34;&gt;Bashrc&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;_ .bashrc PS1 generator&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Generate your .bashrc/PS1 bash prompt easily&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bashrcgenerator.com/&#34;&gt;https://bashrcgenerator.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bash-prompt-generator.org/&#34;&gt;https://bash-prompt-generator.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Scriptim/bash-prompt-generator&#34;&gt;https://github.com/Scriptim/bash-prompt-generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Credit &lt;a href=&#34;https://t.me/fazlerabbi37log&#34;&gt;https://t.me/fazlerabbi37log&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
       <title>bdix</title>
       <link>https://sharafat.is-a.dev/notes/bdix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
