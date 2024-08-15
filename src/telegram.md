@@ -24,7 +24,7 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 - `yastabot` - yasta reminder or, daily scheduler
 - `Rekognition_Bot` - Image recognition or OCR type
 - `qq_2d_ai_bot` - image to anime art
-- (doghouse_bot)[https://t.me/dogshouse_bot/join?startapp=dcF42BNqTHCIxq-8D_j-Qw] - Check when you joined telegram
+- [doghouse_bot](https://t.me/dogshouse_bot/join?startapp=dcF42BNqTHCIxq-8D_j-Qw) - Check when you joined telegram
 
 #### Fun Bots
 
@@ -39,10 +39,11 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 #### Media Bots
 
 - `screenshotit_bot` - Screenshot bot
+- `ResizeVideoBot` - image resize
 
 #### Downloader Bots
 
-- `iPapkornFbot` - A bot that can download movies and TV shows.
+- `iPapkornFbot` - A bot that can download movies and TV shows developed by [iPopkorns](https://t.me/iPopkorns).
 - `ProSearch6Bot` - One of the [Pro search bot](https://t.me/+8pxMRAzhfCE2MWQ1).
 
 #### Inline Bots
