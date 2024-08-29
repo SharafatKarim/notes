@@ -68,3 +68,24 @@ X-KDE-Username=
 
 > You may need to set executable permission to the `.desktop` file.
 
+## Battery
+
+> Note from Alif bro
+
+Fedora চালিত Acer travelmate TMP214-53 তে সাসপেন্ড (স্লিপ) ইস্যু ছিলো।
+সমস্যাটা ছিলো সাসপেন্ড করে রাখলেও ব্যাটারি ড্রেন হয়ে যেত আর ব্যাগে রাখলে গরম হয়ে যেতো। অর্থাৎ সাসপেন্ড টু র‌্যাম হতো না; প্রসেসর চালু থাকতো। এই ধরনের সাসপেন্ডকে বলে s2idle যেটাতে প্রসেসর চালু থাকে। কিন্তু আমার যেটা দরকার সেটা হলো deep sleep যেটাতে শুধু ram এ হালকা পাওয়ার দেয়া হয় আর পাওয়ার লাইট ব্লিংকিং হয়। সেটা কেন যে ডিফল্ট হিসেবে সিলেক্ট করা ছিলো না, ভেবে আমি অবাক হই।
+
+এই সমস্যা থাকার প্রমাণ হলো: cat /sys/power/mem_sleep এর আউটপুট আসবে [s2idle] deep
+যেভাবে সমাধান করলাম:
+/etc/default/grub খুললাম sudo nano /etc/dafault/grub কমান্ড দিয়ে।
+
+যদি না খোলে তাহলে: cd /etc/default কমান্ড দিয়ে ওখানে গিয়ে sudo nano grub কমান্ড দিয়ে ওটা খুলুন।
+
+ন্যানো টেক্সট এডিটর খুললে সেখান থেকে GRUB_CMDLINE_LINUX_DEFAULT এরকম বা এর কাছাকাছি কিছু দিয়ে শুরু হয় এমন লাইন খুঁজে বের করি।
+লাইনের quotation mark এর ভিতরে যাই থাক না কেনো সেটার পরে একটা স্পেস দিয়ে  mem_sleep_default=deep  লিখে দেই।
+উদাহরণস্বরূপ: আগে যদি GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" থাকে তবে পরে হলো: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep"
+এটা করার পরে ফাইলটা সেভ করি।
+
+তারপরে grub update করতে হবে। grub update করার পদ্ধতি সবার একই নাও হতে পারে তবে sudo update-grub কিংবা sudo grub-mkconfig -o /boot/grub/grub.cfg কিংবা sudo grub2-mkconfig -o /boot/grub2/grub.cfg এরকম কোনো একটা কমান্ড দিয়ে আপনার কাজ হয়ে যাবার কথা। আর তাহলেই কাজ শেষ। 
+reboot করতে পারেন।
+সমস্যা সমাধান হবার প্রমাণ হলো: cat /sys/power/mem_sleep এর আউটপুট আসবে s2idle [deep]
