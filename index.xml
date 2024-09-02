@@ -741,6 +741,11 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;You may need to set executable permission to the &lt;code&gt;.desktop&lt;/code&gt; file.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
+&lt;p&gt;সর্বপ্রথমেই জেনে নিন আপনার ডিভাইসে এটা সাপোর্ট করবে কিনা। নিচের কমান্ডের মাধ্যমে,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /sys/power/state
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;আর তারপরে,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dmesg | grep -i &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;acpi.*(supports&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;এবার খুঁজে দেখেন &lt;code&gt;S3&lt;/code&gt; আছে কিনা অপশনে।&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Note from Alif bro&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -757,6 +762,26 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;তারপরে grub update করতে হবে। grub update করার পদ্ধতি সবার একই নাও হতে পারে তবে sudo update-grub কিংবা sudo grub-mkconfig -o /boot/grub/grub.cfg কিংবা sudo grub2-mkconfig -o /boot/grub2/grub.cfg এরকম কোনো একটা কমান্ড দিয়ে আপনার কাজ হয়ে যাবার কথা। আর তাহলেই কাজ শেষ।
 reboot করতে পারেন।
 সমস্যা সমাধান হবার প্রমাণ হলো: cat /sys/power/mem_sleep এর আউটপুট আসবে s2idle [deep]&lt;/p&gt;
+&lt;h2 id=&#34;wireless-mouse-keyboard&#34;&gt;Wireless mouse/ keyboard&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a kool link,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=273039&#34;&gt;https://bbs.archlinux.org/viewtopic.php?id=273039&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a sample systemd file,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# This service is used to work around an apparent bug that freezes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# keyboard and mouse inputs after waking from sleep.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Unit&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Description&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Reset the keyboard and mouse after waking from sleep
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;After&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Service&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ExecStart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/usr/local/bin/reset-input-devices.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CPUWeight&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Install&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WantedBy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So good luck!&lt;/p&gt;
 </content>
     </item>
     

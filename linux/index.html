@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/linux/">linux</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">2 Min read (371 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">3 Min read (460 words)</span></div>
 
   
   
@@ -207,6 +207,11 @@ An example, to add <code>tlauncher</code>:</p>
 <p>You may need to set executable permission to the <code>.desktop</code> file.</p>
 </blockquote>
 <h2 id="battery">Battery<a href="#battery" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>সর্বপ্রথমেই জেনে নিন আপনার ডিভাইসে এটা সাপোর্ট করবে কিনা। নিচের কমান্ডের মাধ্যমে,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /sys/power/state
+</span></span></code></pre></div><p>আর তারপরে,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo dmesg | grep -i <span style="color:#e6db74">&#34;acpi.*(supports&#34;</span><span style="color:#ae81ff">\
+</span></span></span></code></pre></div><p>এবার খুঁজে দেখেন <code>S3</code> আছে কিনা অপশনে।</p>
 <blockquote>
 <p>Note from Alif bro</p>
 </blockquote>
@@ -223,6 +228,26 @@ An example, to add <code>tlauncher</code>:</p>
 <p>তারপরে grub update করতে হবে। grub update করার পদ্ধতি সবার একই নাও হতে পারে তবে sudo update-grub কিংবা sudo grub-mkconfig -o /boot/grub/grub.cfg কিংবা sudo grub2-mkconfig -o /boot/grub2/grub.cfg এরকম কোনো একটা কমান্ড দিয়ে আপনার কাজ হয়ে যাবার কথা। আর তাহলেই কাজ শেষ।
 reboot করতে পারেন।
 সমস্যা সমাধান হবার প্রমাণ হলো: cat /sys/power/mem_sleep এর আউটপুট আসবে s2idle [deep]</p>
+<h2 id="wireless-mouse-keyboard">Wireless mouse/ keyboard<a href="#wireless-mouse-keyboard" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Here&rsquo;s a kool link,</p>
+<ul>
+<li><a href="https://bbs.archlinux.org/viewtopic.php?id=273039">https://bbs.archlinux.org/viewtopic.php?id=273039</a></li>
+</ul>
+<p>And a sample systemd file,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># This service is used to work around an apparent bug that freezes</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># keyboard and mouse inputs after waking from sleep.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Unit<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>Description<span style="color:#f92672">=</span>Reset the keyboard and mouse after waking from sleep
+</span></span><span style="display:flex;"><span>After<span style="color:#f92672">=</span>suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Service<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>/usr/local/bin/reset-input-devices.sh
+</span></span><span style="display:flex;"><span>CPUWeight<span style="color:#f92672">=</span><span style="color:#ae81ff">500</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>WantedBy<span style="color:#f92672">=</span>suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
+</span></span></code></pre></div><p>So good luck!</p>
 
       </div></div>
 
