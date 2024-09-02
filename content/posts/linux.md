@@ -70,6 +70,20 @@ X-KDE-Username=
 
 ## Battery
 
+সর্বপ্রথমেই জেনে নিন আপনার ডিভাইসে এটা সাপোর্ট করবে কিনা। নিচের কমান্ডের মাধ্যমে,
+
+```shell
+cat /sys/power/state
+```
+
+আর তারপরে,
+
+```shell
+sudo dmesg | grep -i "acpi.*(supports"\
+```
+
+এবার খুঁজে দেখেন `S3` আছে কিনা অপশনে।
+
 > Note from Alif bro
 
 Fedora চালিত Acer travelmate TMP214-53 তে সাসপেন্ড (স্লিপ) ইস্যু ছিলো।
@@ -86,6 +100,31 @@ Fedora চালিত Acer travelmate TMP214-53 তে সাসপেন্ড
 উদাহরণস্বরূপ: আগে যদি GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" থাকে তবে পরে হলো: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep"
 এটা করার পরে ফাইলটা সেভ করি।
 
-তারপরে grub update করতে হবে। grub update করার পদ্ধতি সবার একই নাও হতে পারে তবে sudo update-grub কিংবা sudo grub-mkconfig -o /boot/grub/grub.cfg কিংবা sudo grub2-mkconfig -o /boot/grub2/grub.cfg এরকম কোনো একটা কমান্ড দিয়ে আপনার কাজ হয়ে যাবার কথা। আর তাহলেই কাজ শেষ। 
+তারপরে grub update করতে হবে। grub update করার পদ্ধতি সবার একই নাও হতে পারে তবে sudo update-grub কিংবা sudo grub-mkconfig -o /boot/grub/grub.cfg কিংবা sudo grub2-mkconfig -o /boot/grub2/grub.cfg এরকম কোনো একটা কমান্ড দিয়ে আপনার কাজ হয়ে যাবার কথা। আর তাহলেই কাজ শেষ।
 reboot করতে পারেন।
 সমস্যা সমাধান হবার প্রমাণ হলো: cat /sys/power/mem_sleep এর আউটপুট আসবে s2idle [deep]
+
+## Wireless mouse/ keyboard
+
+Here's a kool link,
+- <https://bbs.archlinux.org/viewtopic.php?id=273039>
+
+And a sample systemd file,
+
+```bash
+# This service is used to work around an apparent bug that freezes
+# keyboard and mouse inputs after waking from sleep.
+
+[Unit]
+Description=Reset the keyboard and mouse after waking from sleep
+After=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+
+[Service]
+ExecStart=/usr/local/bin/reset-input-devices.sh
+CPUWeight=500
+
+[Install]
+WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
+```
+
+So good luck!
