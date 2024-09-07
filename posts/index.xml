@@ -904,6 +904,25 @@ NEVER FORGIVE.
     </item>
     
     <item>
+      <title>react</title>
+      <link>https://sharafat.is-a.dev/notes/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/react/</guid>
+      <description>React Installation Steps to get started with React,
+npx create-react-app project-name npm install react-router-dom # routing And one liner for material UI,
+npm install @mui/material @emotion/react @emotion/styled </description>
+      <content>&lt;h1 id=&#34;react&#34;&gt;React&lt;/h1&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Steps to get started with React,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx create-react-app project-name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install react-router-dom &lt;span style=&#34;color:#75715e&#34;&gt;# routing&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And one liner for material UI,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install @mui/material @emotion/react @emotion/styled
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
       <title>rss</title>
       <link>https://sharafat.is-a.dev/notes/rss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
