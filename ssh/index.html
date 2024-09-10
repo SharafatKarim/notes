@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>ssh :: Sharafat Karim | Notes</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SSH to connect to a remote server." />
+<meta name="keywords" content="notes" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://sharafat.is-a.dev/notes/ssh/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://sharafat.is-a.dev/notes/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="sharafat2004" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ssh">
+<meta property="og:description" content="SSH to connect to a remote server." />
+<meta property="og:url" content="https://sharafat.is-a.dev/notes/ssh/" />
+<meta property="og:site_name" content="Sharafat Karim | Notes" />
+
+  
+    <meta property="og:image" content="https://sharafat.is-a.dev/notes/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/notes">
+  <div class="logo">
+    Sharafat Karim | Notes
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="https://github.com/SharafatKarim/">GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/">My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes">Notes Repository</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="https://github.com/SharafatKarim/" >GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/" >My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes" >Notes Repository</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://sharafat.is-a.dev/notes/ssh/">ssh</a>
+  </h1>
+  <div class="post-meta"><span class="post-reading-time">1 Min read (51 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="ssh">SSH<a href="#ssh" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>SSH to connect to a remote server.</p>
+<h2 id="gui-method">GUI method?<a href="#gui-method" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Use <code>putty</code> for GUI method.</p>
+<ul>
+<li><a href="https://archlinux.org/packages/extra/x86_64/putty/">https://archlinux.org/packages/extra/x86_64/putty/</a></li>
+</ul>
+<h2 id="login-ssh-with-ppk-file-on-terminal">Login SSH with .ppk file on Terminal<a href="#login-ssh-with-ppk-file-on-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Convert your <code>.ppk</code> to <code>.pem</code> file using puttygen.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>puttygen JokerX_KEY_PAIR.ppk -O private-openssh -o JokerX_KEY_PAIR.pem
+</span></span></code></pre></div><p>Now, login to your server using the <code>.pem</code> file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -i JokerX_KEY_PAIR.pem
+</span></span></code></pre></div><h3 id="reference">Reference<a href="#reference" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<ul>
+<li><a href="https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal">https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal</a></li>
+</ul>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Creative common CC-0</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/notes/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
