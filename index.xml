@@ -805,6 +805,99 @@ Global networks https://www.zerotier.com/ </description>
     </item>
     
     <item>
+      <title>office</title>
+      <link>https://sharafat.is-a.dev/notes/office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/office/</guid>
+      <description>Office Basically Microsoft office!
+Get Office 365 The simplest way to get Office 365 running on your Windows (10/11) computer.
+Source https://github.com/NaeemBolchhi/Get-Office-365 Installation If Office was ever installed before,
+Uninstall Office with the App and Features option (a.k.a. Add or Remove Programs) in Windows settings. Run OfficeScrubber.cmd file from Office Scrubber by abbodi1406 and select [R] Remove all Licenses option. Restart your computer if you have completed the steps above.</description>
+      <content>&lt;h1 id=&#34;office&#34;&gt;Office&lt;/h1&gt;
+&lt;p&gt;Basically Microsoft office!&lt;/p&gt;
+&lt;h2 id=&#34;get-office-365&#34;&gt;Get Office 365&lt;/h2&gt;
+&lt;p&gt;The simplest way to get Office 365 running on your Windows (10/11) computer.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Source &lt;a href=&#34;https://github.com/NaeemBolchhi/Get-Office-365&#34;&gt;https://github.com/NaeemBolchhi/Get-Office-365&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If Office was ever installed before,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uninstall Office with the App and Features option (a.k.a. Add or Remove Programs) in Windows settings.&lt;/li&gt;
+&lt;li&gt;Run OfficeScrubber.cmd file from &lt;a href=&#34;https://github.com/abbodi1406/WHD/raw/master/scripts/OfficeScrubber_13.zip&#34;&gt;Office Scrubber&lt;/a&gt; by abbodi1406 and select [R] Remove all Licenses option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart your computer if you have completed the steps above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open Powershell, copy-paste the code below, and press Enter:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;irm https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//naeembolchhi.github.io/Get-Office-&lt;span style=&#34;color:#ae81ff&#34;&gt;365&lt;/span&gt;/GO365.ps1 | iex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This will now download and install Office 365 (Word, Excel, PowerPoint) on your computer automatically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;activation&#34;&gt;Activation&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can activate this Office installation with Massgrave&amp;rsquo;s popular script.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open Powershell, copy-paste the code below, and press Enter:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;irm https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//get.activated.win | iex
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Type &lt;code&gt;2&lt;/code&gt; and press Enter to start permanent Office activation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;alternative-method&#34;&gt;Alternative Method&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;If this process did not work for you, you can also try following my guide for an alternative method of Office 365 installation using Office Tool Plus.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@NaeemBolchhi/ebe7d6052434&#34;&gt;https://medium.com/@NaeemBolchhi/ebe7d6052434&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;credits&#34;&gt;Credits&lt;/h3&gt;
+&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Dev&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Contribution&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;@massgravel&lt;/td&gt;
+&lt;td&gt;For their amazing guide on this process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gravesoft.dev/office_c2r_custom&#34;&gt;https://gravesoft.dev/office_c2r_custom&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;@NaeemBolchhi (Me)&lt;/td&gt;
+&lt;td&gt;Offered a preconfigured Configuration.xml file and an easy-to-use one-liner for convenience.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+    <item>
       <title>offline</title>
       <link>https://sharafat.is-a.dev/notes/offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
