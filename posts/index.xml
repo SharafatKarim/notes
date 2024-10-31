@@ -8,6 +8,33 @@
     <language>en</language>
     <copyright>Creative common CC-0</copyright><atom:link href="https://sharafat.is-a.dev/notes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>archlinux</title>
+      <link>https://sharafat.is-a.dev/notes/archlinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/archlinux/</guid>
+      <description>ArchLinux An operating system that is based on Linux. It is a free and open-source software. It is a rolling release system. It is a lightweight and flexible operating system. It is a simple and easy to use operating system. It is a fast and efficient operating system. It is a secure and stable operating system. It is a powerful and customizable operating system. It is a reliable and robust operating system.</description>
+      <content>&lt;h1 id=&#34;archlinux&#34;&gt;ArchLinux&lt;/h1&gt;
+&lt;p&gt;An operating system that is based on Linux. It is a free and open-source software. It is a rolling release system. It is a lightweight and flexible operating system. It is a simple and easy to use operating system. It is a fast and efficient operating system. It is a secure and stable operating system. It is a powerful and customizable operating system. It is a reliable and robust operating system. It is a versatile and extensible operating system. It is a modern and up-to-date operating system. It is a user-friendly and intuitive operating system. It is a community-driven and collaborative operating system. It is a cutting-edge and innovative operating system. It is a feature-rich and comprehensive operating system. It is a high-performance and high-quality&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Follow these sites,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sharafat.pages.dev/archlinux-install/&#34;&gt;https://sharafat.pages.dev/archlinux-install/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sharafat.pages.dev/archlinux-post-install/&#34;&gt;https://sharafat.pages.dev/archlinux-post-install/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And don&amp;rsquo;t forget official wiki. It&amp;rsquo;s the best!&lt;/p&gt;
+&lt;h2 id=&#34;misc&#34;&gt;Misc&lt;/h2&gt;
+&lt;h3 id=&#34;avoid-signature-check&#34;&gt;Avoid signature check&lt;/h3&gt;
+&lt;p&gt;Go to &lt;code&gt;/etc/pacman.conf&lt;/code&gt; and edit the following &lt;code&gt;SigLevel&lt;/code&gt; to &lt;code&gt;Never&lt;/code&gt;,&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-conf&#34; data-lang=&#34;conf&#34;&gt;SigLevel = Never
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;docker-image&#34;&gt;Docker image&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Link to the docker image: &lt;a href=&#34;https://hub.docker.com/_/archlinux&#34;&gt;https://hub.docker.com/_/archlinux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>bash</title>
       <link>https://sharafat.is-a.dev/notes/bash/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
