@@ -31,6 +31,10 @@
 &lt;ul&gt;
 &lt;li&gt;Link to the docker image: &lt;a href=&#34;https://hub.docker.com/_/archlinux&#34;&gt;https://hub.docker.com/_/archlinux&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Must keep an eye on the following line!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️⚠️⚠️ NOTE: For Security Reasons, these images strip the pacman lsign key. This is because the same key would be spread to all containers of the same image, allowing for malicious actors to inject packages (via, for example, a man-in-the-middle). In order to create a lsign-key run &lt;code&gt;pacman-key --init&lt;/code&gt; on the first execution, but be careful to not redistribute that key. ⚠️⚠️⚠️&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
     </item>
     
