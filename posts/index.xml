@@ -14,7 +14,7 @@
       
       <guid>https://sharafat.is-a.dev/notes/archlinux/</guid>
       <description>ArchLinux An operating system that is based on Linux. It is a free and open-source software. It is a rolling release system. It is a lightweight and flexible operating system. It is a simple and easy to use operating system. It is a fast and efficient operating system. It is a secure and stable operating system. It is a powerful and customizable operating system. It is a reliable and robust operating system.</description>
-      <content>&lt;h1 id=&#34;archlinux&#34;&gt;ArchLinux&lt;/h1&gt;
+      <content>&lt;h2 id=&#34;archlinux&#34;&gt;ArchLinux&lt;/h2&gt;
 &lt;p&gt;An operating system that is based on Linux. It is a free and open-source software. It is a rolling release system. It is a lightweight and flexible operating system. It is a simple and easy to use operating system. It is a fast and efficient operating system. It is a secure and stable operating system. It is a powerful and customizable operating system. It is a reliable and robust operating system. It is a versatile and extensible operating system. It is a modern and up-to-date operating system. It is a user-friendly and intuitive operating system. It is a community-driven and collaborative operating system. It is a cutting-edge and innovative operating system. It is a feature-rich and comprehensive operating system. It is a high-performance and high-quality&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Follow these sites,&lt;/p&gt;
@@ -855,6 +855,27 @@ reboot করতে পারেন।
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WantedBy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So good luck!&lt;/p&gt;
 </content>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://sharafat.is-a.dev/notes/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/mysql/</guid>
+      <description>My SQL Installation Docker Pull the image from the docker hub docker pull mysql or, using podman?
+podman pull mysql ``` </description>
+      <content>&lt;h1 id=&#34;my-sql&#34;&gt;My SQL&lt;/h1&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pull the image from the docker hub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker pull mysql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or, using podman?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  podman pull mysql
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;```&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
     <item>
