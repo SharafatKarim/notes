@@ -46,4 +46,6 @@ docker exec -it container_name bash
 ```bash
 mysql -u root -p
 ```
+## Troubleshooting
 
+- <https://stackoverflow.com/questions/41645309/mysql-error-access-denied-for-user-rootlocalhost>
