@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>storages :: Sharafat Karim | Notes</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="storage কি? হয়তো হবে কিছু একটা যেটা আমাদের তথ্য রাখে।" />
+<meta name="keywords" content="notes" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://sharafat.is-a.dev/notes/storages/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://sharafat.is-a.dev/notes/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="sharafat2004" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="storages">
+<meta property="og:description" content="storage কি? হয়তো হবে কিছু একটা যেটা আমাদের তথ্য রাখে।" />
+<meta property="og:url" content="https://sharafat.is-a.dev/notes/storages/" />
+<meta property="og:site_name" content="Sharafat Karim | Notes" />
+
+  
+    <meta property="og:image" content="https://sharafat.is-a.dev/notes/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/notes">
+  <div class="logo">
+    Sharafat Karim | Notes
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="https://github.com/SharafatKarim/">GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/">My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes">Notes Repository</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="https://github.com/SharafatKarim/" >GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/" >My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes" >Notes Repository</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://sharafat.is-a.dev/notes/storages/">storages</a>
+  </h1>
+  <div class="post-meta"><span class="post-reading-time">3 Min read (496 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="storages-and-storage-drivers">Storages and Storage Drivers<a href="#storages-and-storage-drivers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>storage কি? হয়তো হবে কিছু একটা যেটা আমাদের তথ্য রাখে।</p>
+<p>এখন প্রশ্নটা হলো প্রকারভেদ নিয়ে।
+storage দুই প্রকার,</p>
+<ul>
+<li>primary (বেশী পরিমানে read write হয়। অর্থাৎ সবসময় CPU এর সাথে যোগাযোগ active)</li>
+<li>আর secondary storage (সবসময় read, write করার প্রয়োজন নেই)</li>
+</ul>
+<blockquote>
+<p>ভাবছি ইন্টারনেটে তো না জানি কতো website কতো ভাবে classify করা হয়েছে। যাহোক এ নিয়ে আমার মাথাব্যাথা নেই। আমি একটা সাধারণ ভাবে লেখছি।</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>ধরণ</th>
+<th>উদাহারণ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>primary</td>
+<td>RAM, ROM, cache, register</td>
+</tr>
+<tr>
+<td>secondary</td>
+<td>HDD, SSD, optical, cloud, hybrid</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="primary-storage">Primary Storage<a href="#primary-storage" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>[1] RAM = random access memory। volatile = ভুলে যায়। ডেটা ইচ্ছামতো read/ write করা যায়। তবে যদি পিসি বন্ধ হয়ে যায়, সব ডেটা হারিয়ে যায়।</p>
+<p>[2] ROM = read only memory। যারা মনে করছেন যে ROM আর SSD এবং HDD কখনোই এক না, android আর iphone এ একটু কাহিনী আছে যার কারণে সবাই এক জিনিষ মনে করে। একটু বিস্তারিত লিখছি,</p>
+<p>ROM হলো non-volatile, অর্থাৎ ভুলবে না। পিসি বন্ধ হয়ে গেলেও ডেটা অক্ষুন্ন থাকবে। এর ভিতরে মূলত BIOS/ UEFI firmware থাকে। এর ভেতরে boot loader এবং init system এর লোকেশন লেখা থাকে। যেমন হার্ড ডিস্কের কোন জায়গায় আমাদের operating system টা আছে। এটা দুটো অপারেশন চালায়,</p>
+<ul>
+<li>ram, CPU, GPU সব ঠিকমতো আছে কিনা সেটা প্রথমে পরীক্ষা করে</li>
+<li>দ্বিতীয়ত OS load করে</li>
+</ul>
+<p>আগেরকার system এ 4 KB থেকে 1 MB এর মতো থাকতো। বর্তমানে 16-32 MB এর মতো হয় সাইজ।</p>
+<blockquote>
+<p>android এর ক্ষেত্রে java VM (JVM) এর /mnt ব্যতীত বাকি সব path এর ডেটা কখনোই পরিবর্তন হয় না। তাই আমরা মোবাইলের দোকানে storage বলতে ROM কে ব্যবহার করতে দেখি, কিন্তু ROM কখনোই storage না।</p>
+</blockquote>
+<p>[3] register = CPU এর ভেতর থাকে। এই অংশ পুরোটাই CPU নিয়ন্ত্রণ করে। একসময় c program দিয়ে এটা মোডিফাই করা যেতো, কিন্তু এখন যায় না। এই অংশটা RAM এর চাইতে বহুগুণে fast কারণ এর অবস্থান CPU এর ভেতরে। সাধারণত 6 MB এর আশেপাশে cache memory থাকে আমাদের laptop গুলোতে।</p>
+<p>processor এর যেসব ডেটা প্রতিনিয়ত দরকার হয়, এসব তথ্য এখানে রাখা হয়। তারপর তাপমাত্রার sensor এর ব্যাপারগুলো এখানে নিয়ন্ত্রণ করা হয়।</p>
+<p>[4] cache = CPU এর পাশেই মাদারবোর্ড এ থাকে। অনেকটা RAM আর CPU এর bridge এর মতো কাজ করে। এটার আকার registor থেকে কিছুটা বেশী ডেটা রাখতে পারে।</p>
+<hr>
+<h2 id="secondary-storage">Secondary Storage<a href="#secondary-storage" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>[1] SSD = solid state drive। হার্ডডিস্কের মতোই, কিন্তু অনেক বেশী fast। এটা একটা chip এর মধ্যে অনেকগুলো memory card বসিয়ে তৈরি করা হয়  মূলত এই কারণে এতো বেশী গতি। গতি 500-3500 MBps। এখন মনে হয় আরো বেশী। গুগল করে দেখুন একটু।</p>
+<p>[2] HHD = hard disk drive. এটা SSD এর আগের জেনারেশন। এখানে তথ্য রাখা হয় elelctromegnatic একটা plate এর মতো register দিয়ে। youtube এ simulation video পাবেন। চাইলে দেখতে পারেন। গতি 100-400 MBPS হয়থো। আমার আগের potato পিসিতে 123 mbps ছিলো যতদূর মনে পড়ে।</p>
+<p>[3] optical = CD/ DVD। এই আমলে চল নেই, যদিও ছোটবেলায় ব্যবহার করছি অনেক 😅।
+[4] cloud = SAAS লিখে গুগল করেন। খুব সুন্দর একটা উদাহারণ google drive, telegram
+[5] hybrid = যখন SSD/ HDD একসাথে ব্যবহার করা হয়</p>
+<blockquote>
+<p>আরো কনফিউসন থাকলে একটু গুগল করে দেখুন, বা জিজ্ঞাসা করুন। কেননা সব আমি কভার করি নি।</p>
+</blockquote>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Creative common CC-0</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/notes/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
