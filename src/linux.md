@@ -105,7 +105,28 @@ Here's a kool link,
 
 - <https://bbs.archlinux.org/viewtopic.php?id=273039>
 
-And a sample systemd file,
+### Bash Script
+
+A systemd service will run the script `/usr/local/bin/reset-input-devices.sh` after waking from sleep. What will be inside the script? Here's a demo,
+
+```bash
+# Reset the keyboard driver and USB mouse
+
+rmmod usbhid
+modprobe usbhid
+echo "Finished resetting the keyboard."
+```
+
+Since it has to be run as root, you should be careful with permissions, i.e.:
+
+```bash
+sudo chown root:root reset-input-devices.sh
+sudo chmod 744 reset-input-devices.sh
+```
+
+### Systemd service
+
+And a sample systemd file, located at `/etc/systemd/system/reset-input-devices.service`,
 
 ```bash
 # This service is used to work around an apparent bug that freezes
@@ -123,4 +144,8 @@ CPUWeight=500
 WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
 ```
 
-So good luck!
+Then enable the service so that it is ready to respond to a return-from-suspend event both now and after every new boot:
+
+```bash
+systemctl enable --now reset-input-devices-after-sleep.service
+```
