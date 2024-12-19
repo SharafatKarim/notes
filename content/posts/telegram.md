@@ -19,6 +19,9 @@ Full collection here,
 - [Bot Archieve Channel](https://t.me/BotsArchive)
 - [Bot Archieve Website](https://botsarchive.com/)
 
+> বাংলায় লেখা কয়েকটা বটের কাজ নিয়ে লেখা একটা সুন্দর আলোচনা,
+> - <https://telegra.ph/Useful-Telebot-01-26>
+
 ### Bots Collection
 
 BTW, these are just usernames, you can search them in the search bar of telegram.
