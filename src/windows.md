@@ -11,6 +11,18 @@ Some windowsy stuffs!
 - <https://massgrave.dev/>
 - <https://github.com/massgravel/Microsoft-Activation-Scripts>
 
+## Check license status
+
+```shell
+slmgr /xpr
+```
+
+or,
+
+```shell
+slmgr /dli
+```
+
 ### tldr
 
 Open powershell as administrator and execute,
