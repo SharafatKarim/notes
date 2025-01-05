@@ -1938,7 +1938,8 @@ But before using license don&amp;rsquo;t forget the above new command.&lt;/p&gt;
       
       <guid>https://sharafat.is-a.dev/notes/windows/</guid>
       <description>Windows Some windowsy stuffs!
-ISO https://gravesoft.dev/ Activation https://massgrave.dev/ https://github.com/massgravel/Microsoft-Activation-Scripts tldr Open powershell as administrator and execute,
+ISO https://gravesoft.dev/ Activation https://massgrave.dev/ https://github.com/massgravel/Microsoft-Activation-Scripts Check license status slmgr /xpr or,
+slmgr /dli tldr Open powershell as administrator and execute,
 irm https://get.activated.win | iex Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.
 powercfg /availablesleepstates </description>
       <content>&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
@@ -1952,7 +1953,11 @@ powercfg /availablesleepstates </description>
 &lt;li&gt;&lt;a href=&#34;https://massgrave.dev/&#34;&gt;https://massgrave.dev/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/massgravel/Microsoft-Activation-Scripts&#34;&gt;https://github.com/massgravel/Microsoft-Activation-Scripts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tldr&#34;&gt;tldr&lt;/h3&gt;
+&lt;h2 id=&#34;check-license-status&#34;&gt;Check license status&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;slmgr /xpr
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;slmgr /dli
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;tldr&#34;&gt;tldr&lt;/h3&gt;
 &lt;p&gt;Open powershell as administrator and execute,&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;irm https://get.activated.win | iex
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
