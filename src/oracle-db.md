@@ -30,7 +30,7 @@ To get the full image:
 podman pull container-registry.oracle.com/database/free:latest
 ```
 
-And to be honest, it's a huge image around 9.48 G. So, I will recommend the lite version.
+And to be honest, it's a huge image around 9.48 G. So, I will recommend the lite version. It may take upto 2 G.
 
 ```bash
 podman pull container-registry.oracle.com/database/free:23.5.0.0-lite
