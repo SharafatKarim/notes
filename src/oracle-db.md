@@ -108,5 +108,27 @@ Let's use vscode. Simply install the following extension,
 > Or, Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 >
 > `ext install Oracle.sql-developer`
+>
+> The size of this extension is more than 300 M, so it'll take a bit of time.
 
-And 
+- Now on our left/ right toolbar, you will find a icon, and maybe try to add a new connection? You will asked to fill up a form.
+
+- For the port number try to use the one you got from `podman port oracle-db`.
+
+- For the username, use `system`.
+
+- And for the password, use the one you set in the previous steps.
+
+- For the service name, it should be `FREE`. Or you can use the following code in `sqlplus` to get the service name,
+
+```sql
+SELECT VALUE 
+FROM V$PARAMETER 
+WHERE NAME = 'service_names';
+```
+
+```bash
+podman exec -it oracle-db bash -c "echo $ORACLE_SID"
+```
+
+And you are good to go!
