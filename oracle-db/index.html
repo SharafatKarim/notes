@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>oracle-db :: Sharafat Karim | Notes</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mainly I will be focusing linux, but will work on mac as well with same commands." />
+<meta name="keywords" content="notes" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://sharafat.is-a.dev/notes/oracle-db/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://sharafat.is-a.dev/notes/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="sharafat2004" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="oracle-db">
+<meta property="og:description" content="Mainly I will be focusing linux, but will work on mac as well with same commands." />
+<meta property="og:url" content="https://sharafat.is-a.dev/notes/oracle-db/" />
+<meta property="og:site_name" content="Sharafat Karim | Notes" />
+
+  
+    <meta property="og:image" content="https://sharafat.is-a.dev/notes/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/notes">
+  <div class="logo">
+    Sharafat Karim | Notes
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="https://github.com/SharafatKarim/">GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/">My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes">Notes Repository</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="https://github.com/SharafatKarim/" >GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/" >My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes" >Notes Repository</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://sharafat.is-a.dev/notes/oracle-db/">oracle-db</a>
+  </h1>
+  <div class="post-meta"><span class="post-reading-time">2 Min read (405 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="oracle-database">Oracle Database<a href="#oracle-database" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h2 id="installation">Installation<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Mainly I will be focusing linux, but will work on mac as well with same commands.</p>
+<blockquote>
+<p>For windows? You can download the installer from the official website and follow the instructions.</p>
+<ul>
+<li><a href="https://www.oracle.com/database/technologies/xe-downloads.html">https://www.oracle.com/database/technologies/xe-downloads.html</a></li>
+</ul>
+</blockquote>
+<h3 id="setup-a-container">Setup a container<a href="#setup-a-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Docker and podman are the two most popular containerization tools. I will be using podman for this, and I will recommend podman as well. Why? Maybe I will write a blog on this later.</p>
+<p>Whatever, let&rsquo;s install podman! You can follow the official documentation for this. I guess most of the major linux distributions have podman in their official repositories.</p>
+<p>Like, for Arch Linux:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S podman
+</span></span></code></pre></div><h3 id="pull-the-image">Pull the image<a href="#pull-the-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>There are mainly two images available for free, full and lite.</p>
+<p>To get the full image:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pull container-registry.oracle.com/database/free:latest
+</span></span></code></pre></div><p>And to be honest, it&rsquo;s a huge image around 9.48 G. So, I will recommend the lite version.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pull container-registry.oracle.com/database/free:23.5.0.0-lite
+</span></span></code></pre></div><h3 id="run-the-container">Run the container<a href="#run-the-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Now let&rsquo;s go ahead and actually run the container.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run -d -p 1521:1521 --name oracle-db container-registry.oracle.com/database/free:23.5.0.0-lite
+</span></span></code></pre></div><p>Here, I have used the lite version of the image. You can use the full version as well. Just replace the image name.
+And the port <code>1521</code> is the default port for Oracle Database. You can change it if you want.</p>
+<blockquote>
+<p>Flag <code>-d</code> is used to run the container in the background.
+Flag <code>-p</code> is used to map the host port to the container port.
+Flag <code>--name</code> is used to give a name to the container. (Try to remember it!)</p>
+</blockquote>
+<h3 id="set-a-password">Set a password<a href="#set-a-password" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Here I have used <code>1234</code> as the password. You can use whatever you want.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman exec -it oracle-db ./setPassword.sh <span style="color:#ae81ff">1234</span>
+</span></span></code></pre></div><h3 id="connect-to-the-database">Connect to the database<a href="#connect-to-the-database" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>You can use any database client to connect to the database. I will be using SQL*Plus.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman exec -it oracle-db sqlplus
+</span></span></code></pre></div><p>And then enter the following details:</p>
+<ul>
+<li>Username: <code>system</code></li>
+<li>Password: <code>1234</code> (Or the one you set in the previous step!)</li>
+</ul>
+<h3 id="stop-the-container">Stop the container<a href="#stop-the-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman stop oracle-db
+</span></span></code></pre></div><h3 id="start-the-container">Start the container<a href="#start-the-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman start oracle-db
+</span></span></code></pre></div><blockquote>
+<p>You may need to start the container if you have restarted your system!</p>
+</blockquote>
+<h2 id="misc">Misc<a href="#misc" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="port-address">Port address<a href="#port-address" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To get your outgoing forwarded port from podman, use the following,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman port oracle-db     
+</span></span></code></pre></div><h2 id="integration">Integration<a href="#integration" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="vscode">VSCODE<a href="#vscode" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>It would be weird if we have to use terminal everytime we want to access our database, right?
+Let&rsquo;s use vscode. Simply install the following extension,</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer">https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer</a></li>
+</ul>
+<blockquote>
+<p>Or, Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.</p>
+<p><code>ext install Oracle.sql-developer</code></p>
+</blockquote>
+<p>And</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Creative common CC-0</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/notes/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
