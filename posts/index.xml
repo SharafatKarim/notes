@@ -1094,7 +1094,7 @@ https://www.oracle.com/database/technologies/xe-downloads.html Setup a container
 &lt;p&gt;There are mainly two images available for free, full and lite.&lt;/p&gt;
 &lt;p&gt;To get the full image:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;podman pull container-registry.oracle.com/database/free:latest
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And to be honest, it&amp;rsquo;s a huge image around 9.48 G. So, I will recommend the lite version.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And to be honest, it&amp;rsquo;s a huge image around 9.48 G. So, I will recommend the lite version. It may take upto 2 G.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;podman pull container-registry.oracle.com/database/free:23.5.0.0-lite
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;run-the-container&#34;&gt;Run the container&lt;/h3&gt;
 &lt;p&gt;Now let&amp;rsquo;s go ahead and actually run the container.&lt;/p&gt;
