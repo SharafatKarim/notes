@@ -127,8 +127,4 @@ FROM V$PARAMETER
 WHERE NAME = 'service_names';
 ```
 
-```bash
-podman exec -it oracle-db bash -c "echo $ORACLE_SID"
-```
-
 And you are good to go!
