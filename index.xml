@@ -895,6 +895,27 @@ reboot করতে পারেন।
     </item>
     
     <item>
+      <title>mongodb</title>
+      <link>https://sharafat.is-a.dev/notes/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/mongodb/</guid>
+      <description>mongodb A moment with mongoimport First of all docs link,
+https://www.mongodb.com/developer/products/mongodb/mongoimport-guide/ So, my command was like,
+mongoimport --uri &amp;#39;mongodb+srv://sharafat:somethign@cluster0.something.mongodb.net/pstu_student_db?retryWrites=true&amp;amp;w=majority&amp;amp;appName=Cluster0&amp;#39; --collection=&amp;#39;students&amp;#39; --file=input.csv --type=csv --fieldFile=field.txt Preety kool, right?</description>
+      <content>&lt;h1 id=&#34;mongodb&#34;&gt;mongodb&lt;/h1&gt;
+&lt;h2 id=&#34;a-moment-with-mongoimport&#34;&gt;A moment with mongoimport&lt;/h2&gt;
+&lt;p&gt;First of all docs link,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mongodb.com/developer/products/mongodb/mongoimport-guide/&#34;&gt;https://www.mongodb.com/developer/products/mongodb/mongoimport-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, my command was like,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mongoimport --uri &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mongodb+srv://sharafat:somethign@cluster0.something.mongodb.net/pstu_student_db?retryWrites=true&amp;amp;w=majority&amp;amp;appName=Cluster0&amp;#39;&lt;/span&gt; --collection&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;students&amp;#39;&lt;/span&gt; --file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;input.csv --type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;csv --fieldFile&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;field.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Preety kool, right?&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>mysql</title>
       <link>https://sharafat.is-a.dev/notes/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
