@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="- Pull the image from the docker hub" />
+<meta name="description" content="MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major linux distributions come with maria db preinstalled, which is an open source drop in replace ment for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems," />
 <meta name="keywords" content="notes" />
 
   <meta name="robots" content="noodp" />
@@ -48,7 +48,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="mysql">
-<meta property="og:description" content="- Pull the image from the docker hub" />
+<meta property="og:description" content="MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major linux distributions come with maria db preinstalled, which is an open source drop in replace ment for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems," />
 <meta property="og:url" content="https://sharafat.is-a.dev/notes/mysql/" />
 <meta property="og:site_name" content="Sharafat Karim | Notes" />
 
@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/mysql/">mysql</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">2 Min read (265 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">4 Min read (835 words)</span></div>
 
   
   
@@ -155,8 +155,53 @@
 
   <div class="post-content"><div>
         <h1 id="my-sql">My SQL<a href="#my-sql" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
-<h2 id="installation">Installation<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<h3 id="docker">Docker<a href="#docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major linux distributions come with maria db preinstalled, which is an open source drop in replace ment for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems,</p>
+<h2 id="xampp">XAMPP<a href="#xampp" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Xampp is a popular tool which is an open source cross-platform web server solution stack package developed by Apache friends. It can be installed via the official website’s installer. Here a <code>.run</code> file will be downloaded which can be installed by executing from a terminal. But it is not recommended to install in this way.
+The most recommended way is to search for a similar package in distros native package manager. For example, in Arch Linux the package is available through AUR (Arch User Repository). Here’s the git-clone URL,</p>
+<ul>
+<li><a href="https://aur.archlinux.org/packages/xampp">https://aur.archlinux.org/packages/xampp</a></li>
+</ul>
+<p>To install it, we can use a AUR wrapper like <code>yay</code>. To do so, use the following command to query and install the latest version of <code>xampp</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yay xampp
+</span></span></code></pre></div><p>After installing open the app, head over to the second tab and start database and web server. Web UI will be available under <code>localhost</code>.</p>
+<h2 id="podman-container">Podman Container<a href="#podman-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>One another good way to install MySQL is to use a podman or docker container. I personally prefer podman so I will be writing about it. Installing a container running only MySQL is pretty much easy. We just have to grub the image and run it in a container. It’s volume will be created automatically. Or if we also want to include a phpmyadmin web app to manage our image then we actually have to use a pod to contain two different containers.</p>
+<h3 id="mysql-image">MySQL image<a href="#mysql-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To setting up MySQL image, we can pull it from dockerhub. The command will be like,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pull mysql
+</span></span></code></pre></div><p>then, we can start and run our image with the following command,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD<span style="color:#f92672">=</span>tree --name mysql-db mysql:latest
+</span></span></code></pre></div><p>Here our root password is defined as tree by the environement variable <code>MYSQL_ROOT_PASSWORD</code>.
+And if we try to do list running process we can execute,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman ps
+</span></span></code></pre></div><p>It will see our image up and running. Now let’s actually enter to our server!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman exec -it mysql-db mysql -u root -p
+</span></span></code></pre></div><p>Let’s run a command to verify,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>show databases;
+</span></span></code></pre></div><p>It’ll list all databases.
+Now with <code>localhost:3306</code> you can access this database from mysql workbench or other clients.</p>
+<h3 id="phpmyadmin-image">Phpmyadmin image<a href="#phpmyadmin-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Phpmyadmin is a web UI for managing MySQL databases. Let’s pull it first,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>- podman pull phpmyadmin
+</span></span></code></pre></div><p>Now if run this image we won’t be able to access another image (MySQL) because there’s no connection in between them. So we will be using podman pod. Let’s create a podman pod,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pod create --name mysql -p 8080:8080 3306:3306
+</span></span></code></pre></div><p>If we have previously created an image as per this guide and that is up and running, try the follwing command to stop and delete,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pod create --name mysql <span style="color:#f92672">&amp;&amp;</span> podman rm mysql-db
+</span></span></code></pre></div><p>Now let’s start our mysql server under this pod,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run -d -e MYSQL_ROOT_PASSWORD<span style="color:#f92672">=</span>tree --pod mysql --name mysql-db mysql:latest
+</span></span></code></pre></div><p>And finally let’s open our phpmyadmin with this pod,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run --name phpmyadmin -e PMA_ARBITRARY<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> -d --pod mysql phpmyadmin
+</span></span></code></pre></div><p>It will be availabe under port 8080, as like we defined earlier. So let’s head over to,</p>
+<ul>
+<li><a href="http://localhost:8080/">http://localhost:8080/</a></li>
+</ul>
+<p>Here, our,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Server = localhost:3306
+</span></span><span style="display:flex;"><span>Username = root
+</span></span><span style="display:flex;"><span>Password = tree
+</span></span><span style="display:flex;"><span>This can be also done graphically with the help of podman desktop.
+</span></span></code></pre></div><h3 id="docker">Docker<a href="#docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <ul>
 <li>Pull the image from the docker hub</li>
 </ul>
