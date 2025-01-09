@@ -67,7 +67,7 @@ Now with `localhost:3306` you can access this database from mysql workbench or o
 Phpmyadmin is a web UI for managing MySQL databases. Let’s pull it first,
 
 ```bash
-- podman pull phpmyadmin
+podman pull phpmyadmin
 ```
 
 Now if run this image we won’t be able to access another image (MySQL) because there’s no connection in between them. So we will be using podman pod. Let’s create a podman pod,
@@ -79,7 +79,7 @@ podman pod create --name mysql -p 8080:8080 3306:3306
 If we have previously created an image as per this guide and that is up and running, try the follwing command to stop and delete,
 
 ```bash
-podman pod create --name mysql && podman rm mysql-db
+podman stop mysql-db && podman rm mysql-db
 ```
 
 Now let’s start our mysql server under this pod,
