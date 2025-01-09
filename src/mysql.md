@@ -100,7 +100,7 @@ Here, our,
 Server = localhost:3306
 Username = root
 Password = tree
-This can be also done graphically with the help of podman desktop.
+This can be also done graphically with the help of `podman desktop`.
 ```
 
 ### Docker
