@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/mysql/">mysql</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">4 Min read (835 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">4 Min read (832 words)</span></div>
 
   
   
@@ -183,11 +183,11 @@ And if we try to do list running process we can execute,</p>
 Now with <code>localhost:3306</code> you can access this database from mysql workbench or other clients.</p>
 <h3 id="phpmyadmin-image">Phpmyadmin image<a href="#phpmyadmin-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p>Phpmyadmin is a web UI for managing MySQL databases. Let’s pull it first,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>- podman pull phpmyadmin
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pull phpmyadmin
 </span></span></code></pre></div><p>Now if run this image we won’t be able to access another image (MySQL) because there’s no connection in between them. So we will be using podman pod. Let’s create a podman pod,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pod create --name mysql -p 8080:8080 3306:3306
 </span></span></code></pre></div><p>If we have previously created an image as per this guide and that is up and running, try the follwing command to stop and delete,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman pod create --name mysql <span style="color:#f92672">&amp;&amp;</span> podman rm mysql-db
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman stop mysql-db <span style="color:#f92672">&amp;&amp;</span> podman rm mysql-db
 </span></span></code></pre></div><p>Now let’s start our mysql server under this pod,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run -d -e MYSQL_ROOT_PASSWORD<span style="color:#f92672">=</span>tree --pod mysql --name mysql-db mysql:latest
 </span></span></code></pre></div><p>And finally let’s open our phpmyadmin with this pod,</p>
