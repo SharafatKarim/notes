@@ -895,6 +895,23 @@ reboot করতে পারেন।
     </item>
     
     <item>
+      <title>mail</title>
+      <link>https://sharafat.is-a.dev/notes/mail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/mail/</guid>
+      <description>Mail Things related with mails.
+Hosting Zoho Mail: Free for 5 users, 5GB/user. </description>
+      <content>&lt;h1 id=&#34;mail&#34;&gt;Mail&lt;/h1&gt;
+&lt;p&gt;Things related with mails.&lt;/p&gt;
+&lt;h2 id=&#34;hosting&#34;&gt;Hosting&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zoho.com/mail/&#34;&gt;Zoho Mail&lt;/a&gt;: Free for 5 users, 5GB/user.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>mongodb</title>
       <link>https://sharafat.is-a.dev/notes/mongodb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
