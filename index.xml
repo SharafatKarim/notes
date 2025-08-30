@@ -13,15 +13,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/adb/</guid>
-      <description>Adb Pair Use the following, to pair first,
+      <description>Adb Pair &amp;amp; Connect Use the following, to pair first,
 adb pair ipaddr:port Then use the following command to connect:
-adb connect ipaddr:port </description>
+adb connect ipaddr:port Use the following to list them out,
+adb devices -l Mirror adb shell screenrecord --bit-rate 8000000 --size 1280x720 --time-limit 180 /sdcard/video.mp4 </description>
       <content>&lt;h1 id=&#34;adb&#34;&gt;Adb&lt;/h1&gt;
-&lt;h2 id=&#34;pair&#34;&gt;Pair&lt;/h2&gt;
+&lt;h2 id=&#34;pair--connect&#34;&gt;Pair &amp;amp; Connect&lt;/h2&gt;
 &lt;p&gt;Use the following, to pair first,&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adb pair ipaddr:port
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then use the following command to connect:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adb connect ipaddr:port
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Use the following to list them out,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adb devices -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;mirror&#34;&gt;Mirror&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adb shell screenrecord --bit-rate &lt;span style=&#34;color:#ae81ff&#34;&gt;8000000&lt;/span&gt; --size 1280x720 --time-limit &lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt; /sdcard/video.mp4
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     

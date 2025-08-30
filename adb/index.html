@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/adb/">adb</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">1 Min read (21 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">1 Min read (44 words)</span></div>
 
   
   
@@ -155,11 +155,15 @@
 
   <div class="post-content"><div>
         <h1 id="adb">Adb<a href="#adb" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
-<h2 id="pair">Pair<a href="#pair" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="pair--connect">Pair &amp; Connect<a href="#pair--connect" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Use the following, to pair first,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>adb pair ipaddr:port
 </span></span></code></pre></div><p>Then use the following command to connect:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>adb connect ipaddr:port
+</span></span></code></pre></div><p>Use the following to list them out,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>adb devices -l
+</span></span></code></pre></div><h2 id="mirror">Mirror<a href="#mirror" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>adb shell screenrecord --bit-rate <span style="color:#ae81ff">8000000</span> --size 1280x720 --time-limit <span style="color:#ae81ff">180</span> /sdcard/video.mp4
 </span></span></code></pre></div>
       </div></div>
 
