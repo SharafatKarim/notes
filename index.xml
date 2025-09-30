@@ -914,7 +914,8 @@ An example, to add &lt;code&gt;tlauncher&lt;/code&gt;:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X-KDE-SubstituteUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X-KDE-Username&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;\&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;You may need to set executable permission to the &lt;code&gt;.desktop&lt;/code&gt; file.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
