@@ -64,7 +64,7 @@ Type=Application
 X-KDE-SubstituteUID=false
 X-KDE-Username=
 ```
-
+\
 > You may need to set executable permission to the `.desktop` file.
 
 ## Battery
