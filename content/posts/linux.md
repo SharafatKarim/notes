@@ -12,6 +12,10 @@ description = "- [HW Probe](https://linux-hardware.org/?probe=c2bd74626f)"
 - [HW Probe](https://linux-hardware.org/?probe=c2bd74626f)
 - [Blender benchmark](https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/)
 
+### Arafats
+
+- [HW Probe](https://linux-hardware.org/?probe=018ab46a65)
+
 ## Autostart
 
 directory (user) = `~/.config/autostart/`
@@ -154,4 +158,10 @@ Then enable the service so that it is ready to respond to a return-from-suspend 
 ```bash
 systemctl enable --now reset-input-devices-after-sleep.service
 ```
+## HW-Probe
 
+Install `libxcrypt-compat` first if you are on Arch based distro. Then use appimage or whatever you may feel like :)
+
+```bash
+sudo hw-probe -all -upload
+```
