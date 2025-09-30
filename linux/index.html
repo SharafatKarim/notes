@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/linux/">linux</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">3 Min read (551 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">3 Min read (579 words)</span></div>
 
   
   
@@ -160,6 +160,10 @@
 <ul>
 <li><a href="https://linux-hardware.org/?probe=c2bd74626f">HW Probe</a></li>
 <li><a href="https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/">Blender benchmark</a></li>
+</ul>
+<h3 id="arafats">Arafats<a href="#arafats" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<ul>
+<li><a href="https://linux-hardware.org/?probe=018ab46a65">HW Probe</a></li>
 </ul>
 <h2 id="autostart">Autostart<a href="#autostart" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>directory (user) = <code>~/.config/autostart/</code>
@@ -260,6 +264,9 @@ reboot করতে পারেন।
 </span></span><span style="display:flex;"><span>WantedBy<span style="color:#f92672">=</span>suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
 </span></span></code></pre></div><p>Then enable the service so that it is ready to respond to a return-from-suspend event both now and after every new boot:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl enable --now reset-input-devices-after-sleep.service
+</span></span></code></pre></div><h2 id="hw-probe">HW-Probe<a href="#hw-probe" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Install <code>libxcrypt-compat</code> first if you are on Arch based distro. Then use appimage or whatever you may feel like :)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo hw-probe -all -upload
 </span></span></code></pre></div>
       </div></div>
 

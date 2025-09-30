@@ -858,15 +858,19 @@ In vscode, it should work out of the box with, LaTeX Workshop extension. But for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/linux/</guid>
-      <description>Linux Personal reports Silvermoon HW Probe Blender benchmark Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
+      <description>Linux Personal reports Silvermoon HW Probe Blender benchmark Arafats HW Probe Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
 To remove autostart for a program, delete the .desktop file in the appropriate directory. To hide system autostart programs, copy the .desktop file to the user directory and add Hidden=true to the file. An example, to hide octopi-notifier.desktop:
-[Desktop Entry] Name=Octopi Notifier Icon=octopi Exec=/usr/bin/octopi-notifier Terminal=false Type=Application Categories=GNOME;GTK;System; #NotShowIn=GNOME;XFCE;LXDE;KDE; StartupNotify=true X-LXQt-Need-Tray=true Version=1.5 SingleMainWindow=true Hidden=true Desktop Entry Desktop entry directory (user) = ~/.</description>
+[Desktop Entry] Name=Octopi Notifier Icon=octopi Exec=/usr/bin/octopi-notifier Terminal=false Type=Application Categories=GNOME;GTK;System; #NotShowIn=GNOME;XFCE;LXDE;KDE; StartupNotify=true X-LXQt-Need-Tray=true Version=1.</description>
       <content>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
 &lt;h2 id=&#34;personal-reports&#34;&gt;Personal reports&lt;/h2&gt;
 &lt;h3 id=&#34;silvermoon&#34;&gt;Silvermoon&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=c2bd74626f&#34;&gt;HW Probe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/&#34;&gt;Blender benchmark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;arafats&#34;&gt;Arafats&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=018ab46a65&#34;&gt;HW Probe&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;autostart&#34;&gt;Autostart&lt;/h2&gt;
 &lt;p&gt;directory (user) = &lt;code&gt;~/.config/autostart/&lt;/code&gt;
@@ -967,6 +971,9 @@ reboot করতে পারেন।
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WantedBy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then enable the service so that it is ready to respond to a return-from-suspend event both now and after every new boot:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;systemctl enable --now reset-input-devices-after-sleep.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hw-probe&#34;&gt;HW-Probe&lt;/h2&gt;
+&lt;p&gt;Install &lt;code&gt;libxcrypt-compat&lt;/code&gt; first if you are on Arch based distro. Then use appimage or whatever you may feel like :)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo hw-probe -all -upload
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
