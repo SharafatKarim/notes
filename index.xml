@@ -1685,7 +1685,11 @@ Full collection here,&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;@asciifacesbot&lt;/code&gt; – Bot that allows you to append ascii faces to your messages ¯_(ツ)_/¯&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;@hidethisbot&lt;/code&gt; – Bot for hiding messages for/from certain people and sending spoilers.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;h2 id=&#34;misc&#34;&gt;Misc&lt;/h2&gt;
+&lt;h3 id=&#34;live-preview&#34;&gt;Live preview&lt;/h3&gt;
+&lt;p&gt;Prepend your URL with,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://t.me/iv?url=
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
     <item>
