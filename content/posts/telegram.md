@@ -20,6 +20,7 @@ Full collection here,
 - [Bot Archieve Website](https://botsarchive.com/)
 
 > বাংলায় লেখা কয়েকটা বটের কাজ নিয়ে লেখা একটা সুন্দর আলোচনা,
+>
 > - <https://telegra.ph/Useful-Telebot-01-26>
 
 ### Bots Collection
@@ -82,4 +83,14 @@ In all inline bots, you need to enter @botname, type words and wait for response
 - `@relevantxkcdbot` – Search XKCD comics.
 - `@asciifacesbot` – Bot that allows you to append ascii faces to your messages ¯_(ツ)_/¯
 - `@hidethisbot` – Bot for hiding messages for/from certain people and sending spoilers.
+
+## Misc
+
+### Live preview
+
+Prepend your URL with,
+
+```txt
+https://t.me/iv?url=
+```
 
