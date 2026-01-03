@@ -1332,6 +1332,23 @@ Let&amp;rsquo;s use vscode. Simply install the following extension,&lt;/p&gt;
     </item>
     
     <item>
+      <title>podman</title>
+      <link>https://sharafat.is-a.dev/notes/podman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/podman/</guid>
+      <description>Podman Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Its command-line interface is similar to Docker&amp;rsquo;s, making it easy for users familiar with Docker to transition to Podman.
+Registries Red Hat - Container Registries </description>
+      <content>&lt;h1 id=&#34;podman&#34;&gt;Podman&lt;/h1&gt;
+&lt;p&gt;Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Its command-line interface is similar to Docker&amp;rsquo;s, making it easy for users familiar with Docker to transition to Podman.&lt;/p&gt;
+&lt;h2 id=&#34;registries&#34;&gt;Registries&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/building_running_and_managing_containers/working-with-container-registries_building-running-and-managing-containers&#34;&gt;Red Hat - Container Registries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>privacy</title>
       <link>https://sharafat.is-a.dev/notes/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
