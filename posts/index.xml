@@ -1338,14 +1338,28 @@ Let&amp;rsquo;s use vscode. Simply install the following extension,&lt;/p&gt;
       
       <guid>https://sharafat.is-a.dev/notes/podman/</guid>
       <description>Podman Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Its command-line interface is similar to Docker&amp;rsquo;s, making it easy for users familiar with Docker to transition to Podman.
-Registries Red Hat - Container Registries </description>
+Installation Registries Red Hat - Container Registries Packages N8N To install,
+podman run -d \ --name n8n \ --network=host \ -e GENERIC_TIMEZONE=&amp;#34;Asia/Dhaka&amp;#34; \ -e TZ=&amp;#34;Asia/Dhaka&amp;#34; \ -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true \ -e N8N_RUNNERS_ENABLED=true \ -v n8n_data:/home/node/.</description>
       <content>&lt;h1 id=&#34;podman&#34;&gt;Podman&lt;/h1&gt;
 &lt;p&gt;Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Its command-line interface is similar to Docker&amp;rsquo;s, making it easy for users familiar with Docker to transition to Podman.&lt;/p&gt;
-&lt;h2 id=&#34;registries&#34;&gt;Registries&lt;/h2&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h3 id=&#34;registries&#34;&gt;Registries&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/building_running_and_managing_containers/working-with-container-registries_building-running-and-managing-containers&#34;&gt;Red Hat - Container Registries&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;h2 id=&#34;packages&#34;&gt;Packages&lt;/h2&gt;
+&lt;h3 id=&#34;n8n&#34;&gt;N8N&lt;/h3&gt;
+&lt;p&gt;To install,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;podman run -d &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; --name n8n &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; --network&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;host &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; -e GENERIC_TIMEZONE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Asia/Dhaka&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; -e TZ&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Asia/Dhaka&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; -e N8N_RUNNERS_ENABLED&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;true &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; -v n8n_data:/home/node/.n8n &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt; docker.n8n.io/n8nio/n8n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
     <item>

@@ -145,7 +145,7 @@
   <h1 class="post-title">
     <a href="https://sharafat.is-a.dev/notes/podman/">podman</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">1 Min read (43 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">1 Min read (73 words)</span></div>
 
   
   
@@ -156,11 +156,24 @@
   <div class="post-content"><div>
         <h1 id="podman">Podman<a href="#podman" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p>Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Its command-line interface is similar to Docker&rsquo;s, making it easy for users familiar with Docker to transition to Podman.</p>
-<h2 id="registries">Registries<a href="#registries" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="installation">Installation<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="registries">Registries<a href="#registries" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <ul>
 <li><a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/building_running_and_managing_containers/working-with-container-registries_building-running-and-managing-containers">Red Hat - Container Registries</a></li>
 </ul>
-
+<h2 id="packages">Packages<a href="#packages" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="n8n">N8N<a href="#n8n" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To install,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman run -d <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --name n8n <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --network<span style="color:#f92672">=</span>host <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -e GENERIC_TIMEZONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Asia/Dhaka&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -e TZ<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Asia/Dhaka&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS<span style="color:#f92672">=</span>true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -e N8N_RUNNERS_ENABLED<span style="color:#f92672">=</span>true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -v n8n_data:/home/node/.n8n <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> docker.n8n.io/n8nio/n8n
+</span></span></code></pre></div>
       </div></div>
 
   
