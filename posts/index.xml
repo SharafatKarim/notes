@@ -1542,7 +1542,8 @@ https://distrowatch.com/index.php?language=EN http://www.omgubuntu.co.uk/ https:
 GUI method? Use putty for GUI method.
 https://archlinux.org/packages/extra/x86_64/putty/ Login SSH with .ppk file on Terminal Convert your .ppk to .pem file using puttygen.
 puttygen JokerX_KEY_PAIR.ppk -O private-openssh -o JokerX_KEY_PAIR.pem Now, login to your server using the .pem file.
-ssh -i JokerX_KEY_PAIR.pem Reference https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal </description>
+ssh -i JokerX_KEY_PAIR.pem SSH Port Forwarding Forwarding remote port to local port.
+ssh -L 1337:127.0.0.1:1337 test@192.168.122.34 Reference https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal </description>
       <content>&lt;h1 id=&#34;ssh&#34;&gt;SSH&lt;/h1&gt;
 &lt;p&gt;SSH to connect to a remote server.&lt;/p&gt;
 &lt;h2 id=&#34;gui-method&#34;&gt;GUI method?&lt;/h2&gt;
@@ -1555,6 +1556,9 @@ ssh -i JokerX_KEY_PAIR.pem Reference https://askubuntu.com/questions/818929/logi
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;puttygen JokerX_KEY_PAIR.ppk -O private-openssh -o JokerX_KEY_PAIR.pem
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now, login to your server using the &lt;code&gt;.pem&lt;/code&gt; file.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh -i JokerX_KEY_PAIR.pem
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ssh-port-forwarding&#34;&gt;SSH Port Forwarding&lt;/h2&gt;
+&lt;p&gt;Forwarding remote port to local port.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh -L 1337:127.0.0.1:1337 test@192.168.122.34
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal&#34;&gt;https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal&lt;/a&gt;&lt;/li&gt;
