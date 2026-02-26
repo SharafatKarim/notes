@@ -22,6 +22,14 @@ Now, login to your server using the `.pem` file.
 ssh -i JokerX_KEY_PAIR.pem
 ```
 
+## SSH Port Forwarding
+
+Forwarding remote port to local port.
+
+```bash
+ssh -L 1337:127.0.0.1:1337 test@192.168.122.34
+```
+
 ### Reference
 
 - <https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal>
