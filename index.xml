@@ -439,6 +439,60 @@ Open Firefox and type about:config in the address bar. Press Enter. In the searc
     </item>
     
     <item>
+      <title>hosting</title>
+      <link>https://sharafat.is-a.dev/notes/hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/hosting/</guid>
+      <description>Hosting Accounts portal.cornq.com - BDIX free drive panel.amarhoster.com - sharafat.xyz domain https://v1.bdixdrive.com/drive - BDIX drive Free VPS https://ap-southeast-1.run.claw.cloud/ https://console.run.claw.cloud/signin?link=F2YUZBSXRXZG hosting buy https://hostbn.com/web-hosting (SSH) https://my.disneyhost.com/index.php?rp=/store/linux-cloud-web-hosting (SSH) https://surge.sh/ https://fleek.xyz/ Domain https://minthost.com.bd/ (299 BDT - 1700 BDT) &amp;lt;www.hostseba.com&amp;gt; (221 BDT - 1888 BDT) https://panel.amarhoster.com/domain/pricing (199 BDT - 1600 BDT) vps https://foxnode.cloud/bdix-vps https://vps1dollar.com/client/dashboard BD hosting and services https://www.hostever.com/ Payment Gateway
+https://edokan.co/ Bank
+https://www.priyo.com/ </description>
+      <content>&lt;h1 id=&#34;hosting&#34;&gt;Hosting&lt;/h1&gt;
+&lt;h2 id=&#34;accounts&#34;&gt;Accounts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;portal.cornq.com - BDIX free drive&lt;/li&gt;
+&lt;li&gt;panel.amarhoster.com - sharafat.xyz domain&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://v1.bdixdrive.com/drive&#34;&gt;https://v1.bdixdrive.com/drive&lt;/a&gt; - BDIX drive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;free-vps&#34;&gt;Free VPS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ap-southeast-1.run.claw.cloud/&#34;&gt;https://ap-southeast-1.run.claw.cloud/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://console.run.claw.cloud/signin?link=F2YUZBSXRXZG&#34;&gt;https://console.run.claw.cloud/signin?link=F2YUZBSXRXZG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hosting-buy&#34;&gt;hosting buy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hostbn.com/web-hosting&#34;&gt;https://hostbn.com/web-hosting&lt;/a&gt; (SSH)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://my.disneyhost.com/index.php?rp=/store/linux-cloud-web-hosting&#34;&gt;https://my.disneyhost.com/index.php?rp=/store/linux-cloud-web-hosting&lt;/a&gt; (SSH)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://surge.sh/&#34;&gt;https://surge.sh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fleek.xyz/&#34;&gt;https://fleek.xyz/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;domain&#34;&gt;Domain&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minthost.com.bd/&#34;&gt;https://minthost.com.bd/&lt;/a&gt; (299 BDT - 1700 BDT)&lt;/li&gt;
+&lt;li&gt;&amp;lt;www.hostseba.com&amp;gt; (221 BDT - 1888 BDT)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://panel.amarhoster.com/domain/pricing&#34;&gt;https://panel.amarhoster.com/domain/pricing&lt;/a&gt; (199 BDT - 1600 BDT)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vps&#34;&gt;vps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://foxnode.cloud/bdix-vps&#34;&gt;https://foxnode.cloud/bdix-vps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vps1dollar.com/client/dashboard&#34;&gt;https://vps1dollar.com/client/dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bd-hosting-and-services&#34;&gt;BD hosting and services&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hostever.com/&#34;&gt;https://www.hostever.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Payment Gateway&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://edokan.co/&#34;&gt;https://edokan.co/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bank&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.priyo.com/&#34;&gt;https://www.priyo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>idm</title>
       <link>https://sharafat.is-a.dev/notes/idm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1453,7 +1507,8 @@ NEVER FORGIVE.
       <guid>https://sharafat.is-a.dev/notes/react/</guid>
       <description>React Installation Steps to get started with React,
 npx create-react-app project-name npm install react-router-dom # routing And one liner for material UI,
-npm install @mui/material @emotion/react @emotion/styled Libs </description>
+npm install @mui/material @emotion/react @emotion/styled UI Some aesthetic React UI components (personal favorite)
+https://daisyui.com/ https://ui.aceternity.com/ https://ant.design/ https://mantine.dev/ https://www.radix-ui.com/ https://www.heroui.com/ https://21st.dev/ (AI based) https://ui.shadcn.com/ https://www.reactbits.dev/ React Bits - Animated UI Components For React https://lightswind.com/ https://variant.ai/ (ai - just scroll) Backend appwrite </description>
       <content>&lt;h1 id=&#34;react&#34;&gt;React&lt;/h1&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Steps to get started with React,&lt;/p&gt;
@@ -1461,9 +1516,26 @@ npm install @mui/material @emotion/react @emotion/styled Libs </description>
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install react-router-dom &lt;span style=&#34;color:#75715e&#34;&gt;# routing&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And one liner for material UI,&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install @mui/material @emotion/react @emotion/styled
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;libs&#34;&gt;Libs&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ui&#34;&gt;UI&lt;/h2&gt;
+&lt;p&gt;Some aesthetic React UI components
+(personal favorite)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://daisyui.com/&#34;&gt;https://daisyui.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ui.aceternity.com/&#34;&gt;https://ui.aceternity.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ant.design/&#34;&gt;https://ant.design/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mantine.dev/&#34;&gt;https://mantine.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.radix-ui.com/&#34;&gt;https://www.radix-ui.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heroui.com/&#34;&gt;https://www.heroui.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://21st.dev/&#34;&gt;https://21st.dev/&lt;/a&gt; (AI based)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ui.shadcn.com/&#34;&gt;https://ui.shadcn.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reactbits.dev/&#34;&gt;https://www.reactbits.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;React Bits - Animated UI Components For React&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lightswind.com/&#34;&gt;https://lightswind.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://variant.ai/&#34;&gt;https://variant.ai/&lt;/a&gt; (ai - just scroll)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;backend&#34;&gt;Backend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;appwrite&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -1750,6 +1822,22 @@ ublock origin provider for google calendar google keep tab AI grammar checker &a
 &lt;h1 id=&#34;keyboard-shortcuts&#34;&gt;Keyboard shortcuts&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird&#34;&gt;https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>ui</title>
+      <link>https://sharafat.is-a.dev/notes/ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/ui/</guid>
+      <description>UI Tools https://uiverse.io/ stitch.withgoogle.com/ </description>
+      <content>&lt;h1 id=&#34;ui&#34;&gt;UI&lt;/h1&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uiverse.io/&#34;&gt;https://uiverse.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;stitch.withgoogle.com/&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
