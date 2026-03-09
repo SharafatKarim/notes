@@ -20,6 +20,24 @@ And one liner for material UI,
 npm install @mui/material @emotion/react @emotion/styled
 ```
 
-## Libs
+## UI
 
-- 
+Some aesthetic React UI components
+(personal favorite)
+
+- <https://daisyui.com/>
+- <https://ui.aceternity.com/>  
+- <https://ant.design/>
+- <https://mantine.dev/>
+- <https://www.radix-ui.com/>
+- <https://www.heroui.com/>
+- <https://21st.dev/> (AI based)
+- <https://ui.shadcn.com/>
+- <https://www.reactbits.dev/>
+- React Bits - Animated UI Components For React  
+- <https://lightswind.com/>
+- <https://variant.ai/> (ai - just scroll)
+
+## Backend
+
+- appwrite
