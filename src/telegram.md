@@ -34,6 +34,7 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 
 - `aki_akinator_bot` - akinator game
 - `gamee` - Gamee bot | Official gamebot I guess
+- `QuotLyBot` - Quote maker bot
 
 #### Group Bots
 
