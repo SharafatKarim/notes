@@ -1180,6 +1180,21 @@ Global networks https://www.zerotier.com/ </description>
     </item>
     
     <item>
+      <title>obsidian</title>
+      <link>https://sharafat.is-a.dev/notes/obsidian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/obsidian/</guid>
+      <description>Obsidian Useful plugins obsidian-git </description>
+      <content>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
+&lt;h2 id=&#34;useful-plugins&#34;&gt;Useful plugins&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;obsidian-git&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>office</title>
       <link>https://sharafat.is-a.dev/notes/office/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
