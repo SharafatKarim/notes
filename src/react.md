@@ -32,6 +32,7 @@ Some aesthetic React UI components
 - React Bits - Animated UI Components For React  
 - <https://lightswind.com/>
 - <https://variant.ai/> (ai - just scroll)
+- <https://lightswind.com/> (animated)
 
 ## Backend
 
