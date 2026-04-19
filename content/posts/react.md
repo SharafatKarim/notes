@@ -39,6 +39,10 @@ Some aesthetic React UI components
 - <https://variant.ai/> (ai - just scroll)
 - <https://lightswind.com/> (animated)
 
+## Libs
+
+- [TinaCMS](https://tina.io/) - CMS in the editor. How kool is that! 
+
 ## Backend
 
 - appwrite
