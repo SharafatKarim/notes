@@ -1540,7 +1540,7 @@ NEVER FORGIVE.
       <description>React Installation Steps to get started with React,
 npx create-react-app project-name npm install react-router-dom # routing And one liner for material UI,
 npm install @mui/material @emotion/react @emotion/styled UI Some aesthetic React UI components (personal favorite)
-https://daisyui.com/ https://ui.aceternity.com/ https://ant.design/ https://mantine.dev/ https://www.radix-ui.com/ https://www.heroui.com/ https://21st.dev/ (AI based) https://ui.shadcn.com/ https://www.reactbits.dev/ React Bits - Animated UI Components For React https://lightswind.com/ https://variant.ai/ (ai - just scroll) https://lightswind.com/ (animated) Backend appwrite </description>
+https://daisyui.com/ https://ui.aceternity.com/ https://ant.design/ https://mantine.dev/ https://www.radix-ui.com/ https://www.heroui.com/ https://21st.dev/ (AI based) https://ui.shadcn.com/ https://www.reactbits.dev/ React Bits - Animated UI Components For React https://lightswind.com/ https://variant.ai/ (ai - just scroll) https://lightswind.com/ (animated) Libs TinaCMS - CMS in the editor. How kool is that!</description>
       <content>&lt;h1 id=&#34;react&#34;&gt;React&lt;/h1&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Steps to get started with React,&lt;/p&gt;
@@ -1565,6 +1565,10 @@ https://daisyui.com/ https://ui.aceternity.com/ https://ant.design/ https://mant
 &lt;li&gt;&lt;a href=&#34;https://lightswind.com/&#34;&gt;https://lightswind.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://variant.ai/&#34;&gt;https://variant.ai/&lt;/a&gt; (ai - just scroll)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lightswind.com/&#34;&gt;https://lightswind.com/&lt;/a&gt; (animated)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;libs&#34;&gt;Libs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tina.io/&#34;&gt;TinaCMS&lt;/a&gt; - CMS in the editor. How kool is that!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;backend&#34;&gt;Backend&lt;/h2&gt;
 &lt;ul&gt;
