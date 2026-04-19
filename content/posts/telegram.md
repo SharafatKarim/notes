@@ -11,6 +11,65 @@ To get started with Telegram, after setting up an account, contact with this dud
 
 - [Explore Telegram](https://t.me/ExploreTelegramBot)
 
+## Channels
+
+একগুচ্ছ টেলিগ্রাম চ্যানেল,
+
+### আন্তর্জাতিক খবরাখবর
+
+- <https://t.me/insafTV>
+- <https://t.me/inb19>
+- <https://t.me/AFBengali>
+- <https://t.me/Beloved_Ummah710>
+- <https://t.me/doamuslimsbangla>
+- <https://t.me/newsboxbangla>
+
+### সালাফদের কথা ও কাজ
+
+- <https://t.me/manzursposts>
+- <https://t.me/IslamicArchive313>
+
+### দাওয়াহ ও সমাজ
+
+- <https://t.me/me_sirah>
+- <https://t.me/muslimatrix>
+- <https://t.me/deen_islam_ofc>
+- <https://t.me/ilmweb_net>
+- <https://t.me/MuslimBanglaa>
+
+### লেখক কবি চিন্তক আলেম দাঈ অন্যান্য
+
+- <https://t.me/masud887>
+- <https://t.me/contruction23>
+- <https://t.me/rakibulhasanduir>
+- <https://t.me/ShamsulArefin2091>
+- <https://t.me/relentl>
+- <https://t.me/toha_mh>
+- <https://t.me/cognitivecoterie2>
+- <https://t.me/zubairalif>
+- <https://t.me/imranraihan>
+- <https://t.me/HanafiFiqhBD>
+
+### বিবিধ
+
+- <https://t.me/iTahmidtg>
+- <https://t.me/akwritings>
+- <https://t.me/imrultelegram>
+- <https://t.me/muslimbonga>
+- <https://t.me/meersa>
+- <https://t.me/BelieversFamilyLife>
+- <https://t.me/unfazedbd>
+- <https://t.me/Urdu_Kabbo>
+- <https://t.me/onnodristy>
+- <https://t.me/mahmudulhassan15>
+- <https://t.me/ka_ege>
+- <https://t.me/mohammadabid1>
+- <https://t.me/iftekharjamil>
+- <https://t.me/meersalman>
+- <https://t.me/brothersforcrescent>
+- <https://t.me/OnlineSadaqahBox>
+- <https://t.me/muslimatrixATG>
+
 ## Bots
 
 Some interesting telegram bots, you might want to check out:
