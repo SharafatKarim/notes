@@ -11,6 +11,12 @@ description = "```bash"
 pnpm up -g
 ```
 
+## Update all local
+
+```bash
+pnpm update --interactive --latest
+```
+
 ## Aliases
 
 ```bash
