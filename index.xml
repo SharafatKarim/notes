@@ -31,6 +31,21 @@ adb devices -l Mirror adb shell screenrecord --bit-rate 8000000 --size 1280x720 
     </item>
     
     <item>
+      <title>anime</title>
+      <link>https://sharafat.is-a.dev/notes/anime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/anime/</guid>
+      <description>Anime Collection https://everythingmoe.com/ </description>
+      <content>&lt;h1 id=&#34;anime&#34;&gt;Anime&lt;/h1&gt;
+&lt;h2 id=&#34;collection&#34;&gt;Collection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://everythingmoe.com/&#34;&gt;https://everythingmoe.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>archlinux</title>
       <link>https://sharafat.is-a.dev/notes/archlinux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
