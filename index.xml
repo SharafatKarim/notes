@@ -1778,6 +1778,43 @@ storage দুই প্রকার,&lt;/p&gt;
     </item>
     
     <item>
+      <title>swap</title>
+      <link>https://sharafat.is-a.dev/notes/swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/swap/</guid>
+      <description>Swap How-to-Enable-Swap-on-Ubuntu Enabling swap space on your Ubuntu system is an essential task for optimizing performance, especially if you&amp;rsquo;re running resource-intensive applications. Swap space acts as an overflow area for your RAM, allowing your system to continue functioning smoothly when the physical memory is fully utilized. In this guide, we&amp;rsquo;ll walk you through the process of enabling swap on Ubuntu.
+Step 1: Check Existing Swap Space Before creating new swap space, it&amp;rsquo;s important to check if any swap is already enabled.</description>
+      <content>&lt;h1 id=&#34;swap&#34;&gt;Swap&lt;/h1&gt;
+&lt;h2 id=&#34;how-to-enable-swap-on-ubuntu&#34;&gt;How-to-Enable-Swap-on-Ubuntu&lt;/h2&gt;
+&lt;p&gt;Enabling swap space on your Ubuntu system is an essential task for optimizing performance, especially if you&amp;rsquo;re running resource-intensive applications. Swap space acts as an overflow area for your RAM, allowing your system to continue functioning smoothly when the physical memory is fully utilized. In this guide, we&amp;rsquo;ll walk you through the process of enabling swap on Ubuntu.&lt;/p&gt;
+&lt;h3 id=&#34;step-1-check-existing-swap-space&#34;&gt;Step 1: Check Existing Swap Space&lt;/h3&gt;
+&lt;p&gt;Before creating new swap space, it&amp;rsquo;s important to check if any swap is already enabled. Use the following command to display any existing swap:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo swapon --show
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If the output is empty, it means no swap is currently enabled on your system.&lt;/p&gt;
+&lt;h3 id=&#34;step-2-create-a-swap-file&#34;&gt;Step 2: Create a Swap File&lt;/h3&gt;
+&lt;p&gt;Next, create a swap file using the fallocate command. This command will allocate the specified amount of disk space for the swap file. In this example, we&amp;rsquo;ll create a 10 GB swap file:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo fallocate -l 10G /swapfile
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-3-secure-the-swap-file&#34;&gt;Step 3: Secure the Swap File&lt;/h3&gt;
+&lt;p&gt;To prevent unauthorized access to the swap file, it&amp;rsquo;s important to set the correct permissions. Use the chmod command to restrict access:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo chmod 600 /swapfile
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-4-set-up-the-swap-file&#34;&gt;Step 4: Set Up the Swap File&lt;/h3&gt;
+&lt;p&gt;Now that the swap file is created and secured, you need to set it up as a swap space using the mkswap command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo mkswap /swapfile
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-5-enable-the-swap-file&#34;&gt;Step 5: Enable the Swap File&lt;/h3&gt;
+&lt;p&gt;After setting up the swap file, enable it with the following command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo swapon /swapfile
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To confirm that the swap file is active, you can re-run the &lt;code&gt;sudo swapon --show&lt;/code&gt; command, and you should see the new swap space listed.&lt;/p&gt;
+&lt;h3 id=&#34;step-6-make-the-swap-file-permanent&#34;&gt;Step 6: Make the Swap File Permanent&lt;/h3&gt;
+&lt;p&gt;To ensure that the swap file is enabled every time your system boots, you&amp;rsquo;ll need to add it to the /etc/fstab file. Open the file in a text editor:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nano /etc/fstab
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Add the following line at the end of the file:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;swapfile swap swap defaults 0 0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Save the file and exit the text editor.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>telegram</title>
       <link>https://sharafat.is-a.dev/notes/telegram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

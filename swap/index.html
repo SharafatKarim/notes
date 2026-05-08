@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>swap :: Sharafat Karim | Notes</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Enabling swap space on your Ubuntu system is an essential task for optimizing performance, especially if you&#39;re running resource-intensive applications. Swap space acts as an overflow area for your RAM, allowing your system to continue functioning smoothly when the physical memory is fully utilized. In this guide, we&#39;ll walk you through the process of enabling swap on Ubuntu." />
+<meta name="keywords" content="notes" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://sharafat.is-a.dev/notes/swap/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://sharafat.is-a.dev/notes/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://sharafat.is-a.dev/notes/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="sharafat2004" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="swap">
+<meta property="og:description" content="Enabling swap space on your Ubuntu system is an essential task for optimizing performance, especially if you&#39;re running resource-intensive applications. Swap space acts as an overflow area for your RAM, allowing your system to continue functioning smoothly when the physical memory is fully utilized. In this guide, we&#39;ll walk you through the process of enabling swap on Ubuntu." />
+<meta property="og:url" content="https://sharafat.is-a.dev/notes/swap/" />
+<meta property="og:site_name" content="Sharafat Karim | Notes" />
+
+  
+    <meta property="og:image" content="https://sharafat.is-a.dev/notes/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/notes">
+  <div class="logo">
+    Sharafat Karim | Notes
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="https://github.com/SharafatKarim/">GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/">My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes">Notes Repository</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="https://github.com/SharafatKarim/" >GitHub Profile</a></li>
+        
+      
+        
+          <li><a href="https://sharafat.pages.dev/" >My Blogs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/SharafatKarim/notes" >Notes Repository</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://sharafat.is-a.dev/notes/swap/">swap</a>
+  </h1>
+  <div class="post-meta"><span class="post-reading-time">2 Min read (326 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="swap">Swap<a href="#swap" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h2 id="how-to-enable-swap-on-ubuntu">How-to-Enable-Swap-on-Ubuntu<a href="#how-to-enable-swap-on-ubuntu" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Enabling swap space on your Ubuntu system is an essential task for optimizing performance, especially if you&rsquo;re running resource-intensive applications. Swap space acts as an overflow area for your RAM, allowing your system to continue functioning smoothly when the physical memory is fully utilized. In this guide, we&rsquo;ll walk you through the process of enabling swap on Ubuntu.</p>
+<h3 id="step-1-check-existing-swap-space">Step 1: Check Existing Swap Space<a href="#step-1-check-existing-swap-space" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Before creating new swap space, it&rsquo;s important to check if any swap is already enabled. Use the following command to display any existing swap:</p>
+<pre tabindex="0"><code>sudo swapon --show
+</code></pre><p>If the output is empty, it means no swap is currently enabled on your system.</p>
+<h3 id="step-2-create-a-swap-file">Step 2: Create a Swap File<a href="#step-2-create-a-swap-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Next, create a swap file using the fallocate command. This command will allocate the specified amount of disk space for the swap file. In this example, we&rsquo;ll create a 10 GB swap file:</p>
+<pre tabindex="0"><code>sudo fallocate -l 10G /swapfile
+</code></pre><h3 id="step-3-secure-the-swap-file">Step 3: Secure the Swap File<a href="#step-3-secure-the-swap-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To prevent unauthorized access to the swap file, it&rsquo;s important to set the correct permissions. Use the chmod command to restrict access:</p>
+<pre tabindex="0"><code>sudo chmod 600 /swapfile
+</code></pre><h3 id="step-4-set-up-the-swap-file">Step 4: Set Up the Swap File<a href="#step-4-set-up-the-swap-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Now that the swap file is created and secured, you need to set it up as a swap space using the mkswap command:</p>
+<pre tabindex="0"><code>sudo mkswap /swapfile
+</code></pre><h3 id="step-5-enable-the-swap-file">Step 5: Enable the Swap File<a href="#step-5-enable-the-swap-file" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>After setting up the swap file, enable it with the following command:</p>
+<pre tabindex="0"><code>sudo swapon /swapfile
+</code></pre><p>To confirm that the swap file is active, you can re-run the <code>sudo swapon --show</code> command, and you should see the new swap space listed.</p>
+<h3 id="step-6-make-the-swap-file-permanent">Step 6: Make the Swap File Permanent<a href="#step-6-make-the-swap-file-permanent" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>To ensure that the swap file is enabled every time your system boots, you&rsquo;ll need to add it to the /etc/fstab file. Open the file in a text editor:</p>
+<pre tabindex="0"><code>sudo nano /etc/fstab
+</code></pre><p>Add the following line at the end of the file:</p>
+<pre tabindex="0"><code>swapfile swap swap defaults 0 0
+</code></pre><p>Save the file and exit the text editor.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Creative common CC-0</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/notes/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
