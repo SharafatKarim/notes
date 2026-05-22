@@ -1642,6 +1642,25 @@ https://daisyui.com/ https://ui.aceternity.com/ https://ant.design/ https://mant
     </item>
     
     <item>
+      <title>research</title>
+      <link>https://sharafat.is-a.dev/notes/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/research/</guid>
+      <description>Research Journal Free Journal https://noapc.com/ https://www.scimagojr.com/journalrank.php?openaccess_diamond=true https://journalsearches.com/free-publishing-journals.php https://doaj.org/search/journals?source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22term%22%3A%7B%22bibjson.apc.has_apc%22%3Afalse%7D%7D%2C%7B%22term%22%3A%7B%22bibjson.other_charges.has_other_charges%22%3Afalse%7D%7D%5D%7D%7D%2C%22track_total_hits%22%3Atrue%7D </description>
+      <content>&lt;h1 id=&#34;research&#34;&gt;Research&lt;/h1&gt;
+&lt;h2 id=&#34;journal&#34;&gt;Journal&lt;/h2&gt;
+&lt;h3 id=&#34;free-journal&#34;&gt;Free Journal&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://noapc.com/&#34;&gt;https://noapc.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scimagojr.com/journalrank.php?openaccess_diamond=true&#34;&gt;https://www.scimagojr.com/journalrank.php?openaccess_diamond=true&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://journalsearches.com/free-publishing-journals.php&#34;&gt;https://journalsearches.com/free-publishing-journals.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doaj.org/search/journals?source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22term%22%3A%7B%22bibjson.apc.has_apc%22%3Afalse%7D%7D%2C%7B%22term%22%3A%7B%22bibjson.other_charges.has_other_charges%22%3Afalse%7D%7D%5D%7D%7D%2C%22track_total_hits%22%3Atrue%7D&#34;&gt;https://doaj.org/search/journals?source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22term%22%3A%7B%22bibjson.apc.has_apc%22%3Afalse%7D%7D%2C%7B%22term%22%3A%7B%22bibjson.other_charges.has_other_charges%22%3Afalse%7D%7D%5D%7D%7D%2C%22track_total_hits%22%3Atrue%7D&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>rss</title>
       <link>https://sharafat.is-a.dev/notes/rss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
