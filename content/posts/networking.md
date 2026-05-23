@@ -13,3 +13,11 @@ For now the collection of some terms, I may need in future.
 
 - <https://www.zerotier.com/>
 
+## Tools
+
+### Who is using a port?
+
+```bash
+sudo lsof -i :<port_number>
+```
+
