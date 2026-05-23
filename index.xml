@@ -942,15 +942,43 @@ In vscode, it should work out of the box with, LaTeX Workshop extension. But for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/linux/</guid>
-      <description>Linux Personal reports Silvermoon HW Probe Blender benchmark Arafats HW Probe Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
-To remove autostart for a program, delete the .desktop file in the appropriate directory. To hide system autostart programs, copy the .desktop file to the user directory and add Hidden=true to the file. An example, to hide octopi-notifier.desktop:
-[Desktop Entry] Name=Octopi Notifier Icon=octopi Exec=/usr/bin/octopi-notifier Terminal=false Type=Application Categories=GNOME;GTK;System; #NotShowIn=GNOME;XFCE;LXDE;KDE; StartupNotify=true X-LXQt-Need-Tray=true Version=1.</description>
+      <description>Linux Personal reports Silvermoon HW Probe HW Probe Blender benchmark Blender benchmark on Linux Geekbench dell Inspiron 15 3520 benchmark+ win11+ high temp
+https://browser.geekbench.com/v6/cpu/1073881 https://browser.geekbench.com/v6/compute/385591 https://browser.geekbench.com/v6/compute/385608 just installed arch Linux and ran benchmark with battery power
+on battery 🔋
+https://browser.geekbench.com/v6/cpu/1099306 on direct line 😁
+https://browser.geekbench.com/v6/cpu/1099367 Arafats HW Probe Autostart directory (user) = ~/.config/autostart/ directory (system) = /etc/xdg/autostart/
+To remove autostart for a program, delete the .desktop file in the appropriate directory.</description>
       <content>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
 &lt;h2 id=&#34;personal-reports&#34;&gt;Personal reports&lt;/h2&gt;
 &lt;h3 id=&#34;silvermoon&#34;&gt;Silvermoon&lt;/h3&gt;
+&lt;h4 id=&#34;hw-probe&#34;&gt;HW Probe&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=c2bd74626f&#34;&gt;HW Probe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/&#34;&gt;Blender benchmark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;blender-benchmark&#34;&gt;Blender benchmark&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://opendata.blender.org/benchmarks/602eeea9-c154-44ff-a61f-cd731cfecb29/&#34;&gt;Blender benchmark on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;geekbench&#34;&gt;Geekbench&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;dell Inspiron 15 3520
+benchmark+ win11+ high temp&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://browser.geekbench.com/v6/cpu/1073881&#34;&gt;https://browser.geekbench.com/v6/cpu/1073881&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://browser.geekbench.com/v6/compute/385591&#34;&gt;https://browser.geekbench.com/v6/compute/385591&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://browser.geekbench.com/v6/compute/385608&#34;&gt;https://browser.geekbench.com/v6/compute/385608&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;just installed arch Linux and ran benchmark with battery power&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;on battery 🔋&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://browser.geekbench.com/v6/cpu/1099306&#34;&gt;https://browser.geekbench.com/v6/cpu/1099306&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;on direct line 😁&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://browser.geekbench.com/v6/cpu/1099367&#34;&gt;https://browser.geekbench.com/v6/cpu/1099367&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;arafats&#34;&gt;Arafats&lt;/h3&gt;
 &lt;ul&gt;
@@ -1056,7 +1084,7 @@ reboot করতে পারেন।
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WantedBy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then enable the service so that it is ready to respond to a return-from-suspend event both now and after every new boot:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;systemctl enable --now reset-input-devices-after-sleep.service
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hw-probe&#34;&gt;HW-Probe&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hw-probe-1&#34;&gt;HW-Probe&lt;/h2&gt;
 &lt;p&gt;Install &lt;code&gt;libxcrypt-compat&lt;/code&gt; first if you are on Arch based distro. Then use appimage or whatever you may feel like :)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo hw-probe -all -upload
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
@@ -1215,7 +1243,7 @@ Now with &lt;code&gt;localhost:3306&lt;/code&gt; you can access this database fr
       <guid>https://sharafat.is-a.dev/notes/networking/</guid>
       <description>networking Networking refers to the practice of connecting computers and other devices together to share resources. This can be done in a variety of ways, including through physical cables, wireless connections, and virtual networks.
 For now the collection of some terms, I may need in future.
-Global networks https://www.zerotier.com/ </description>
+Global networks https://www.zerotier.com/ Tools Who is using a port? sudo lsof -i :&amp;lt;port_number&amp;gt; </description>
       <content>&lt;h1 id=&#34;networking&#34;&gt;networking&lt;/h1&gt;
 &lt;p&gt;Networking refers to the practice of connecting computers and other devices together to share resources. This can be done in a variety of ways, including through physical cables, wireless connections, and virtual networks.&lt;/p&gt;
 &lt;p&gt;For now the collection of some terms, I may need in future.&lt;/p&gt;
@@ -1223,7 +1251,10 @@ Global networks https://www.zerotier.com/ </description>
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zerotier.com/&#34;&gt;https://www.zerotier.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;h3 id=&#34;who-is-using-a-port&#34;&gt;Who is using a port?&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo lsof -i :&amp;lt;port_number&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
     <item>
