@@ -2533,5 +2533,30 @@ Add your user to the wireshark usergroup. sudo usermod -a -G wireshark $(whoami)
 </content>
     </item>
     
+    <item>
+      <title>zotero</title>
+      <link>https://sharafat.is-a.dev/notes/zotero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/zotero/</guid>
+      <description>Zotero Plugins Install the store,
+https://github.com/syt2/zotero-addons While installing in firefox, make sure to right click and save link as. Because otherwise firefox will treat the file as it&amp;rsquo;s own extension :(
+Recommended plugins zoplicate </description>
+      <content>&lt;h1 id=&#34;zotero&#34;&gt;Zotero&lt;/h1&gt;
+&lt;h2 id=&#34;plugins&#34;&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;Install the store,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/syt2/zotero-addons&#34;&gt;https://github.com/syt2/zotero-addons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;While installing in firefox, make sure to right click and save link as. Because otherwise firefox will treat the file as it&amp;rsquo;s own extension :(&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;recommended-plugins&#34;&gt;Recommended plugins&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ChenglongMa/zoplicate&#34;&gt;zoplicate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
