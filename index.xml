@@ -1499,8 +1499,14 @@ Let&amp;rsquo;s use vscode. Simply install the following extension,&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharafat.is-a.dev/notes/pnpm/</guid>
-      <description>PNPM Update all global pnpm up -g Update all local pnpm update --interactive --latest Aliases # Prefer pnpm over npm alias npm=&amp;#34;pnpm&amp;#34; alias npx=&amp;#34;pnpm dlx&amp;#34; </description>
+      <description>PNPM Install something globally pnpm add -g &amp;lt;package-name&amp;gt; Make sure PNPM_HOME and ENV are all set!
+Update all global pnpm up -g Update all local pnpm update --interactive --latest Aliases # Prefer pnpm over npm alias npm=&amp;#34;pnpm&amp;#34; alias npx=&amp;#34;pnpm dlx&amp;#34; </description>
       <content>&lt;h1 id=&#34;pnpm&#34;&gt;PNPM&lt;/h1&gt;
+&lt;h2 id=&#34;install-something-globally&#34;&gt;Install something globally&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pnpm add -g &amp;lt;package-name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Make sure PNPM_HOME and ENV are all set!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;update-all-global&#34;&gt;Update all global&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pnpm up -g
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;update-all-local&#34;&gt;Update all local&lt;/h2&gt;
