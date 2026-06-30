@@ -15,6 +15,11 @@ Some windowsy stuffs!
 
 - <https://massgrave.dev/>
 - <https://github.com/massgravel/Microsoft-Activation-Scripts>
+- <https://msgang.com/>
+
+## Office
+
+- <https://www.officetool.plus/>
 
 ## Check license status
 
