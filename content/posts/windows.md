@@ -11,6 +11,18 @@ Some windowsy stuffs!
 
 - <https://gravesoft.dev/>
 
+### Win 11 - Offline installation
+
+1) At any screen during Windows Setup, press,
+`Shift + F10`
+to open a Command Prompt window.
+
+2) Run this command to allow installation without an internet connection,
+
+```shell
+OOBE\BYPASSNRO
+```
+
 ## Activation
 
 - <https://massgrave.dev/>
