@@ -2491,17 +2491,30 @@ But before using license don&amp;rsquo;t forget the above new command.&lt;/p&gt;
       
       <guid>https://sharafat.is-a.dev/notes/windows/</guid>
       <description>Windows Some windowsy stuffs!
-ISO https://gravesoft.dev/ Activation https://massgrave.dev/ https://github.com/massgravel/Microsoft-Activation-Scripts https://msgang.com/ Office https://www.officetool.plus/ Check license status slmgr /xpr or,
+ISO https://gravesoft.dev/ Win 11 - Offline installation At any screen during Windows Setup, press, Shift + F10 to open a Command Prompt window.
+Run this command to allow installation without an internet connection,
+OOBE\BYPASSNRO Activation https://massgrave.dev/ https://github.com/massgravel/Microsoft-Activation-Scripts https://msgang.com/ Office https://www.officetool.plus/ Check license status slmgr /xpr or,
 slmgr /dli tldr Open powershell as administrator and execute,
-irm https://get.activated.win | iex Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It&amp;rsquo;s like a smartphone, always connected, always ready to receive notifications.
-powercfg /availablesleepstates </description>
+irm https://get.activated.win | iex Battery Battery Report powercfg /batteryreport Modern Standby Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available.</description>
       <content>&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
 &lt;p&gt;Some windowsy stuffs!&lt;/p&gt;
 &lt;h2 id=&#34;iso&#34;&gt;ISO&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gravesoft.dev/&#34;&gt;https://gravesoft.dev/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;activation&#34;&gt;Activation&lt;/h2&gt;
+&lt;h3 id=&#34;win-11---offline-installation&#34;&gt;Win 11 - Offline installation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;At any screen during Windows Setup, press,
+&lt;code&gt;Shift + F10&lt;/code&gt;
+to open a Command Prompt window.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run this command to allow installation without an internet connection,&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OOBE&lt;span style=&#34;color:#ae81ff&#34;&gt;\B&lt;/span&gt;YPASSNRO
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;activation&#34;&gt;Activation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://massgrave.dev/&#34;&gt;https://massgrave.dev/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/massgravel/Microsoft-Activation-Scripts&#34;&gt;https://github.com/massgravel/Microsoft-Activation-Scripts&lt;/a&gt;&lt;/li&gt;
