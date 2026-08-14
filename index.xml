@@ -2102,6 +2102,21 @@ ublock origin provider for google calendar google keep tab AI grammar checker &a
     </item>
     
     <item>
+      <title>uv</title>
+      <link>https://sharafat.is-a.dev/notes/uv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharafat.is-a.dev/notes/uv/</guid>
+      <description>UV The python package uv provides a simple interface for working with UV coordinates in 3D graphics. UV coordinates are used to map textures onto 3D models, allowing for detailed surface appearances.
+Gobal package uv tool install git-filter-repo </description>
+      <content>&lt;h1 id=&#34;uv&#34;&gt;UV&lt;/h1&gt;
+&lt;p&gt;The python package &lt;code&gt;uv&lt;/code&gt; provides a simple interface for working with UV coordinates in 3D graphics. UV coordinates are used to map textures onto 3D models, allowing for detailed surface appearances.&lt;/p&gt;
+&lt;h2 id=&#34;gobal-package&#34;&gt;Gobal package&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uv tool install git-filter-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
       <title>vscode</title>
       <link>https://sharafat.is-a.dev/notes/vscode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
