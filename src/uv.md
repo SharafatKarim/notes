@@ -7,3 +7,7 @@ The python package `uv` provides a simple interface for working with UV coordina
 ```bash
 uv tool install git-filter-repo
 ```
+
+## Useful packages
+
+- md2typst
