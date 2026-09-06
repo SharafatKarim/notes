@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Notes
+  pageTitle: 🪴 Notes
   pageTitleSuffix: " - Sharafat"
   enableSPA: true
   enablePopovers: true
@@ -227,11 +227,14 @@ plugins:
       position: afterBody
       priority: 10
   - source: "@quartz-community/footer"
-    enabled: true
+    enabled: false
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/SharafatKarim
+        Blogs: https://sharafat.pages.dev/
+        Telegram: https://t.me/SharafatKarim
+        Email: sharafat@duck.com
+        YouTube: https://www.youtube.com/channel/UCWOzcrU8AABga-LNM9DKYBA
     layout:
       position: footer
       priority: 50

@@ -1,0 +1,74 @@
+---
+title: Windows
+tags:
+- tech
+- windows
+aliases:
+- Windows
+---
+
+# Windows
+
+Some windowsy stuffs!
+
+## ISO
+
+- <https://gravesoft.dev/>
+
+### Win 11 - Offline installation
+
+1) At any screen during Windows Setup, press,
+`Shift + F10`
+to open a Command Prompt window.
+
+2) Run this command to allow installation without an internet connection,
+
+```shell
+OOBE\BYPASSNRO
+```
+
+## Activation
+
+- <https://massgrave.dev/>
+- <https://github.com/massgravel/Microsoft-Activation-Scripts>
+- <https://msgang.com/>
+
+## Office
+
+- <https://www.officetool.plus/>
+
+## Check license status
+
+```shell
+slmgr /xpr
+```
+
+or,
+
+```shell
+slmgr /dli
+```
+
+### tldr
+
+Open powershell as administrator and execute,
+
+```shell
+irm https://get.activated.win | iex
+```
+
+## Battery
+
+### Battery Report
+
+```shell
+powercfg /batteryreport
+```
+
+### Modern Standby
+
+Modern Standby is a low-power state that allows your device to stay up-to-date whenever a suitable network is available. It's like a smartphone, always connected, always ready to receive notifications.
+
+```shell
+powercfg /availablesleepstates
+```

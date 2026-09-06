@@ -1,6 +1,14 @@
 ---
-title: Welcome to Quartz
+title: Home
+tags:
+  - home
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# 🌱 Welcome
+
+Personal knowledge base, notes, and technical references.
+
+- **Academic**: University coursework, operating systems, networking, AI, and question archives.
+- **Tech**: Linux, programming languages, containers, databases, and tooling guides.
+- **Projects**: Open-source initiatives and university projects.
+- **Personal**: Quick references, reading lists, and configs.
