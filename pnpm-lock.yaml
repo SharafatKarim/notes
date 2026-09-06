@@ -104,6 +104,9 @@ importers:
       '@quartz-community/obsidian-flavored-markdown':
         specifier: ^0.1.1
         version: 0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/obsidian-plugin-excalidraw':
+        specifier: ^0.1.0
+        version: 0.1.0(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       '@quartz-community/og-image':
         specifier: ^0.1.1
         version: 0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(sharp@0.34.5)(unified@11.0.5)(vfile@6.0.3)
@@ -1256,6 +1259,12 @@ packages:
     peerDependencies:
       preact: ^10.0.0
 
+  '@quartz-community/obsidian-plugin-excalidraw@0.1.0':
+    resolution: {integrity: sha512-K+84QfV8CNMre3D8m8EkAZUR0GO5hP5gEaF1fxUNOaG4qdziMBWWqEsefxAHauhuhyjlT7TIrwqBLFCGm8pLuA==}
+    engines: {node: '>=22', npm: '>=10.9.2'}
+    peerDependencies:
+      preact: ^10.0.0
+
   '@quartz-community/og-image@0.1.2':
     resolution: {integrity: sha512-b6TQGCLzFYcCjwoshxRjmrChkANEZjzf+WeraWI/Cu96T2jVG45hfXYyLEWxa3h9Ae7a94/kke5kShPmV9qaqA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
@@ -1783,6 +1792,9 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
+  hachure-fill@0.5.2:
+    resolution: {integrity: sha512-3GKBOn+m2LX9iq+JC1064cSFprJY4jL1jCXTcpnfER5HYE2l/4EfWSGzkPa/ZDBmYI0ZOEj5VHV/eKnPGkHuOg==}
+
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -1991,6 +2003,10 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
+  lz-string@1.5.0:
+    resolution: {integrity: sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==}
+    hasBin: true
+
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
@@ -2142,6 +2158,9 @@ packages:
   parse5@7.3.0:
     resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
 
+  path-data-parser@0.1.0:
+    resolution: {integrity: sha512-NOnmBpt5Y2RWbuv0LMzsayp3lVylAHLPUTut412ZA3l+C4uw4ZVkQbjShYCQ8TCpUMdPapr4YjUqLYD6v68j+w==}
+
   path-is-inside@1.0.2:
     resolution: {integrity: sha512-DUWJr3+ULp4zXmol/SZkFf3JGsS9/SIv+Y3Rt93/UjPpDpklB5f1er4O3POIbUuUJ3FXgqte2Q7SrU6zAqwk8w==}
 
@@ -2150,6 +2169,9 @@ packages:
 
   path-to-regexp@3.3.0:
     resolution: {integrity: sha512-qyCH421YQPS2WFDxDjftfc1ZR5WKQzVzqsp4n9M2kQhVOo/ByahFoUNJfl58kOcEGfQ//7weFTDhm+ss8Ecxgw==}
+
+  perfect-freehand@1.2.3:
+    resolution: {integrity: sha512-bHZSfqDHGNlPpgH2yxXgPHlQSPpEbo+qg7li0M78J9vNAi2yjwLeA4x79BEQhX44lEWpCLSFCeRZwpw0niiXPA==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -2165,6 +2187,12 @@ packages:
   pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
+
+  points-on-curve@0.2.0:
+    resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
+
+  points-on-path@0.2.1:
+    resolution: {integrity: sha512-25ClnWWuw7JbWZcgqY/gJ4FQWadKxGWk+3kR/7kD0tCaDtPPMj7oHu2ToLaVhfpnHrZzYby2w6tUA0eOIuUg8g==}
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -2244,6 +2272,9 @@ packages:
 
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
+
+  roughjs@4.6.6:
+    resolution: {integrity: sha512-ZUz/69+SYpFN/g/lUlo2FXcIjRkSu3nDarreVdGGndHEBJ6cXPdKguS8JGxwj5HA5xIbVKSmLgr5b3AWxtRfvQ==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -3365,6 +3396,20 @@ snapshots:
       - unified
       - vfile
 
+  '@quartz-community/obsidian-plugin-excalidraw@0.1.0(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      github-slugger: 2.0.0
+      lz-string: 1.5.0
+      perfect-freehand: 1.2.3
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+      roughjs: 4.6.6
+    transitivePeerDependencies:
+      - hast-util-to-jsx-runtime
+      - unified
+      - vfile
+
   '@quartz-community/og-image@0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.8)(sharp@0.34.5)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
       '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
@@ -3950,6 +3995,8 @@ snapshots:
 
   gopd@1.2.0: {}
 
+  hachure-fill@0.5.2: {}
+
   has-flag@4.0.0: {}
 
   has-property-descriptors@1.0.2:
@@ -4180,6 +4227,8 @@ snapshots:
       lightningcss-win32-x64-msvc: 1.33.0
 
   longest-streak@3.1.0: {}
+
+  lz-string@1.5.0: {}
 
   math-intrinsics@1.1.0: {}
 
@@ -4469,11 +4518,15 @@ snapshots:
     dependencies:
       entities: 6.0.1
 
+  path-data-parser@0.1.0: {}
+
   path-is-inside@1.0.2: {}
 
   path-parse@1.0.7: {}
 
   path-to-regexp@3.3.0: {}
+
+  perfect-freehand@1.2.3: {}
 
   picocolors@1.1.1: {}
 
@@ -4483,6 +4536,13 @@ snapshots:
     optional: true
 
   pify@4.0.1: {}
+
+  points-on-curve@0.2.0: {}
+
+  points-on-path@0.2.1:
+    dependencies:
+      path-data-parser: 0.1.0
+      points-on-curve: 0.2.0
 
   possible-typed-array-names@1.1.0: {}
 
@@ -4555,6 +4615,13 @@ snapshots:
   reusify@1.1.0: {}
 
   rfdc@1.4.1: {}
+
+  roughjs@4.6.6:
+    dependencies:
+      hachure-fill: 0.5.2
+      path-data-parser: 0.1.0
+      points-on-curve: 0.2.0
+      points-on-path: 0.2.1
 
   run-parallel@1.2.0:
     dependencies:
