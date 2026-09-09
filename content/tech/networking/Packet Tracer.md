@@ -1,0 +1,3 @@
+Let's make a mini docs of packet tracer, that will have everything we need to know...
+
+- https://github.com/SharafatKarim/cisco-cheatsheet 
