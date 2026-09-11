@@ -157,3 +157,9 @@ Prepend your URL with,
 ```txt
 https://t.me/iv?url=
 ```
+### Proxy
+
+1) https://t.me/hideproxi  
+2) https://t.me/mtpro_xyz_bot (bot)  
+3) https://t.me/MTPProxy_Pro  
+4) https://t.me/fastdailymtproxy
