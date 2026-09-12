@@ -4,5 +4,10 @@ title: Collections
 
 # Collections
 
-## Notes
+## Books
 - [[collections/books|Books]]
+
+## Android
+
+## Linux
+- [[archlinux pkgs| ArchLinux packages]]

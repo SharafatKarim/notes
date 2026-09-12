@@ -4,23 +4,23 @@ title: Tools
 
 # Tools
 
-## Notes
-- [[tools/bdix|BDIX]]
+## Browser War
 - [[tools/browser|Browser]]
 - [[tools/firefox|Firefox]]
-- [[GIT]]
-- [[tools/hosting|Hosting]]
+
+## GUI
+- [[web/telegram|Telegram]]
 - [[tools/idm|IDM]]
-- [[tools/latex|LaTeX]]
-- [[tools/networking-ref|networking]]
 - [[tools/obsidian|Obsidian]]
-- [[tools/pandoc|pandoc]]
-- [[tools/pnpm|PNPM]]
-- [[tools/privacy|Privacy]]
-- [[tools/react|React]]
-- [[tools/security|Security]]
-- [[tools/ssh|SSH]]
 - [[tools/thunderbird|Thunderbird]]
+- [[tools/zotero|Zotero]]
+
+## CLI
+- [[tools/latex|LaTeX]]
+- [[tools/pandoc|pandoc]]
+## Networking
+- [[tools/networking-ref|networking learn]]
 - [[tools/warp|Warp]]
 - [[tools/wireshark|wireshark]]
-- [[tools/zotero|Zotero]]
+
+> Wondering which tools I use? Check [[collections/index|My Collections]].

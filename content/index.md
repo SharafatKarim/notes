@@ -22,8 +22,8 @@ Personal doesn't mean you can't sneek a peek!
 ### And the...
 ...world of web and technology!
 - [[web/index|Web]]
-- [[tech/index|Tech]]
-- [[tools/index|Tools]]
+- [[tech/index|Technology]]
+- [[tools/index|Tools & Apps]]
 
 ### Also never miss out...
 - [[fun/index|Fun]]
