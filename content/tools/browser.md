@@ -11,6 +11,9 @@ aliases:
 
 ব্রাউজার নিয়ে কিছূ কনসেপ্ট,
 
+But if you looking for specific ones, take a look at,
+- [[chromium]]
+
 ## Blue Whale
 
 আমরা তো কতোই ব্রাউজার দেখি

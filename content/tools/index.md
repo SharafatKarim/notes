@@ -8,6 +8,7 @@ title: Tools
 - [[tools/bdix|BDIX]]
 - [[tools/browser|Browser]]
 - [[tools/firefox|Firefox]]
+- [[GIT]]
 - [[tools/hosting|Hosting]]
 - [[tools/idm|IDM]]
 - [[tools/latex|LaTeX]]
