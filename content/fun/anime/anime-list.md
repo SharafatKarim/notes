@@ -9,6 +9,9 @@ aliases:
 
 # Anime
 
+## Tracking
+- anilist :)
+
 ## Collection
 - https://fmhy.net/video#anime-streaming-apps
 - <https://everythingmoe.com/>

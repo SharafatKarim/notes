@@ -4,5 +4,5 @@ title: Anime
 
 # Anime
 
-## Notes
+## Collections
 - [[fun/anime/anime-list|Anime]]
