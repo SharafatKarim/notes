@@ -14,6 +14,7 @@ title: Tools
 - [[tools/obsidian|Obsidian]]
 - [[tools/thunderbird|Thunderbird]]
 - [[tools/zotero|Zotero]]
+- [[Obs studio]]
 
 ## CLI
 - [[tools/latex|LaTeX]]
