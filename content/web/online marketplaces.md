@@ -6,4 +6,7 @@
 
 ## subscriptions
 
-- https://duskyr.com/market 
+- https://duskyr.com/market  
+
+## Telegram
+- https://t.me/veriyfyer 
