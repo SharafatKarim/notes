@@ -92,11 +92,13 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 
 #### Utility Bots
 
+- https://t.me/SkeddyBot - time scheduler
 - `GmailBot` - Official Gmail bot.
 - `yastabot` - yasta reminder or, daily scheduler
 - `Rekognition_Bot` - Image recognition or OCR type
 - `qq_2d_ai_bot` - image to anime art
 - [doghouse_bot](https://t.me/dogshouse_bot/join?startapp=dcF42BNqTHCIxq-8D_j-Qw) - Check when you joined telegram
+- https://t.me/capacitiesioBot - daily notes to capacities
 
 #### Fun Bots
 
@@ -115,7 +117,7 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 - `ResizeVideoBot` - image resize
 
 ### URL Downloader
-- https://t.me/urluploader_cbot ()
+- https://t.me/urluploader_cbot (@UrlUploaderDC4Bot)
 
 #### Media Downloader Bots
 

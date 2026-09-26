@@ -5,7 +5,7 @@ title: Collections
 # Collections
 
 ## Books
-- [[collections/books|Books]]
+- [[books downloader|Books Downloader]]
 
 ## Android
 
