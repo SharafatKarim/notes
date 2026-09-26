@@ -114,10 +114,14 @@ BTW, these are just usernames, you can search them in the search bar of telegram
 - `screenshotit_bot` - Screenshot bot
 - `ResizeVideoBot` - image resize
 
-#### Downloader Bots
+### URL Downloader
+- https://t.me/urluploader_cbot ()
+
+#### Media Downloader Bots
 
 - `iPapkornFbot` - A bot that can download movies and TV shows developed by [iPopkorns](https://t.me/iPopkorns).
 - `ProSearch6Bot` - One of the [Pro search bot](https://t.me/+8pxMRAzhfCE2MWQ1).
+- https://t.me/nrsvBot - Instagram, Facebook or YouTube Video Link
 
 #### Inline Bots
 
