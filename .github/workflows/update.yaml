@@ -13,19 +13,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
+<<<<<<< HEAD
         uses: actions/checkout@v7
+||||||| parent of e959346 (feat: auto update enabled)
+        uses: actions/checkout@v4
+=======
+        uses: actions/checkout@v6
+>>>>>>> e959346 (feat: auto update enabled)
         with:
           submodules: true
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Node.js
+<<<<<<< HEAD
         uses: actions/setup-node@v7
+||||||| parent of e959346 (feat: auto update enabled)
+        uses: actions/setup-node@v4
+=======
+        uses: actions/setup-node@v6
+>>>>>>> e959346 (feat: auto update enabled)
         with:
           node-version: 24
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm i
 
       - name: Configure Git identity
         run: |
