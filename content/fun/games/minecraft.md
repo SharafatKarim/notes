@@ -9,6 +9,16 @@ aliases:
 
 # Minecraft
 
+## Launchers
+- https://llaun.ch/ 
+- https://github.com/Diegiwg/PrismLauncher-Cracked 
+- TLauncher
+
+## Multiplayer
+
+- aternos
+- LAN (netbird)
+
 ## Modpack
 - [Homestead - A Cozy Survival Experience](https://www.curseforge.com/minecraft/modpacks/homestead-cozy)
 - Better MC [Fabric]
