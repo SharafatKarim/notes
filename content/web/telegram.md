@@ -19,6 +19,10 @@ To get started with Telegram, after setting up an account, contact with this dud
 
 একগুচ্ছ টেলিগ্রাম চ্যানেল,
 
+##  বই তালিকা
+
+- https://t.me/banglaboitoi/892
+
 ### আন্তর্জাতিক খবরাখবর
 
 - <https://t.me/insafTV>
