@@ -8,7 +8,8 @@ title: Collections
 - [[books downloader|Books Downloader]]
 
 ## Android
-- 
+- [[My android devices]]
+- [[android-applications]]
 
 ## Linux
 - [[archlinux pkgs| ArchLinux packages]]
