@@ -2,7 +2,7 @@
 ## game
 
 - https://gameseal.com/  
-
+- https://jubaly.com/ (https://t.me/jubalyofficial)
 
 ## subscriptions
 

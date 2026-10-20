@@ -1,5 +1,6 @@
 // Git repositories (prevents lock conflicts and index churn)
 .git
+.obsidian
 
 // OS-generated junk (allow deletion if removing parent dir)
 (?d).DS_Store
