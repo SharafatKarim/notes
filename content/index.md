@@ -26,4 +26,5 @@ Personal doesn't mean you can't sneek a peek!
 - [[tools/index|Tools & Apps]]
 
 ### Also never miss out...
-- [[fun/index|Fun]]
+- [[fun/index|Fun]] 
+- [[fun/games/index|Games]]
