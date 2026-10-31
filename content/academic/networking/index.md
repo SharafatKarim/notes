@@ -12,3 +12,6 @@ title: Networking
 - [[networking-tools|App specific]]
 - [[academic/networking/prev-cce313-ai-solve|prev-cce313-AI-solve]]
 
+## Reference
+
+- [[Packet Tracer]]

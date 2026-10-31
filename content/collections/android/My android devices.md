@@ -14,3 +14,4 @@ Here's a list and lifespan of Android devices I owned previously...
 8/128 - India - 27k - [used](https://t.me/c/1982621157/25/607)
 AnTuTu - 811995
 Aquirium WebGl - 22 fps 
+Geekbench - 978 / 3300
