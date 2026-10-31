@@ -58,3 +58,10 @@ sudo systemctl enable --now warp-svc.service
 - Run `curl https://www.cloudflare.com/cdn-cgi/trace/` and verify that warp=on.
 
 > Also there's `wrap mode` command. Feel free to explore.
+
+## Taskbar
+
+You are now able to enable the taskbar as follows,
+```
+systemctl --user enable --now warp-taskbar
+```
