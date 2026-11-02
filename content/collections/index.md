@@ -9,7 +9,8 @@ title: Collections
 
 ## Android
 - [[My android devices]]
-- [[android-applications]]
+- [[android-applications]] 
+- [[Android Wallpapers]]
 
 ## Linux
 - [[archlinux pkgs| ArchLinux packages]]
