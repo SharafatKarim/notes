@@ -1,0 +1,15 @@
+
+## game
+
+- https://gameseal.com/  
+- https://jubaly.com/ (https://t.me/jubalyofficial)
+
+## subscriptions
+
+- https://duskyr.com/market  
+
+## Telegram
+
+- https://t.me/veriyfyer (trusted + binance)
+- @p_a_store_bot (@p_a_store_Official) (trusted + binance)
+- https://t.me/QORIX3_bot (trusted + bkash support)

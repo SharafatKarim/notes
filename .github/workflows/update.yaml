@@ -51,7 +51,6 @@ jobs:
           git clean -fd .github/ 2>/dev/null || true
 
           npm i
-          npx quartz restore 2>/dev/null || true
 
       - name: Check for changes and commit
         run: |
