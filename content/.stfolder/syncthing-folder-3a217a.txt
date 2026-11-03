@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: rvolg-pcdd7
-created: 2026-10-18T18:35:41+06:00
