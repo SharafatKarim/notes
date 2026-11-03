@@ -17,3 +17,5 @@ title: Games
 
 - https://apkvision.org/ 
 - tap tap games
+- https://quiverlauncher.com/
+- https://rentry.org/megathread-emulators#roms
