@@ -34,14 +34,29 @@ jobs:
 
       - name: Run Quartz Upgrade
         run: |
+          git remote add upstream https://github.com/jackyzha0/quartz.git 2>/dev/null || true
+          git fetch upstream v5
+
           ORIG_HEAD=$(git rev-parse HEAD)
-          npx quartz upgrade
+          git merge -X ours --no-edit --allow-unrelated-histories upstream/v5 || {
+            git checkout --ours package.json package-lock.json 2>/dev/null || true
+            git add package.json package-lock.json 2>/dev/null || true
+            git commit --no-edit || true
+          }
+
+          # Soft-reset merge so foreign workflow commits are squashed and excluded from history
           git reset --soft "$ORIG_HEAD"
-          git checkout HEAD -- .github/workflows/ 2>/dev/null || true
-          git clean -fd .github/workflows/ 2>/dev/null || true
+          git reset HEAD -- .github/
+          git checkout HEAD -- .github/ 2>/dev/null || true
+          git clean -fd .github/ 2>/dev/null || true
+
+          npm i
+          npx quartz restore 2>/dev/null || true
 
       - name: Check for changes and commit
         run: |
+          git add .
+          git reset HEAD -- .github/
           if git diff --cached --quiet; then
             echo "Quartz is already up to date."
           else
