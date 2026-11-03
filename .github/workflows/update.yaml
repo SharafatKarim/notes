@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  workflows: write
 
 jobs:
   upgrade:
@@ -39,6 +38,7 @@ jobs:
 
       - name: Check for changes and commit
         run: |
+          git checkout HEAD -- .github/workflows/ 2>/dev/null || true
           if git diff --quiet; then
             echo "Quartz is already up to date."
           else
