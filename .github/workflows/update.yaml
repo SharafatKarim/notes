@@ -34,15 +34,17 @@ jobs:
 
       - name: Run Quartz Upgrade
         run: |
+          ORIG_HEAD=$(git rev-parse HEAD)
           npx quartz upgrade
+          git reset --soft "$ORIG_HEAD"
+          git checkout HEAD -- .github/workflows/ 2>/dev/null || true
+          git clean -fd .github/workflows/ 2>/dev/null || true
 
       - name: Check for changes and commit
         run: |
-          git checkout HEAD -- .github/workflows/ 2>/dev/null || true
-          if git diff --quiet; then
+          if git diff --cached --quiet; then
             echo "Quartz is already up to date."
           else
-            git add .
             git commit -m "chore: auto-upgrade Quartz framework to latest version"
             git push origin v5
           fi
