@@ -17,3 +17,6 @@ title: Collections
 
 ## Marketplaces 
 - [[online marketplaces]] 
+
+# Fonts
+- [[Fonts]]
