@@ -1,7 +1,6 @@
 ---
 title: Games
 ---
-
 # Games
 
 ## Sales
