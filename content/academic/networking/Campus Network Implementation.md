@@ -130,7 +130,9 @@ ip route 192.168.0.0 255.255.0.0 103.133.254.2
 router ospf 1
  router-id 2.2.2.2
  network 192.168.42.0 0.0.0.7 area 0
+ network 103.133.254.0 0.0.0.255 area 0
  no passive-interface GigabitEthernet0/0/1
+ no passive-interface GigabitEthernet0/0/0
 exit
 
 end

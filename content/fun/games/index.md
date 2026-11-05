@@ -7,7 +7,8 @@ title: Games
 - https://steamdb.info/sales/ 
 
 ## Shops
-- [[online marketplaces]]
+- [[Game Stores]]
+- [[online marketplaces]] (buy)
 
 ## Notes
 - [[fun/games/minecraft|Minecraft]] 
