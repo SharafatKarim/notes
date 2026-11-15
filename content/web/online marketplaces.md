@@ -13,3 +13,4 @@
 - https://t.me/veriyfyer (trusted + binance)
 - @p_a_store_bot (@p_a_store_Official) (trusted + binance)
 - https://t.me/QORIX3_bot (trusted + bkash support)
+- https://t.me/Gemini_Shop_Robot 
