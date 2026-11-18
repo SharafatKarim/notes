@@ -1,6 +1,8 @@
 
 If you are gonna vibe code, explore these as well...
 
+## Experimenting
+- https://saygm.com/ 
 
 ## Free AI
 - https://logfare.ai/ 
