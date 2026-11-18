@@ -1,6 +1,9 @@
 
 If you are gonna vibe code, explore these as well...
 
+
+## Free AI
+- https://logfare.ai/ 
 ## Agent
 - Hermes agent
 
